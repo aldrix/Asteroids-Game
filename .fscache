@@ -1,0 +1,14 @@
+::res://::1440377409
+icon.png::ImageTexture::1440376837::
+::res://Scenes::1440378851
+Astronauta.scn::PackedScene::1440378851::
+::res://Scripts::1440378876
+Astronauta.gd::GDScript::1440378876::
+::res://Sprites::1440376837
+Asteroide Gris.png::ImageTexture::1440376837::
+Asteroide marron.png::ImageTexture::1440376837::
+Asteroide morado.png::ImageTexture::1440376837::
+Astro_1.png::ImageTexture::1440376837::
+Espacio Sideral.png::ImageTexture::1440376837::
+Nave.png::ImageTexture::1440376837::
+Planeta con anillo.png::ImageTexture::1440376837::
