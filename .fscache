@@ -1,10 +1,13 @@
-::res://::1440377409
+::res://::1440387299
 icon.png::ImageTexture::1440376837::
-::res://Scenes::1440378851
-Astronauta.scn::PackedScene::1440378851::
-::res://Scripts::1440378876
-Astronauta.gd::GDScript::1440378876::
-::res://Sprites::1440376837
+::res://Scenes::1440387299
+AsteroideGris.scn::PackedScene::1440387090::
+AsteroideMorado.scn::PackedScene::1440387090::
+Astronauta.scn::PackedScene::1440387299::
+Nivel0.scn::PackedScene::1440387299::
+::res://Scripts::1440387299
+Astronauta.gd::GDScript::1440387299::
+::res://Sprites::1440387299
 Asteroide Gris.png::ImageTexture::1440376837::
 Asteroide marron.png::ImageTexture::1440376837::
 Asteroide morado.png::ImageTexture::1440376837::
