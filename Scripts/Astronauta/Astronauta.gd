@@ -30,6 +30,4 @@ func _fixed_process(delta):
 		move(direction_left*ASTRO_SPEED)
 	if (Input.is_action_pressed("ui_right")):
 		move(direction_right*ASTRO_SPEED)
-	
-
 

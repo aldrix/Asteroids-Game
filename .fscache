@@ -1,10 +1,16 @@
-::res://::1440377409
+::res://::1440381611
 icon.png::ImageTexture::1440376837::
-::res://Scenes::1440378851
-Astronauta.scn::PackedScene::1440378851::
-::res://Scripts::1440378876
-Astronauta.gd::GDScript::1440378876::
-::res://Sprites::1440376837
+::res://Scenes::1440384270
+Astronauta.scn::PackedScene::1440384270::
+::res://Scripts::1440384342
+::res://Scripts/Astronauta::1440384346
+Astronauta.gd::GDScript::1440384270::
+::res://Scripts/Astronauta/Animaciones::1440384346
+AnimarGasDown.gd::GDScript::1440384270::
+AnimarGasLeft.gd::GDScript::1440384270::
+AnimarGasRight.gd::GDScript::1440384270::
+AnimarGasUp.gd::GDScript::1440384270::
+::res://Sprites::1440381653
 Asteroide Gris.png::ImageTexture::1440376837::
 Asteroide marron.png::ImageTexture::1440376837::
 Asteroide morado.png::ImageTexture::1440376837::
@@ -12,3 +18,8 @@ Astro_1.png::ImageTexture::1440376837::
 Espacio Sideral.png::ImageTexture::1440376837::
 Nave.png::ImageTexture::1440376837::
 Planeta con anillo.png::ImageTexture::1440376837::
+::res://Sprites/Animations::1440382639
+gass_0.png::ImageTexture::1440382639::
+gass_1.png::ImageTexture::1440381597::
+gass_2.png::ImageTexture::1440381598::
+gass_3.png::ImageTexture::1440381598::
