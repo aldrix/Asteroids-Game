@@ -1,31 +1,55 @@
-::res://::1440458929
-icon.png::ImageTexture::1440382349::
-::res://Scenes::1440458917
-AsteroideGris.scn::PackedScene::1440387722::
-AsteroideMarron.scn::PackedScene::1440457884::
-AsteroideMorado.scn::PackedScene::1440387722::
-Astronauta.scn::PackedScene::1440451354::
-Nave.scn::PackedScene::1440456540::
-Nivel0.scn::PackedScene::1440458917::
-PlanetaConAnillo.scn::PackedScene::1440458337::
-::res://Scripts::1440451166
-::res://Scripts/Astronauta::1440451177
-Astronauta.gd::GDScript::1440451122::
-::res://Scripts/Astronauta/Animaciones::1440386658
-AnimarGasDown.gd::GDScript::1440386658::
-AnimarGasLeft.gd::GDScript::1440386658::
-AnimarGasRight.gd::GDScript::1440386658::
-AnimarGasUp.gd::GDScript::1440386658::
-::res://Sprites::1440386658
-Asteroide Gris.png::ImageTexture::1440382349::
-Asteroide marron.png::ImageTexture::1440382349::
-Asteroide morado.png::ImageTexture::1440382349::
-Astro_1.png::ImageTexture::1440382349::
-Espacio Sideral.png::ImageTexture::1440382349::
-Nave.png::ImageTexture::1440382349::
-Planeta con anillo.png::ImageTexture::1440382349::
-::res://Sprites/Animations::1440386658
-gass_0.png::ImageTexture::1440386658::
-gass_1.png::ImageTexture::1440386658::
-gass_2.png::ImageTexture::1440386658::
-gass_3.png::ImageTexture::1440386658::
+::res://::1440466306
+icon.png::ImageTexture::1440376837::
+::res://Scenes::1440466543
+AsteroideGris.scn::PackedScene::1440387672::
+AsteroideMarron.scn::PackedScene::1440460561::
+AsteroideMorado.scn::PackedScene::1440387672::
+Astronauta.scn::PackedScene::1440460561::
+Nave.scn::PackedScene::1440460561::
+Nivel0.scn::PackedScene::1440466543::
+PlanetaConAnillo.scn::PackedScene::1440460561::
+::res://Scenes/Minerals::1440467240
+BlueKhalum.scn::PackedScene::1440467099::
+GreenKhaluml.scn::PackedScene::1440466498::
+RedKhalum.scn::PackedScene::1440467197::
+::res://Scripts::1440463907
+::res://Scripts/Astronauta::1440387540
+Astronauta.gd::GDScript::1440387540::
+::res://Scripts/Astronauta/Animaciones::1440387540
+AnimarGasDown.gd::GDScript::1440387540::
+AnimarGasLeft.gd::GDScript::1440387540::
+AnimarGasRight.gd::GDScript::1440387540::
+AnimarGasUp.gd::GDScript::1440387540::
+::res://Scripts/Minerals::1440466498
+mineral_animation.gd::GDScript::1440466498::
+mineral_collition.gd::GDScript::1440466498::
+::res://Sprites::1440463779
+Asteroide Gris.png::ImageTexture::1440376837::
+Asteroide marron.png::ImageTexture::1440376837::
+Asteroide morado.png::ImageTexture::1440376837::
+Astro_1.png::ImageTexture::1440376837::
+Espacio Sideral.png::ImageTexture::1440376837::
+Nave.png::ImageTexture::1440376837::
+Planeta con anillo.png::ImageTexture::1440376837::
+::res://Sprites/Animations::1440387540
+gass_0.png::ImageTexture::1440387540::
+gass_1.png::ImageTexture::1440387540::
+gass_2.png::ImageTexture::1440387540::
+gass_3.png::ImageTexture::1440387540::
+::res://Sprites/Minerals::1440466970
+blue_mineral_1.png::ImageTexture::1440466796::
+blue_mineral_2.png::ImageTexture::1440466796::
+blue_mineral_3.png::ImageTexture::1440466796::
+blue_mineral_4.png::ImageTexture::1440466796::
+blue_mineral_5.png::ImageTexture::1440466797::
+green_mineral_1.png::ImageTexture::1440463743::
+green_mineral_2.png::ImageTexture::1440463743::
+green_mineral_3.png::ImageTexture::1440463743::
+green_mineral_4.png::ImageTexture::1440463743::
+green_mineral_5.png::ImageTexture::1440463743::
+red_mineral_1.png::ImageTexture::1440466804::
+red_mineral_2.png::ImageTexture::1440466804::
+red_mineral_3.png::ImageTexture::1440466805::
+red_mineral_4.png::ImageTexture::1440466805::
+red_mineral_5.png::ImageTexture::1440466805::
+red_mineral_6.png::ImageTexture::1440466805::
