@@ -1,5 +1,4 @@
-
-extends KinematicBody2D
+extends Node2D
 
 const ASTRO_SPEED = 1.5
 const GRAVITY = 15.0
@@ -9,8 +8,18 @@ var direction_up    = Vector2(0,1)
 var direction_down  = Vector2(0,-1)
 var direction_left  = Vector2(1,0)
 var direction_right = Vector2(-1,0)
+var body
+var gass_amount = 100
+
+func has_gass(gass_amout):
+	if(gass_amount > 0):
+		return true
+	else:
+		return false
 
 func _ready():
+	gass_amount = get_parent().gass_amount
+	body = get_node("KinematicBody2D")
 	set_fixed_process(true)
 
 func _fixed_process(delta):
@@ -18,15 +27,19 @@ func _fixed_process(delta):
 	#Mientras no se presione nada, el astronauta cae.
 	velocity.y = delta*GRAVITY
 	var motion = velocity
-	move(motion)
+	body.move(motion)
 	
 	#El astronauta se mueve en sentido contrario a la tecla presionada.
-	if (Input.is_action_pressed("ui_up")):
-		move(direction_up*ASTRO_SPEED)
-	if (Input.is_action_pressed("ui_down")):
-		move(direction_down*ASTRO_SPEED)
-	if (Input.is_action_pressed("ui_left")):
-		move(direction_left*ASTRO_SPEED)
-	if (Input.is_action_pressed("ui_right")):
-		move(direction_right*ASTRO_SPEED)
+	if (Input.is_action_pressed("ui_up") and has_gass(gass_amount)):
+		body.move(direction_up*ASTRO_SPEED)
+		gass_amount -= delta
+	if (Input.is_action_pressed("ui_down") and has_gass(gass_amount)):
+		body.move(direction_down*ASTRO_SPEED)
+		gass_amount -= delta
+	if (Input.is_action_pressed("ui_left") and has_gass(gass_amount)):
+		body.move(direction_left*ASTRO_SPEED)
+		gass_amount -= delta
+	if (Input.is_action_pressed("ui_right")and has_gass(gass_amount)):
+		body.move(direction_right*ASTRO_SPEED)
+		gass_amount -= delta
 
