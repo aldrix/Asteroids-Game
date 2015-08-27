@@ -1,8 +1,8 @@
 
 extends KinematicBody2D
 
-const ASTRO_SPEED = 1
-const GRAVITY = 1000.0
+const ASTRO_SPEED = 1.5
+const GRAVITY = 15.0
 
 var velocity        = Vector2()
 var direction_up    = Vector2(0,1)
@@ -17,9 +17,8 @@ func _fixed_process(delta):
 
 	#Mientras no se presione nada, el astronauta cae.
 	velocity.y = delta*GRAVITY
-	var motion = velocity*delta
+	var motion = velocity
 	move(motion)
-
 	
 	#El astronauta se mueve en sentido contrario a la tecla presionada.
 	if (Input.is_action_pressed("ui_up")):
