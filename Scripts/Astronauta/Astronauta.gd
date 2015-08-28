@@ -28,6 +28,7 @@ func _fixed_process(delta):
 	velocity.y = delta*GRAVITY
 	var motion = velocity
 	body.move(motion)
+	#print(gass_amount)
 	
 	#El astronauta se mueve en sentido contrario a la tecla presionada.
 	if (Input.is_action_pressed("ui_up") and has_gass(gass_amount)):
