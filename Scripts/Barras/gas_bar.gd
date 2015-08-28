@@ -25,5 +25,3 @@ func _fixed_process(delta):
 	if (gass_amount <= gass_percentage - ten_percent):
 		gass_percentage = gass_amount
 		self.set_frame(get_frame()+1)
-
-
