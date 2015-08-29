@@ -18,10 +18,8 @@ func _fixed_process(delta):
 	
 	gass_amount  = get_parent().get_parent().gass_amount
 	
-	print(gass_amount)
-	print("10% ",ten_percent)
-	print("Gass% ",gass_percentage)
-	
 	if (gass_amount <= gass_percentage - ten_percent):
 		gass_percentage = gass_amount
 		self.set_frame(get_frame()+1)
+	if (gass_amount < 0):
+		self.set_frame(get_frame() + 1)

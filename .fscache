@@ -1,13 +1,12 @@
-::res://::1440721751
+::res://::1440727968
 icon.png::ImageTexture::1440376837::
-::res://Scenes::1440725982
+::res://Scenes::1440727299
 AsteroideGris.scn::PackedScene::1440387672::
 AsteroideMarron.scn::PackedScene::1440460561::
 AsteroideMorado.scn::PackedScene::1440387672::
-Astronauta.gd::GDScript::1440725982::
-Astronauta.scn::PackedScene::1440725826::
+Astronauta.scn::PackedScene::1440726580::
 Nave.scn::PackedScene::1440460561::
-Nivel0.scn::PackedScene::1440725207::
+Nivel0.scn::PackedScene::1440727299::
 PlanetaConAnillo.scn::PackedScene::1440460561::
 ::res://Scenes/Barras::1440723586
 GasBar.scn::PackedScene::1440723586::
@@ -16,20 +15,20 @@ BlueKhalum.scn::PackedScene::1440467099::
 GreenKhaluml.scn::PackedScene::1440466498::
 RedKhalum.scn::PackedScene::1440467197::
 ::res://Scripts::1440721958
-::res://Scripts/Astronauta::1440725982
-Astronauta.gd::GDScript::1440725982::
+::res://Scripts/Astronauta::1440728005
+Astronauta.gd::GDScript::1440728005::
 ::res://Scripts/Astronauta/Animaciones::1440387540
 AnimarGasDown.gd::GDScript::1440387540::
 AnimarGasLeft.gd::GDScript::1440387540::
 AnimarGasRight.gd::GDScript::1440387540::
 AnimarGasUp.gd::GDScript::1440387540::
-::res://Scripts/Barras::1440725982
-gas_bar.gd::GDScript::1440725982::
+::res://Scripts/Barras::1440728005
+gas_bar.gd::GDScript::1440728005::
 ::res://Scripts/Minerals::1440466498
 mineral_animation.gd::GDScript::1440466498::
 mineral_collition.gd::GDScript::1440466498::
-::res://Scripts/Niveles::1440725207
-Nivel0.gd::GDScript::1440725207::
+::res://Scripts/Niveles::1440728005
+Nivel0.gd::GDScript::1440728005::
 ::res://Sprites::1440463779
 Asteroide Gris.png::ImageTexture::1440376837::
 Asteroide marron.png::ImageTexture::1440376837::
