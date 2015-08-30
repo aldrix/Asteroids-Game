@@ -10,6 +10,7 @@ var direction_left  = Vector2(1,0)
 var direction_right = Vector2(-1,0)
 var body
 var gass_amount = 100
+var show_gassBar
 
 func has_gass(gass_amout):
 	if(gass_amount > 0):
@@ -18,7 +19,18 @@ func has_gass(gass_amout):
 		return false
 
 func _ready():
-	gass_amount = get_parent().gass_amount
+	gass_amount  = get_parent().gass_amount
+	show_gassBar = get_parent().show_gassBar
+	#Si el nivel no requiere la barra de gas.
+	if not(show_gassBar):
+		get_node("KinematicBody2D/GasBar").hide()
+		
+	if get_parent().get_name() == "Main":
+		get_node("KinematicBody2D/Camera2D").set_limit(0,0)
+		get_node("KinematicBody2D/Camera2D").set_limit(1,0)
+		get_node("KinematicBody2D/Camera2D").set_limit(2,0)
+		get_node("KinematicBody2D/Camera2D").set_limit(3,0)
+		
 	body = get_node("KinematicBody2D")
 	set_fixed_process(true)
 
