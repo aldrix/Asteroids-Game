@@ -14,4 +14,3 @@ func _process(delta):
 		else:
 			self.set_frame(get_frame()+ 1)
 		time = 0
-
