@@ -10,8 +10,8 @@ var eddie
 var label
 var press_space
 var bar_pressed = true
-var strings = ["Eddie: Hello Astro! I'm Edddy. Your personal ship's Artificial Intelligence.\nI'll help you with some things to get started.\n",
-			   "Your first objetive is to get to the ship.\nToo easy for an experienced astronaut like you.\n",
+var strings = ["Eddie: Hello Astro! I'm Eddie. Your ship's Artificial Intelligence.\nI'll help you with some things. Let's get started!\n",
+			   "Your first objective is to get to the ship.\nToo easy for an experienced astronaut like you!\n",
 			   "To move around, use the up, down, left and right keys. Give it a try."]
 
 func _ready():
