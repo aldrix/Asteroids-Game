@@ -10,7 +10,7 @@ var eddie
 var label
 var press_space
 var bar_pressed = true
-var strings = ["Eddie: Hello Astro! I'm Eddie. Your ship's Artificial Intelligence.\nI'll help you with some things. Let's get started!\n",
+var strings = ["Eddie: Hello Astro! I'm Eddie. Your ship's Artificial Intelligence.\nI'll be happy to help you with some things. Let's get started!\n",
 			   "Your first objective is to get to the ship.\nToo easy for an experienced astronaut like you!\n",
 			   "To move around, use the up, down, left and right keys. Give it a try."]
 
