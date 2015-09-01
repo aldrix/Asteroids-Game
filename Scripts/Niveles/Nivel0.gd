@@ -17,32 +17,33 @@ var strings = ["Eddie: Hello Astro! I'm Eddie. Your ship's Artificial Intelligen
 func _ready():
 	canvas = get_node("CanvasLayer/Panel")
 	label  = get_node("CanvasLayer/Panel/Label")
-	eddie  = get_node("CanvasLayer/TextureFrame")
-	press_space = get_node("CanvasLayer/AnimatedSprite")
+	eddie  = get_node("CanvasLayer/EddieImage")
+	press_space = get_node("CanvasLayer/PressSpaceImage")
 	eddie.hide()
 	canvas.hide()
-	press_space.set_process(false)
+	press_space.hide()
 	set_fixed_process(true)
 	set_process_input(true)
 
 func _fixed_process(delta):
 
 	time  += delta
-	if time > 1.5:
+	if time >= 1.5 :
 		eddie.show()
 		canvas.show()
-	
+		press_space.show()
+		
 	if(bar_pressed and text == 1):
 		label.set_text(strings[index])
 		index += 1
 		bar_pressed = false
-		press_space.set_process(true)
 		if index == 3:
 			text = 0
 			time = 0
-			press_space.set_frame(0)
+			press_space.hide()
 	if text == 0:
 		time += delta
+		press_space.hide()
 		if time > 10:
 			canvas.hide()
 			eddie.hide()
@@ -51,4 +52,3 @@ func _fixed_process(delta):
 func _input(event):
 	if event.is_action("ui_space") && event.is_pressed() && !event.is_echo():
 		bar_pressed = true
-		press_space.set_process(false)
