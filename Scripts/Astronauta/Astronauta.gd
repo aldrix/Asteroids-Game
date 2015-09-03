@@ -35,7 +35,6 @@ func _fixed_process(delta):
 	velocity.y = delta*GRAVITY
 	var motion = velocity
 	body.move(motion)
-	#print(gass_amount)
 	
 	#El astronauta se mueve en sentido contrario a la tecla presionada.
 	if (Input.is_action_pressed("ui_up") and has_gass(gass_amount)):
@@ -50,4 +49,7 @@ func _fixed_process(delta):
 	if (Input.is_action_pressed("ui_right")and has_gass(gass_amount)):
 		body.move(direction_right*ASTRO_SPEED)
 		gass_amount -= delta
-
+	
+	if (get_node("KinematicBody2D").is_colliding()):
+		if (get_node("KinematicBody2D").get_collider().get_name() == "Nave"):
+			print("Astro llego a la nave! :D");
