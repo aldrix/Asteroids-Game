@@ -53,3 +53,4 @@ func _fixed_process(delta):
 	if (get_node("KinematicBody2D").is_colliding()):
 		if (get_node("KinematicBody2D").get_collider().get_name() == "Nave"):
 			print("Astro llego a la nave! :D");
+			get_parent().set("win",true)

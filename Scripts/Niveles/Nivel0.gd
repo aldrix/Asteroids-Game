@@ -16,9 +16,8 @@ var strings = ["Eddie: Hello Astro! I'm Eddie. Your ship's Artificial Intelligen
 			   "Your first objective is to get to the ship.\nToo easy for an experienced astronaut like you!\n",
 			   "To move around, use the up, down, left and right keys. Give it a try."]
 			
-#Dececta al astronauta y la nave. Ayuda a identificar cuando el astronauta llega a la nave, para cambiar de nivel.
-var Astronauta
-var Nave
+#Dececta si el astronauta llega a la nave.
+var win = false
 
 func _ready():
 
@@ -31,9 +30,6 @@ func _ready():
 	canvas.hide()
 	press_space.hide()
 	
-	#Valores para el Astronauta y la nave.
-	Astronauta = get_node("Astronauta/KinematicBody2D/CollisionPolygon2D")
-	Nave       = get_node("Nave/StaticBody2D/CollisionPolygon2D")
 	set_fixed_process(true)
 	set_process_input(true)
 
@@ -60,8 +56,13 @@ func _fixed_process(delta):
 			canvas.hide()
 			eddie.hide()
 			
-#	if (Astronauta.collide(Nave)):
-#		print("Hello, Eddie!")
+	#Cuando el astronauta llegue a la nave, mostramos la escena inicial (por ahora)
+	if win:
+		print("Ganaste!")
+		get_node("/root/global").set("next_level","res://Scenes/Nivel0.scn")
+		get_node("/root/global").set("level_score",3000)
+		get_node("/root/global").goto_scene("res://Scenes/score.scn")
+		
 		
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
