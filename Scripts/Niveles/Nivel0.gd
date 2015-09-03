@@ -1,7 +1,6 @@
 extends Node2D
 
 var gass_amount  = 1000
-var show_gassBar = false
 var text = 1
 var time = 0
 var index = 0
