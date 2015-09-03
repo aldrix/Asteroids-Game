@@ -58,9 +58,9 @@ func _fixed_process(delta):
 			
 	#Cuando el astronauta llegue a la nave, mostramos la escena inicial (por ahora)
 	if win:
-		print("Ganaste!")
 		get_node("/root/global").set("next_level","res://Scenes/Nivel0.scn")
 		get_node("/root/global").set("level_score",3000)
+		get_node("/root/global").set("max_score",3000)
 		get_node("/root/global").goto_scene("res://Scenes/score.scn")
 		
 		
