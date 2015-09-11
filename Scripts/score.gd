@@ -10,10 +10,12 @@ var panel_total
 var stars
 
 func _ready():
-	level_score  = get_node("/root/global").level_score
+	level_score  = round(get_node("/root/global").level_score)
 	global_score = get_node("/root/global").global_score
 	
 	new_global = global_score + level_score
+	#Actualizamos el nuevo score.
+	get_node("/root/global").set("global_score",new_global)
 	
 	stars = calc_score(level_score,get_node("/root/global").max_score)
 	

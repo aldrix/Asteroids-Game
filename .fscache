@@ -1,109 +1,117 @@
-::res://::1441851144
-icon.png::ImageTexture::1441418313::
-::res://Fonts::1441418313
-Emulogic.fnt::Font::1441418313::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>0
-bit.fnt::Font::1441418313::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1441418313
-bits.fnt::::1441418313::
-::res://Scenes::1441418353
-AsteroideGris.scn::PackedScene::1441418313::
-AsteroideMarron.scn::PackedScene::1441418313::
-AsteroideMorado.scn::PackedScene::1441418313::
-Astronauta.scn::PackedScene::1441418313::
-Nave.scn::PackedScene::1441418313::
-Nivel0.scn::PackedScene::1441418313::
-PlanetaConAnillo.scn::PackedScene::1441418313::
-main.scn::PackedScene::1441418353::
-score.scn::PackedScene::1441418353::
-::res://Scenes/Barras::1441418313
-GasBar.scn::PackedScene::1441418313::
-::res://Scenes/Minerals::1441418313
-BlueKhalum.scn::PackedScene::1441418313::
-GreenKhaluml.scn::PackedScene::1441418313::
-RedKhalum.scn::PackedScene::1441418313::
-::res://Scripts::1441418433
-global.gd::GDScript::1441418433::
-score.gd::GDScript::1441418353::
-::res://Scripts/Astronauta::1441418433
-Astronauta.gd::GDScript::1441418433::
-::res://Scripts/Astronauta/Animaciones::1441418313
-AnimarGasDown.gd::GDScript::1441418313::
-AnimarGasLeft.gd::GDScript::1441418313::
-AnimarGasRight.gd::GDScript::1441418313::
-AnimarGasUp.gd::GDScript::1441418313::
-::res://Scripts/Barras::1441418313
-gas_bar.gd::GDScript::1441418313::
-::res://Scripts/Dialogos::1441418313
-DialogoLevel0.gd::GDScript::1441418313::
-::res://Scripts/Minerals::1441418313
-mineral_animation.gd::GDScript::1441418313::
-mineral_collition.gd::GDScript::1441418313::
-::res://Scripts/Niveles::1441418433
-Nivel0.gd::GDScript::1441418353::
-main.gd::GDScript::1441418433::
-press_enter.gd::GDScript::1441418433::
-::res://Sound::1441418353
-Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1441418353::
-::res://Sprites::1441851392
-Asteroide Gris.png::ImageTexture::1440986748::
-Asteroide azul.png::ImageTexture::1441074387::
-Asteroide marron.png::ImageTexture::1440281543::
-Asteroide morado.png::ImageTexture::1440986556::
-Astro_1.png::ImageTexture::1441418313::
-Espacio Sideral.png::ImageTexture::1441418313::
-Mini Asteroide 1.png::ImageTexture::1441842488::
-Mini Asteroide 2.png::ImageTexture::1441847317::
-Mini Asteroide 3.png::ImageTexture::1441849498::
-Mini Asteroide 4.png::ImageTexture::1441849211::
-Mini Asteroide 5.png::ImageTexture::1441850528::
-Mini Asteroide 6.png::ImageTexture::1441850881::
-Nave.png::ImageTexture::1441418313::
-Nave_Thumbnail.png::ImageTexture::1441418313::
-Planeta azul.png::ImageTexture::1440991584::
-Planeta con anillo.png::ImageTexture::1440289347::
-Planeta rojo.png::ImageTexture::1440996160::
-Planeta verde.png::ImageTexture::1440994386::
-::res://Sprites/Animations::1441418313
-gass_0.png::ImageTexture::1441418313::
-gass_1.png::ImageTexture::1441418313::
-gass_2.png::ImageTexture::1441418313::
-gass_3.png::ImageTexture::1441418313::
-::res://Sprites/Animations/GassBar::1441418313
-gass_bar_1.png::ImageTexture::1441418313::
-gass_bar_10.png::ImageTexture::1441418313::
-gass_bar_11.png::ImageTexture::1441418313::
-gass_bar_2.png::ImageTexture::1441418313::
-gass_bar_3.png::ImageTexture::1441418313::
-gass_bar_4.png::ImageTexture::1441418313::
-gass_bar_5.png::ImageTexture::1441418313::
-gass_bar_6.png::ImageTexture::1441418313::
-gass_bar_7.png::ImageTexture::1441418313::
-gass_bar_8.png::ImageTexture::1441418313::
-gass_bar_9.png::ImageTexture::1441418313::
-::res://Sprites/Main::1441418313
-Logo Asteroids.png::ImageTexture::1441075196::
-dialogue_background.png::ImageTexture::1441418313::
-dialogue_background.tex::ImageTexture::1441418313::texture_2d<>Sprites/Main/dialogue_background.png<>c7c06841e633e30e93c1d9f46ec0ceac<>1441418313
-press_enter.png::ImageTexture::1441418313::
-press_space.png::ImageTexture::1441418313::
-::res://Sprites/Minerals::1441418313
-blue_mineral_1.png::ImageTexture::1441418313::
-blue_mineral_2.png::ImageTexture::1441418313::
-blue_mineral_3.png::ImageTexture::1441418313::
-blue_mineral_4.png::ImageTexture::1441418313::
-blue_mineral_5.png::ImageTexture::1441418313::
-green_mineral_1.png::ImageTexture::1441418313::
-green_mineral_2.png::ImageTexture::1441418313::
-green_mineral_3.png::ImageTexture::1441418313::
-green_mineral_4.png::ImageTexture::1441418313::
-green_mineral_5.png::ImageTexture::1441418313::
-red_mineral_1.png::ImageTexture::1441418313::
-red_mineral_2.png::ImageTexture::1441418313::
-red_mineral_3.png::ImageTexture::1441418313::
-red_mineral_4.png::ImageTexture::1441418313::
-red_mineral_5.png::ImageTexture::1441418313::
-red_mineral_6.png::ImageTexture::1441418313::
-::res://Sprites/Score::1441418353
-gold_star.png::ImageTexture::1441418353::
-grey_star.png::ImageTexture::1441418353::
-press_enter_to_continue.png::ImageTexture::1441418353::
-success.png::ImageTexture::1441418353::
+::res://::1441915122
+icon.png::ImageTexture::1440376837::
+::res://Fonts::1441073320
+Emulogic.fnt::Font::1441073320::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>0
+bit.fnt::Font::1441073320::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1441073320
+bits.fnt::::1441073320::
+::res://Scenes::1441915994
+AsteroideGris.scn::PackedScene::1440387672::
+AsteroideMarron.scn::PackedScene::1441073320::
+AsteroideMorado.scn::PackedScene::1440387672::
+Astronauta.scn::PackedScene::1441914914::
+Fondo Estrellas.scn::PackedScene::1441914914::
+MiniAsteroideGris1.scn::PackedScene::1441914914::
+MiniAsteroideGris2.scn::PackedScene::1441914914::
+MiniAsteroideGris3.scn::PackedScene::1441914914::
+MiniAsteroideMarron1.scn::PackedScene::1441914914::
+MiniAsteroideMarron2.scn::PackedScene::1441914914::
+MiniAsteroideMarron3.scn::PackedScene::1441914914::
+Nave.scn::PackedScene::1441249238::
+Nivel0.scn::PackedScene::1441915242::
+Nivel1.scn::PackedScene::1441915994::
+main.scn::PackedScene::1441914875::
+score.scn::PackedScene::1441914914::
+::res://Scenes/Barras::1441249238
+GasBar.scn::PackedScene::1441249238::
+::res://Scenes/Minerals::1441073320
+BlueKhalum.scn::PackedScene::1441073320::
+GreenKhaluml.scn::PackedScene::1441073320::
+RedKhalum.scn::PackedScene::1441073320::
+::res://Scripts::1441915242
+global.gd::GDScript::1441915242::
+score.gd::GDScript::1441251634::
+::res://Scripts/Astronauta::1441915242
+Astronauta.gd::GDScript::1441915242::
+::res://Scripts/Astronauta/Animaciones::1440387540
+AnimarGasDown.gd::GDScript::1440387540::
+AnimarGasLeft.gd::GDScript::1440387540::
+AnimarGasRight.gd::GDScript::1440387540::
+AnimarGasUp.gd::GDScript::1440387540::
+::res://Scripts/Barras::1441915242
+gas_bar.gd::GDScript::1441915242::
+::res://Scripts/Dialogos::1441915242
+DialogoLevel0.gd::GDScript::1441915242::
+::res://Scripts/Minerals::1441073321
+mineral_animation.gd::GDScript::1441073321::
+mineral_collition.gd::GDScript::1441073321::
+::res://Scripts/Niveles::1441916167
+Nivel0.gd::GDScript::1441916167::
+Nivel1.gd::GDScript::1441916167::
+main.gd::GDScript::1441915242::
+press_enter.gd::GDScript::1441915242::
+::res://Sound::1441412394
+Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1441412312::
+::res://Sprites::1441914914
+Asteroide Gris.png::ImageTexture::1441914914::
+Asteroide azul.png::ImageTexture::1441914914::
+Asteroide marron.png::ImageTexture::1440376837::
+Asteroide morado.png::ImageTexture::1441914914::
+Astro_1.png::ImageTexture::1440376837::
+Espacio Sideral.png::ImageTexture::1440376837::
+Mini asteroide gris 1.png::ImageTexture::1441914914::
+Mini asteroide gris 2.png::ImageTexture::1441914914::
+Mini asteroide gris 3.png::ImageTexture::1441914914::
+Mini asteroide marron  1.png::ImageTexture::1441914914::
+Mini asteroide marron 2.png::ImageTexture::1441914914::
+Mini asteroide marron 3.png::ImageTexture::1441914914::
+Nave.png::ImageTexture::1440376837::
+Nave_Thumbnail.png::ImageTexture::1441073321::
+Planeta azul.png::ImageTexture::1441914914::
+Planeta con anillo.png::ImageTexture::1440376837::
+Planeta rojo.png::ImageTexture::1441914914::
+Planeta verde.png::ImageTexture::1441914914::
+::res://Sprites/Animations::1441073321
+gass_0.png::ImageTexture::1440387540::
+gass_1.png::ImageTexture::1440387540::
+gass_2.png::ImageTexture::1440387540::
+gass_3.png::ImageTexture::1440387540::
+::res://Sprites/Animations/GassBar::1441073321
+gass_bar_1.png::ImageTexture::1441073321::
+gass_bar_10.png::ImageTexture::1441073321::
+gass_bar_11.png::ImageTexture::1441073321::
+gass_bar_2.png::ImageTexture::1441073321::
+gass_bar_3.png::ImageTexture::1441073321::
+gass_bar_4.png::ImageTexture::1441073321::
+gass_bar_5.png::ImageTexture::1441073321::
+gass_bar_6.png::ImageTexture::1441073321::
+gass_bar_7.png::ImageTexture::1441073321::
+gass_bar_8.png::ImageTexture::1441073321::
+gass_bar_9.png::ImageTexture::1441073321::
+::res://Sprites/Main::1441914914
+Logo Asteroids.png::ImageTexture::1441914914::
+dialogue_background.png::ImageTexture::1441073321::
+dialogue_background.tex::ImageTexture::1441073321::texture_2d<>Sprites/Main/dialogue_background.png<>c7c06841e633e30e93c1d9f46ec0ceac<>1441073321
+press_enter.png::ImageTexture::1441073321::
+press_space.png::ImageTexture::1441073321::
+::res://Sprites/Minerals::1441073321
+blue_mineral_1.png::ImageTexture::1441073321::
+blue_mineral_2.png::ImageTexture::1441073321::
+blue_mineral_3.png::ImageTexture::1441073321::
+blue_mineral_4.png::ImageTexture::1441073321::
+blue_mineral_5.png::ImageTexture::1441073321::
+green_mineral_1.png::ImageTexture::1441073321::
+green_mineral_2.png::ImageTexture::1441073321::
+green_mineral_3.png::ImageTexture::1441073321::
+green_mineral_4.png::ImageTexture::1441073321::
+green_mineral_5.png::ImageTexture::1441073321::
+red_mineral_1.png::ImageTexture::1441073321::
+red_mineral_2.png::ImageTexture::1441073321::
+red_mineral_3.png::ImageTexture::1441073321::
+red_mineral_4.png::ImageTexture::1441073321::
+red_mineral_5.png::ImageTexture::1441073321::
+red_mineral_6.png::ImageTexture::1441073321::
+::res://Sprites/Score::1441250369
+gold_star.png::ImageTexture::1441249878::
+grey_star.png::ImageTexture::1441250182::
+press_enter_to_continue.png::ImageTexture::1441250369::
+success.png::ImageTexture::1441250369::

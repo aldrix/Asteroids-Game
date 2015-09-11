@@ -1,6 +1,6 @@
 extends Node2D
 
-const ASTRO_SPEED = 2
+const ASTRO_SPEED = 3
 const GRAVITY = 15.0
 
 var velocity        = Vector2()
