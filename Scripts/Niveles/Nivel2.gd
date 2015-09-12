@@ -9,10 +9,8 @@ var gass_amount  = 25
 #Dialogos
 var time = 0
 var HUD 
-var avatar_eddie = load("res://Sprites/Nave_Thumbnail.png")
-var DialogoEddie1 = ["[Eddie]: Nothing is endless.\nYou have a limited amount of gas in every level.\n",
-			         "You can see the gas level in the blue gas bar above. If you ran out of gas, you're over! :(\n",
-			         "Get to the ship before the gas bar gets empty."]
+var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
+var DialogoEddie1 = ["[Eddie]: Hello."]
 
 #Dececta si el astronauta llega a la nave.
 var win = false
@@ -32,7 +30,9 @@ func _fixed_process(delta):
 		HUD.show_dialogue(DialogoEddie1)
 	
 	if win:
-		get_node("/root/global").set("next_level","res://Scenes/Nivel2.scn")
+		get_node("/root/global").set("next_level","res://Scenes/main.scn")
 		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gass_amount*100)
 		get_node("/root/global").set("max_score",3000)
 		get_node("/root/global").goto_scene("res://Scenes/score.scn")
+
+
