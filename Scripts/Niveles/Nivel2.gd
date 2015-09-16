@@ -15,6 +15,11 @@ var DialogoEddie1 = ["[Eddie]: Hello."]
 #Dececta si el astronauta llega a la nave.
 var win = false
 
+#Cantidad de khalum recolectado.
+var greenKhal_collected = 0
+
+#Valor del khalum.
+var greenKhal_value     = 20
 
 func _ready():
 	HUD = get_node("HUD")
@@ -30,8 +35,12 @@ func _fixed_process(delta):
 		HUD.show_dialogue(DialogoEddie1)
 	
 	if win:
+		print("Se recolecto: ",greenKhal_collected," khalums")
+		print("Se obtuvieron ",get_node("Astronauta").gass_amount*100," por el gas sobrante")
+		print("Se obtuvieron ",greenKhal_collected*greenKhal_value," por el khalum recolectado")
+		
 		get_node("/root/global").set("next_level","res://Scenes/main.scn")
-		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gass_amount*100)
+		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gass_amount*100 + greenKhal_collected*greenKhal_value)
 		get_node("/root/global").set("max_score",3000)
 		get_node("/root/global").goto_scene("res://Scenes/score.scn")
 

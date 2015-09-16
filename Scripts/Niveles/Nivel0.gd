@@ -25,7 +25,7 @@ func _fixed_process(delta):
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
 			
-	#Cuando el astronauta llegue a la nave, mostramos la escena inicial (por ahora)
+	#Cuando el astronauta llegue a la nave pasamos al siguiente nivel.
 	if win:
 		get_node("/root/global").set("next_level","res://Scenes/Nivel1.scn")
 		get_node("/root/global").set("level_score",3000)
