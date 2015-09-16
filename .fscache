@@ -1,10 +1,10 @@
-::res://::1442417303
+::res://::1442428858
 icon.png::ImageTexture::1441418313::
 ::res://Fonts::1441418313
 Emulogic.fnt::Font::1441418313::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>0
 bit.fnt::Font::1441418313::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1441418313
 bits.fnt::::1441418313::
-::res://Scenes::1442420133
+::res://Scenes::1442426076
 AsteroideAzul.scn::PackedScene::1442031095::
 AsteroideGris.scn::PackedScene::1442030795::
 AsteroideMarron.scn::PackedScene::1441418313::
@@ -20,22 +20,24 @@ MiniAsteroideMarron3.scn::PackedScene::1441856657::
 Nave.scn::PackedScene::1441418313::
 Nivel0.scn::PackedScene::1442420042::
 Nivel1.scn::PackedScene::1442420063::
-Nivel2.scn::PackedScene::1442420133::
+Nivel2.scn::PackedScene::1442426076::
 main.scn::PackedScene::1442419874::
-score.scn::PackedScene::1442021344::
+score.scn::PackedScene::1442423841::
 ::res://Scenes/Barras::1441418313
 GasBar.scn::PackedScene::1441418313::
 ::res://Scenes/HUD::1442021344
 HUD.scn::PackedScene::1442021344::
-::res://Scenes/Minerals::1442420349
+::res://Scenes/Minerals::1442423965
 BlueKhalum.scn::PackedScene::1442379069::
-GreenKhaluml.scn::PackedScene::1442420349::
+GreenKhalum_collision.gd::GDScript::1442423965::
+GreenKhaluml.gd::GDScript::1442421068::
+GreenKhaluml.scn::PackedScene::1442423965::
 RedKhalum.scn::PackedScene::1441418313::
-::res://Scripts::1442420063
-global.gd::GDScript::1442420042::
-score.gd::GDScript::1442420063::
-::res://Scripts/Astronauta::1442420063
-Astronauta.gd::GDScript::1442420063::
+::res://Scripts::1442429294
+global.gd::GDScript::1442428953::
+score.gd::GDScript::1442429294::
+::res://Scripts/Astronauta::1442429294
+Astronauta.gd::GDScript::1442429294::
 ::res://Scripts/Astronauta/Animaciones::1441418313
 AnimarGasDown.gd::GDScript::1441418313::
 AnimarGasLeft.gd::GDScript::1441418313::
@@ -45,32 +47,34 @@ AnimarGasUp.gd::GDScript::1441418313::
 gas_bar.gd::GDScript::1442420042::
 ::res://Scripts/Dialogos::1442420042
 DialogoLevel0.gd::GDScript::1442420042::
-::res://Scripts/HUD::1442420063
-HUD.gd::GDScript::1442420063::
-::res://Scripts/Minerals::1442420600
-mineral_animation.gd::GDScript::1442420573::
+::res://Scripts/HUD::1442429294
+HUD.gd::GDScript::1442429294::
+::res://Scripts/Minerals::1442423965
+mineral_animation.gd::GDScript::1442423965::
 mineral_collision.gd::GDScript::1442379069::
-::res://Scripts/Niveles::1442420133
-Nivel0.gd::GDScript::1442420063::
-Nivel1.gd::GDScript::1442420063::
-Nivel2.gd::GDScript::1442420133::
-main.gd::GDScript::1442420042::
-press_enter.gd::GDScript::1442420042::
+::res://Scripts/Niveles::1442429294
+Nivel0.gd::GDScript::1442429294::
+Nivel1.gd::GDScript::1442429294::
+Nivel2.gd::GDScript::1442426076::
+main.gd::GDScript::1442428953::
+press_enter.gd::GDScript::1442428953::
 ::res://Sound::1441418353
 Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1441418353::
-::res://Sprites::1441852914
+::res://Sprites::1442428751
 Asteroide Gris.png::ImageTexture::1440986748::
 Asteroide azul.png::ImageTexture::1441074387::
 Asteroide marron.png::ImageTexture::1440281543::
 Asteroide morado.png::ImageTexture::1440986556::
 Astro_1.png::ImageTexture::1441418313::
 Espacio Sideral.png::ImageTexture::1441418313::
-Mini asteroide gris 1.png::ImageTexture::1441842488::
-Mini asteroide gris 2.png::ImageTexture::1441849211::
-Mini asteroide gris 3.png::ImageTexture::1441850528::
-Mini asteroide marron  1.png::ImageTexture::1441849498::
-Mini asteroide marron 2.png::ImageTexture::1441847317::
-Mini asteroide marron 3.png::ImageTexture::1441850881::
+Mini asteroide gris 1.png::ImageTexture::1442427275::
+Mini asteroide gris 2.png::ImageTexture::1442427354::
+Mini asteroide gris 3.png::ImageTexture::1442427416::
+Mini asteroide gris 4.png::ImageTexture::1442427447::
+Mini asteroide gris 5.png::ImageTexture::1442427494::
+Mini asteroide marron 1.png::ImageTexture::1442428261::
+Mini asteroide marron 2.png::ImageTexture::1442428106::
+Mini asteroide marron 3.png::ImageTexture::1442428300::
 Nave.png::ImageTexture::1441418313::
 Nave_Thumbnail.png::ImageTexture::1441418313::
 Planeta azul.png::ImageTexture::1440991584::
