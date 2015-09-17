@@ -7,6 +7,8 @@ var time = 0
 var canvas
 var avatar
 var label
+var greenK
+var gass_bar
 var press_space
 var bar_pressed = true
 var thread = Thread.new()
@@ -15,12 +17,16 @@ func _ready():
 	#Valores para los mensajes en pantalla.
 	canvas = get_node("DialogueBackground")
 	label  = get_node("Control/Label")
-	avatar  = get_node("Avatar")
+	avatar = get_node("Avatar")
+	greenK = get_node("GreenKhalum")
 	press_space = get_node("PressSpace")
-	get_node("GasBar").hide()
+	gass_bar = get_node("GasBar")
+	
+	gass_bar.hide()
 	avatar.hide()
 	canvas.hide()
 	press_space.hide()
+	greenK.hide()
 
 	set_process_input(true)
 
@@ -56,15 +62,26 @@ func change_dialogue(dialogue):
 	get_node("Control").hide()
 		
 func set_avatar(image):
-	get_node("Avatar").set_texture(image)
+	avatar.set_texture(image)
 
 #Muestra u Oculta la barra de Gass.
 func show_gass_bar(boolean):
 	if boolean == true:
-		get_node("GasBar").show()
+		gass_bar.show()
 	else:
-		get_node("GasBar").hide()
+		gass_bar.hide()
 		
+#Muestra u oculta el contador de Khalum.
+func show_green_khalum(boolean):
+	if boolean == true:
+		greenK.show()
+	else:
+		greenK.hide()
+		
+#Actualizta el visor de Khalum
+func set_collected(collected):
+	greenK.get_node("Collected").set_text(str(collected))
+	
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
 	if event.is_action("ui_space") && event.is_pressed() && !event.is_echo():

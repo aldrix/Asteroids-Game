@@ -10,7 +10,11 @@ var gass_amount  = 25
 var time = 0
 var HUD 
 var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
-var DialogoEddie1 = ["[Eddie]: Hello."]
+var DialogoEddie1 = ["[Eddie]: We're here to collect 'Khalum'.\nKhalum is a strange mineral found only in asteroids.",
+                     "From it, we can extract Potassium. Which is needed to make nutritional suplements for space stations.",
+                     "That green Khalum crystal over there has over 80% of Potassium. Collect it."]
+
+var DialogoEddie2 = ["[Eddie]: Great job Astro! Now collect the rest of the crystals and lets get out of here."]
 
 #Dececta si el astronauta llega a la nave.
 var win = false
@@ -24,16 +28,24 @@ var greenKhal_value     = 20
 func _ready():
 	HUD = get_node("HUD")
 	HUD.show_gass_bar(true)
-	set_fixed_process(true)
+	HUD.show_green_khalum(true)
+	HUD.set_collected(greenKhal_collected)
+	set_process(true)
 	
-
-func _fixed_process(delta):
+func _process(delta):
 
 	time += delta
+	HUD.set_collected(greenKhal_collected)
+	
 	if time > 1.5 and time < 1.6:
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
 	
+#	if greenKhal_collected == 1:
+#		print("Hello!")
+#		HUD.set_avatar(avatar_eddie)
+#		HUD.show_dialogue(DialogoEddie1)
+		
 	if win:
 		print("Se recolecto: ",greenKhal_collected," khalums")
 		print("Se obtuvieron ",get_node("Astronauta").gass_amount*100," por el gas sobrante")
