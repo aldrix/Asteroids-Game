@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="22" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Sprites/Niveles/Primer plano/Asteroide marron 1.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Primer plano/Asteroides azules/Asteroide azul 1.png" type="Texture"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			1.98771, 5.39682, 1.59837, 4.39153, 1.35247, 2.85714, 3.11476, 3.1746, 2.70492, 4.28571 </vector2_array>
+		<vector2_array name="points" len="4"> 			-0.00126768, 9.59908, -0.272421, 8.97053, 0.979059, 8.55149, 0.624472, 9.28481 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://2">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			-5.77865, 1.16402, -6.16799, 0.529097, -6.31143, -1.21693, -5.24586, 0.105818, -5.32783, 0.687828 </vector2_array>
+		<vector2_array name="points" len="4"> 			-1.87849, 8.76101, -2.29562, 7.92293, -2.46248, 7.34675, -1.73248, 7.81817 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://3">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			-1.10654, 6.24338, -1.65981, 4.70899, -1.72129, 2.91005, -0.266376, 3.59788, -0.573752, 5.07936 </vector2_array>
+		<vector2_array name="points" len="4"> 			2.85632, 9.86099, 2.12625, 9.28481, 1.27111, 8.39435, 3.08576, 9.33719 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://4">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			5.69671, 2.1164, 5.4713, 1.21693, 6.29097, -0.952383, 6.27048, 1.11111 </vector2_array>
+		<vector2_array name="points" len="4"> 			-3.42195, 7.92293, -3.94343, 7.81817, -4.31884, 6.87533, -2.94221, 5.98488 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://5">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-7.09012, 0.740737, -7.45897, -0.423284, -7.52044, -2.06349, -6.31143, -1.21693 </vector2_array>
+		<vector2_array name="points" len="5"> 			-1.73248, 7.81817, -2.46248, 7.34675, -2.44165, 6.66582, -1.357, 6.4563, -1.48219, 7.45151 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://6">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			-8.99585, -4.76191, -9.48765, -7.03704, -9.77453, -10.4762, -9.83601, -12.8571, -7.99175, -7.77778 </vector2_array>
+		<vector2_array name="points" len="3"> 			-9.84624, -8.94336, -9.4708, -9.46716, -9.22048, -7.94816 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://7">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			7.72539, 1.90476, 7.35654, 1.79894, 6.29097, -0.952383, 8.03277, -1.74603, 7.97129, 0.846557 </vector2_array>
+		<vector2_array name="points" len="6"> 			-4.88204, 8.55149, -5.44521, 8.49911, -5.90406, 7.55627, -6.09178, 5.46108, -4.31884, 6.87533, -4.38145, 8.08007 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://8">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			8.03277, -1.74603, 6.29097, -0.952383, 8.09424, -4.23281 </vector2_array>
+		<vector2_array name="points" len="5"> 			-4.31884, 6.87533, -6.09178, 5.46108, -9.22048, -7.94816, -9.4708, -9.46716, -2.94221, 5.98488 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://9">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			0.327883, 4.7619, 1.61007e-005, 3.7037, 1.00411, 3.43915, 0.696734, 4.70899 </vector2_array>
+		<vector2_array name="points" len="5"> 			-9.28308, -2.18637, -9.49164, -2.91969, -9.5125, -4.91013, -9.2205, -5.95772, -8.78246, -3.81015 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://10">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="7"> 			1.00411, 3.43915, 1.61007e-005, 3.7037, -0.266376, 3.59788, -1.72129, 2.91005, -5.24586, 0.105818, -6.31143, -1.21693, 1.35247, 2.85714 </vector2_array>
+		<vector2_array name="points" len="6"> 			-7.385, 5.1468, -8.19846, 4.15159, -8.57391, 3.62779, -8.44876, -0.981634, -8.30273, -2.23875, -6.52982, 5.1468 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://11">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			4.2418, 5.23809, 3.75, 4.70899, 3.38115, 3.43915, 4.89754, 2.80423, 4.56967, 5.18518 </vector2_array>
+		<vector2_array name="points" len="4"> 			-2.44165, 6.66582, -2.69195, 6.24678, -1.06499, 6.24678, -1.357, 6.4563 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://12">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			4.89754, 2.80423, 3.38115, 3.43915, 5.4713, 1.21693 </vector2_array>
+		<vector2_array name="points" len="3"> 			1.66741, 9.12767, 1.27111, 8.39435, 2.12625, 9.28481 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://13">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="9"> 			-7.52044, -2.06349, -7.8688, -4.60318, -7.99175, -7.77778, 9.75407, -12.8042, 9.6926, -10.0529, 6.29097, -0.952383, 3.11476, 3.1746, 1.35247, 2.85714, -6.31143, -1.21693 </vector2_array>
+		<vector2_array name="points" len="8"> 			-0.272421, 8.97053, -0.564398, 8.65625, -0.981559, 7.24199, -1.06499, 6.24678, 9.69775, -4.22919, 7.40337, 3.10399, 1.27111, 8.39435, 0.979059, 8.55149 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://14">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-2.76637, 4.60317, -3.01227, 3.38624, -2.11063, 3.1746, -2.45899, 4.44444 </vector2_array>
+		<vector2_array name="points" len="6"> 			6.02669, 8.70863, 4.00347, 9.38956, 3.08576, 9.33719, 1.27111, 8.39435, 7.40337, 3.10399, 6.75672, 7.66103 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://15">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-3.01227, 3.38624, -3.29915, 2.91005, -1.72129, 2.91005, -2.11063, 3.1746 </vector2_array>
+		<vector2_array name="points" len="5"> 			-9.13707, 0.32786, -8.44876, -0.981634, -8.57391, 3.62779, -8.86592, 3.68017, -9.09536, 2.16115 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://16">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			-9.83601, -12.8571, 9.75407, -12.8042, -7.99175, -7.77778 </vector2_array>
+		<vector2_array name="points" len="4"> 			8.61309, 1.63736, 7.40337, 3.10399, 9.69775, -4.22919, 8.92596, 0.38024 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://17">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			-4.11882, 5.07936, -4.46718, 4.86772, -4.75406, 3.49206, -4.918, 1.95767, -3.29915, 2.91005 </vector2_array>
+		<vector2_array name="points" len="8"> 			9.11373, -8.99575, 9.4266, -7.52912, 9.69775, -4.22919, -1.06499, 6.24678, -2.69195, 6.24678, -2.94221, 5.98488, -9.4708, -9.46716, 8.67566, -9.41478 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://18">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-4.918, 1.95767, -5.24586, 0.105818, -1.72129, 2.91005, -3.29915, 2.91005 </vector2_array>
+		<vector2_array name="points" len="4"> 			9.50998, -0.300697, 8.92596, 0.38024, 9.69775, -4.22919, 9.8229, -2.71017 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://19">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			5.4713, 1.21693, 3.38115, 3.43915, 3.11476, 3.1746, 6.29097, -0.952383 </vector2_array>
+		<vector2_array name="points" len="4"> 			-9.2205, -5.95772, -9.22048, -7.94816, -8.30273, -2.23875, -8.57388, -2.81493 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://20">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			9.11883, -7.46032, 8.64752, -5.87302, 8.09424, -4.23281, 6.29097, -0.952383, 9.24178, -8.73016 </vector2_array>
+		<vector2_array name="points" len="4"> 			-6.52982, 5.1468, -8.30273, -2.23875, -9.22048, -7.94816, -6.09178, 5.46108 </vector2_array>
 
 	</resource>
 	<main_resource>
@@ -109,7 +109,7 @@
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
 			<string_array  len="98">
-				<string> "AsteroideMarron1" </string>
+				<string> "AsteroideAzul1" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
@@ -230,7 +230,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -123.897, -59.3031 </vector2>
+							<vector2> -274.023, -107.091 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -250,7 +250,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 4.204739 </real>
+							<real> 2.272073 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -356,7 +356,7 @@
 				<bool> False </bool>
 				<int> 20 </int>
 				<resource  resource_type="Shape2D" path="local://1">  </resource>
-				<matrix32> 11.606, -0, 0, 4.49493, 0.486271, 14.8989 </matrix32>
+				<matrix32> 13.9989, -0, 0, 5.57446, 0.400818, -0.761557 </matrix32>
 				<resource  resource_type="Shape2D" path="local://2">  </resource>
 				<resource  resource_type="Shape2D" path="local://3">  </resource>
 				<resource  resource_type="Shape2D" path="local://4">  </resource>
@@ -376,12 +376,12 @@
 				<resource  resource_type="Shape2D" path="local://18">  </resource>
 				<resource  resource_type="Shape2D" path="local://19">  </resource>
 				<resource  resource_type="Shape2D" path="local://20">  </resource>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Primer plano/Asteroide marron 1.png">  </resource>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Primer plano/Asteroides azules/Asteroide azul 1.png">  </resource>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
-				<vector2> 0.486271, 14.8989 </vector2>
-				<vector2> 11.606, 4.49493 </vector2>
-				<vector2_array  len="59"> 					-9.83601, -12.8571, -9.77453, -10.4762, -9.48765, -7.03704, -8.99585, -4.76191, -7.99175, -7.77778, -7.8688, -4.60318, -7.52044, -2.06349, -7.45897, -0.423284, -7.09012, 0.740737, -6.31143, -1.21693, -6.16799, 0.529097, -5.77865, 1.16402, -5.32783, 0.687828, -5.24586, 0.105818, -4.918, 1.95767, -4.75406, 3.49206, -4.46718, 4.86772, -4.11882, 5.07936, -3.29915, 2.91005, -3.01227, 3.38624, -2.76637, 4.60317, -2.45899, 4.44444, -2.11063, 3.1746, -1.72129, 2.91005, -1.65981, 4.70899, -1.10654, 6.24338, -0.573752, 5.07936, -0.266376, 3.59788, 1.61007e-005, 3.7037, 0.327883, 4.7619, 0.696734, 4.70899, 1.00411, 3.43915, 1.35247, 2.85714, 1.59837, 4.39153, 1.98771, 5.39682, 2.70492, 4.28571, 3.11476, 3.1746, 3.38115, 3.43915, 3.75, 4.70899, 4.2418, 5.23809, 4.56967, 5.18518, 4.89754, 2.80423, 5.4713, 1.21693, 5.69671, 2.1164, 6.27048, 1.11111, 6.29097, -0.952383, 6.80327, 0.423276, 7.35654, 1.79894, 7.72539, 1.90476, 7.97129, 0.846557, 8.03277, -1.74603, 8.09424, -4.23281, 8.64752, -5.87302, 9.11883, -7.46032, 9.24178, -8.73016, 9.6926, -10.0529, 9.6926, -10.0529, 9.6926, -10.0529, 9.75407, -12.8042 </vector2_array>
+				<vector2> 0.400818, -0.761557 </vector2>
+				<vector2> 13.9989, 5.57446 </vector2>
+				<vector2_array  len="61"> 					-9.84624, -8.94336, -9.4708, -9.46716, 8.67566, -9.41478, 9.11373, -8.99575, 9.4266, -7.52912, 9.55175, -6.11486, 9.69775, -4.22919, 9.8229, -2.71017, 9.50998, -0.300697, 8.92596, 0.38024, 8.61309, 1.63736, 7.40337, 3.10399, 6.75672, 7.66103, 6.02669, 8.70863, 4.00347, 9.38956, 3.08576, 9.33719, 2.85632, 9.86099, 2.12625, 9.28481, 1.66741, 9.12767, 1.27111, 8.39435, 0.979059, 8.55149, 0.624472, 9.28481, -0.00126768, 9.59908, -0.272421, 8.97053, -0.564398, 8.65625, -0.981559, 7.24199, -1.06499, 6.24678, -1.357, 6.4563, -1.48219, 7.45151, -1.73248, 7.81817, -1.87849, 8.76101, -2.29562, 7.92293, -2.46248, 7.34675, -2.44165, 6.66582, -2.69195, 6.24678, -2.94221, 5.98488, -3.23426, 7.18961, -3.42195, 7.92293, -3.94343, 7.81817, -4.31884, 6.87533, -4.38145, 8.08007, -4.88204, 8.55149, -5.44521, 8.49911, -5.90406, 7.55627, -6.09178, 5.46108, -6.52982, 5.1468, -7.385, 5.1468, -8.19846, 4.15159, -8.57391, 3.62779, -8.86592, 3.68017, -9.09536, 2.16115, -9.13707, 0.32786, -8.44876, -0.981634, -8.30273, -2.23875, -8.57388, -2.81493, -8.78246, -3.81015, -9.28308, -2.18637, -9.49164, -2.91969, -9.5125, -4.91013, -9.2205, -5.95772, -9.22048, -7.94816 </vector2_array>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

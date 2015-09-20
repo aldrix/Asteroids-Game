@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="2" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Sprites/Espacio sideral 1.png" type="Texture"></ext_resource>
+<resource_file type="PackedScene" subresource_count="8" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://Sprites/Niveles/Primer plano/Asteroides marrones/Mini Asteroides Marrones/Mini asteroide marron 4.png" type="Texture"></ext_resource>
+	<resource type="ConvexPolygonShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="7"> 			2.95092, 12.9583, -0.111891, 13.0604, -4.96135, 10.9165, -10.066, 6.8327, -11.9037, 3.97407, -10.9338, -0.109678, 3.92081, 11.0696 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://2">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			8.05561, 13.1115, 5.65641, 11.0696, 16.7846, 1.72801, 17.0399, 4.07617, 10.9653, 12.9583 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="10"> 			-11.9548, -12.0036, -8.02416, -12.0547, 10.8632, -7.00101, 16.7846, 1.72801, 5.65641, 11.0696, -10.9338, -0.109678, -14.9665, -3.12145, -15.8854, -5.01018, -15.9364, -7.91985, -14.8644, -10.0128 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://4">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			-11.9548, 1.31963, -10.9338, -0.109678, -11.9037, 3.97407 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://5">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			-12.0569, -0.109678, -14.9665, -3.12145, -10.9338, -0.109678 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://6">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			3.92081, 11.0696, -10.9338, -0.109678, 5.65641, 11.0696 </vector2_array>
+
+	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -8,8 +38,8 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="41">
-				<string> "Nivel1" </string>
+			<string_array  len="56">
+				<string> "MiniAsteroideMarron4" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
@@ -22,41 +52,56 @@
 				<string> "z/z" </string>
 				<string> "z/relative" </string>
 				<string> "__meta__" </string>
-				<string> "ParallaxBackground" </string>
-				<string> "layer" </string>
-				<string> "offset" </string>
-				<string> "rotation" </string>
-				<string> "scale" </string>
-				<string> "scroll/offset" </string>
-				<string> "scroll/base_offset" </string>
-				<string> "scroll/base_scale" </string>
-				<string> "scroll/limit_begin" </string>
-				<string> "scroll/limit_end" </string>
-				<string> "ParallaxLayer" </string>
-				<string> "motion/scale" </string>
-				<string> "motion/mirroring" </string>
-				<string> "TextureFrame" </string>
-				<string> "margin/right" </string>
-				<string> "margin/bottom" </string>
-				<string> "focus_neighbour/left" </string>
-				<string> "focus_neighbour/top" </string>
-				<string> "focus_neighbour/right" </string>
-				<string> "focus_neighbour/bottom" </string>
-				<string> "focus/ignore_mouse" </string>
-				<string> "focus/stop_mouse" </string>
-				<string> "size_flags/horizontal" </string>
-				<string> "size_flags/vertical" </string>
-				<string> "size_flags/stretch_ratio" </string>
+				<string> "StaticBody2D" </string>
+				<string> "input/pickable" </string>
+				<string> "shape_count" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "shapes/1/shape" </string>
+				<string> "shapes/1/transform" </string>
+				<string> "shapes/1/trigger" </string>
+				<string> "shapes/2/shape" </string>
+				<string> "shapes/2/transform" </string>
+				<string> "shapes/2/trigger" </string>
+				<string> "shapes/3/shape" </string>
+				<string> "shapes/3/transform" </string>
+				<string> "shapes/3/trigger" </string>
+				<string> "shapes/4/shape" </string>
+				<string> "shapes/4/transform" </string>
+				<string> "shapes/4/trigger" </string>
+				<string> "shapes/5/shape" </string>
+				<string> "shapes/5/transform" </string>
+				<string> "shapes/5/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "Sprite" </string>
 				<string> "texture" </string>
+				<string> "centered" </string>
+				<string> "offset" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
 				<string> "modulate" </string>
-				<string> "expand" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "CollisionPolygon2D" </string>
+				<string> "build_mode" </string>
+				<string> "polygon" </string>
+				<string> "trigger" </string>
 			</string_array>
 			<string> "node_count" </string>
 			<int> 4 </int>
 			<string> "nodes" </string>
-			<int_array  len="132"> 				-1, -1, 1, 0, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 0, 0, 0, 13, 13, -1, 10, 2, 0, 14, 9, 15, 4, 16, 5, 17, 6, 18, 4, 19, 4, 20, 6, 21, 4, 22, 4, 0, 1, 0, 23, 23, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 24, 6, 25, 4, 0, 2, 0, 26, 26, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 27, 10, 28, 10, 29, 0, 30, 0, 31, 0, 32, 0, 33, 1, 34, 1, 35, 11, 36, 11, 37, 2, 38, 12, 39, 13, 40, 14, 0 </int_array>
+			<int_array  len="190"> 				-1, -1, 1, 0, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 0, 0, 0, 13, 13, -1, 36, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 14, 9, 15, 10, 16, 11, 17, 12, 18, 9, 19, 13, 20, 12, 21, 9, 22, 14, 23, 12, 24, 9, 25, 15, 26, 12, 27, 9, 28, 16, 29, 12, 30, 9, 31, 17, 32, 12, 33, 9, 34, 3, 35, 3, 36, 4, 37, 5, 38, 2, 39, 5, 0, 1, 0, 40, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 41, 18, 42, 1, 43, 4, 44, 9, 45, 9, 46, 3, 47, 3, 48, 7, 49, 19, 50, 9, 51, 20, 0, 1, 0, 52, 52, -1, 13, 2, 0, 3, 9, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 53, 7, 54, 21, 55, 9, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="15" shared="false">
+			<array  len="22" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -73,7 +118,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -140.668, -83.3013 </vector2>
+							<vector2> -25.3801, -13.4329 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -93,7 +138,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 1.360374 </real>
+							<real> 19.589828 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -196,12 +241,19 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<int> -1 </int>
-				<real> 40 </real>
-				<int> 2 </int>
-				<resource  resource_type="Texture" path="res://Sprites/Espacio sideral 1.png">  </resource>
-				<color> 1, 1, 1, 1 </color>
 				<bool> False </bool>
+				<int> 6 </int>
+				<resource  resource_type="Shape2D" path="local://1">  </resource>
+				<matrix32> 1, 0, 0, 1, 0, 0 </matrix32>
+				<resource  resource_type="Shape2D" path="local://2">  </resource>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<resource  resource_type="Shape2D" path="local://4">  </resource>
+				<resource  resource_type="Shape2D" path="local://5">  </resource>
+				<resource  resource_type="Shape2D" path="local://6">  </resource>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Primer plano/Asteroides marrones/Mini Asteroides Marrones/Mini asteroide marron 4.png">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<vector2_array  len="21"> 					-11.9548, -12.0036, -8.02416, -12.0547, 10.8632, -7.00101, 16.7846, 1.72801, 17.0399, 4.07617, 10.9653, 12.9583, 8.05561, 13.1115, 5.65641, 11.0696, 3.92081, 11.0696, 2.95092, 12.9583, -0.111891, 13.0604, -4.96135, 10.9165, -10.066, 6.8327, -11.9037, 3.97407, -11.9548, 1.31963, -10.9338, -0.109678, -12.0569, -0.109678, -14.9665, -3.12145, -15.8854, -5.01018, -15.9364, -7.91985, -14.8644, -10.0128 </vector2_array>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

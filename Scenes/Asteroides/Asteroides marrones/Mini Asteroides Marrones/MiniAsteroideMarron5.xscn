@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="8" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Sprites/Niveles/Primer plano/Mini asteroide marron 5.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Primer plano/Asteroides marrones/Mini Asteroides Marrones/Mini asteroide marron 5.png" type="Texture"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="6"> 			12.9552, -1.05136, 9.96916, 0.893044, -7.04434, -0.218042, -4.0583, -11.9539, 8.92752, -7.99565, 12.9552, -3.82907 </vector2_array>
@@ -250,7 +250,7 @@
 				<resource  resource_type="Shape2D" path="local://4">  </resource>
 				<resource  resource_type="Shape2D" path="local://5">  </resource>
 				<resource  resource_type="Shape2D" path="local://6">  </resource>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Primer plano/Mini asteroide marron 5.png">  </resource>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Primer plano/Asteroides marrones/Mini Asteroides Marrones/Mini asteroide marron 5.png">  </resource>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
 				<vector2_array  len="25"> 					-7.87766, -11.8844, -4.0583, -11.9539, 3.02487, -9.8706, 8.92752, -7.99565, 12.9552, -3.82907, 12.9552, -1.05136, 9.96916, 0.893044, 8.44142, 2.42079, 9.76084, 4.01797, 11.0108, 6.24015, 11.0108, 8.80953, 7.95532, 11.865, 6.56646, 12.9067, 4.27485, 13.0455, 1.01103, 11.7261, -2.32223, 9.92062, -4.19719, 7.07346, -6.69713, 6.24015, -7.9471, 4.01797, -8.01655, 1.24026, -7.04434, -0.218042, -9.96095, -1.95411, -11.8359, -5.07905, -12.0442, -7.99565, -10.3776, -10.1484 </vector2_array>
