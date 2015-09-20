@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="20" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Sprites/Asteroide morado 1.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Primer plano/Asteroide morado 1.png" type="Texture"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="6"> 			1.86507, 4.83426, 1.53348, 4.68192, 1.27557, 4.32646, 2.87829, 3.36162, 2.67564, 4.02177, 2.23351, 4.63114 </vector2_array>
@@ -358,7 +358,7 @@
 				<resource  resource_type="Shape2D" path="local://16">  </resource>
 				<resource  resource_type="Shape2D" path="local://17">  </resource>
 				<resource  resource_type="Shape2D" path="local://18">  </resource>
-				<resource  resource_type="Texture" path="res://Sprites/Asteroide morado 1.png">  </resource>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Primer plano/Asteroide morado 1.png">  </resource>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
 				<vector2> 4.08066, 0.628571 </vector2>

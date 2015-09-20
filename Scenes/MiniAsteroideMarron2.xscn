@@ -1,54 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="12" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Sprites/Astro 1.png" type="Texture"></ext_resource>
+<resource_file type="PackedScene" subresource_count="11" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://Sprites/Niveles/Primer plano/Mini asteroide marron 2.png" type="Texture"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			6.5712, 5.95154, -2.89599, 5.95154, 5.49539, -4.59366, 6.5712, -1.58074 </vector2_array>
+		<vector2_array name="points" len="5"> 			3.17327, 20.08, 2.96392, 17.9865, 17.1996, -2.84929, 18.665, -2.11657, 12.1752, 20.08 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://2">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-0.887795, 8.96445, -2.89599, 9.0224, -2.89599, 5.95154, -0.959517, 6.06742 </vector2_array>
+		<vector2_array name="points" len="6"> 			22.7473, -7.76897, 17.1996, -2.84929, 12.0706, -15.2008, 16.5715, -18.7597, 19.0837, -18.8644, 22.852, -12.898 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://3">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			1.83761, 9.0224, 1.83761, 6.00948, 3.77408, 5.95154, 3.70236, 8.90652 </vector2_array>
+		<vector2_array name="points" len="7"> 			-18.7036, -19.9055, -15.354, -19.9055, -4.36326, -16.3466, -18.0756, -7.13529, -22.7859, -12.8924, -22.8906, -15.6139, -21.6345, -17.7074 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://4">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="6"> 			9.36833, 3.05451, 8.29251, 3.7498, 7.43186, 3.7498, 6.5712, 3.05451, 6.5712, -1.58074, 9.15316, 1.49011 </vector2_array>
+		<vector2_array name="points" len="5"> 			24.1081, 2.27974, 23.6894, 5.21061, 19.8164, 12.6481, 12.1752, 20.08, 18.665, -2.11657 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://5">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			-7.48614, 4.50302, -7.55786, 2.99657, -7.55786, 0.0415952, -6.76893, -0.0163464, -6.62549, 4.56097 </vector2_array>
+		<vector2_array name="points" len="7"> 			1.49849, -18.1317, 4.63871, -18.027, 9.13969, -15.3055, 17.1996, -2.84929, 2.96392, 17.9865, 1.18446, 18.3005, -1.43238, -16.3522 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://6">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="6"> 			-4.76074, -7.60657, -2.68082, -9.11303, 3.63064, -9.11303, 5.49539, -7.66451, 5.49539, -4.59366, -4.76074, -4.53572 </vector2_array>
+		<vector2_array name="points" len="7"> 			-5.93337, 20.708, -6.98011, 19.3472, -14.412, 0.819935, -4.36326, -16.3466, -1.43238, -16.3522, 1.18446, 18.3005, -3.21185, 21.2314 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://7">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="5"> 			-9.35089, 2.24334, -9.35089, 1.31629, -7.55786, 0.0415952, -7.55786, 2.99657, -8.41851, 2.99657 </vector2_array>
+		<vector2_array name="points" len="6"> 			-18.9129, -5.8792, -18.0756, -7.13529, -4.36326, -16.3466, -14.412, 0.819935, -16.1914, -0.540827, -18.4943, -3.26235 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://8">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="6"> 			-6.48204, 6.00948, -6.62549, 4.56097, -6.76893, -0.0163464, -4.76074, -4.53572, 5.49539, -4.59366, -2.89599, 5.95154 </vector2_array>
+		<vector2_array name="points" len="6"> 			-20.6924, 10.4499, -18.3896, 5.0069, -14.412, 0.819935, -6.98011, 19.3472, -11.1671, 18.8239, -19.855, 12.8574 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://9">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			-6.48204, -4.59366, -4.76074, -4.53572, -6.76893, -0.0163464 </vector2_array>
-
-	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://10">
-		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			6.49948, -4.59366, 6.5712, -1.58074, 5.49539, -4.59366 </vector2_array>
+		<vector2_array name="points" len="3"> 			12.0706, -15.2008, 17.1996, -2.84929, 9.13969, -15.3055 </vector2_array>
 
 	</resource>
 	<main_resource>
@@ -58,8 +53,8 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="80">
-				<string> "Astronauta" </string>
+			<string_array  len="65">
+				<string> "MiniAsteroideMarron2" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
@@ -72,7 +67,7 @@
 				<string> "z/z" </string>
 				<string> "z/relative" </string>
 				<string> "__meta__" </string>
-				<string> "KinematicBody2D" </string>
+				<string> "StaticBody2D" </string>
 				<string> "input/pickable" </string>
 				<string> "shape_count" </string>
 				<string> "shapes/0/shape" </string>
@@ -102,12 +97,12 @@
 				<string> "shapes/8/shape" </string>
 				<string> "shapes/8/transform" </string>
 				<string> "shapes/8/trigger" </string>
-				<string> "shapes/9/shape" </string>
-				<string> "shapes/9/transform" </string>
-				<string> "shapes/9/trigger" </string>
 				<string> "collision/layers" </string>
 				<string> "collision/mask" </string>
-				<string> "collision/margin" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
 				<string> "Sprite" </string>
 				<string> "texture" </string>
 				<string> "centered" </string>
@@ -124,28 +119,13 @@
 				<string> "build_mode" </string>
 				<string> "polygon" </string>
 				<string> "trigger" </string>
-				<string> "Camera2D" </string>
-				<string> "rotating" </string>
-				<string> "current" </string>
-				<string> "smoothing" </string>
-				<string> "zoom" </string>
-				<string> "limit/left" </string>
-				<string> "limit/top" </string>
-				<string> "limit/right" </string>
-				<string> "limit/bottom" </string>
-				<string> "drag_margin/h_enabled" </string>
-				<string> "drag_margin/v_enabled" </string>
-				<string> "drag_margin/left" </string>
-				<string> "drag_margin/top" </string>
-				<string> "drag_margin/right" </string>
-				<string> "drag_margin/bottom" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 5 </int>
+			<int> 4 </int>
 			<string> "nodes" </string>
-			<int_array  len="265"> 				-1, -1, 1, 0, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 0, 0, 0, 13, 13, -1, 45, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 14, 9, 15, 10, 16, 11, 17, 12, 18, 9, 19, 13, 20, 12, 21, 9, 22, 14, 23, 12, 24, 9, 25, 15, 26, 12, 27, 9, 28, 16, 29, 12, 30, 9, 31, 17, 32, 12, 33, 9, 34, 18, 35, 12, 36, 9, 37, 19, 38, 12, 39, 9, 40, 20, 41, 12, 42, 9, 43, 21, 44, 12, 45, 9, 46, 3, 47, 3, 48, 22, 0, 1, 0, 49, 49, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 50, 23, 51, 1, 52, 4, 53, 9, 54, 9, 55, 3, 56, 3, 57, 7, 58, 24, 59, 9, 60, 25, 0, 1, 0, 61, 61, -1, 13, 2, 0, 3, 9, 4, 2, 5, 2, 6, 3, 7, 26, 8, 5, 9, 27, 10, 7, 11, 1, 62, 7, 63, 28, 64, 9, 0, 1, 0, 65, 65, -1, 25, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 51, 1, 66, 9, 67, 1, 68, 5, 69, 6, 70, 29, 71, 29, 72, 30, 73, 30, 74, 1, 75, 1, 76, 31, 77, 31, 78, 31, 79, 31, 0 </int_array>
+			<int_array  len="208"> 				-1, -1, 1, 0, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 0, 0, 0, 13, 13, -1, 45, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 14, 9, 15, 10, 16, 11, 17, 12, 18, 9, 19, 13, 20, 12, 21, 9, 22, 14, 23, 12, 24, 9, 25, 15, 26, 12, 27, 9, 28, 16, 29, 12, 30, 9, 31, 17, 32, 12, 33, 9, 34, 18, 35, 12, 36, 9, 37, 19, 38, 12, 39, 9, 40, 20, 41, 12, 42, 9, 43, 3, 44, 3, 45, 4, 46, 5, 47, 2, 48, 5, 0, 1, 0, 49, 49, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 50, 21, 51, 1, 52, 4, 53, 9, 54, 9, 55, 3, 56, 3, 57, 7, 58, 22, 59, 9, 60, 23, 0, 1, 0, 61, 61, -1, 13, 2, 0, 3, 9, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 62, 7, 63, 24, 64, 9, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="32" shared="false">
+			<array  len="25" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -162,7 +142,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -33.438, -27.4068 </vector2>
+							<vector2> -45.7095, -21.371 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -182,7 +162,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 12.996298 </real>
+							<real> 9.553469 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -286,9 +266,9 @@
 					</dictionary>
 				</dictionary>
 				<bool> False </bool>
-				<int> 10 </int>
+				<int> 9 </int>
 				<resource  resource_type="Shape2D" path="local://1">  </resource>
-				<matrix32> 1.07284, -0, 0, 1.328, 0.0621914, 0.00729609 </matrix32>
+				<matrix32> 1, -0, 0, 1, 0, 0 </matrix32>
 				<resource  resource_type="Shape2D" path="local://2">  </resource>
 				<resource  resource_type="Shape2D" path="local://3">  </resource>
 				<resource  resource_type="Shape2D" path="local://4">  </resource>
@@ -297,17 +277,10 @@
 				<resource  resource_type="Shape2D" path="local://7">  </resource>
 				<resource  resource_type="Shape2D" path="local://8">  </resource>
 				<resource  resource_type="Shape2D" path="local://9">  </resource>
-				<resource  resource_type="Shape2D" path="local://10">  </resource>
-				<real> 0.08 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Astro 1.png">  </resource>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Primer plano/Mini asteroide marron 2.png">  </resource>
 				<color> 1, 1, 1, 1 </color>
 				<rect2> 0, 0, 0, 0 </rect2>
-				<vector2> 0.0621914, 0.00729609 </vector2>
-				<vector2> 1.07284, 1.328 </vector2>
-				<vector2_array  len="32"> 					-4.76074, -7.60657, -2.68082, -9.11303, 3.63064, -9.11303, 5.49539, -7.66451, 5.49539, -4.59366, 6.49948, -4.59366, 6.5712, -1.58074, 9.15316, 1.49011, 9.36833, 3.05451, 8.29251, 3.7498, 7.43186, 3.7498, 6.5712, 3.05451, 6.5712, 5.95154, 3.77408, 5.95154, 3.70236, 8.90652, 1.83761, 9.0224, 1.83761, 6.00948, -0.959517, 6.06742, -0.887795, 8.96445, -2.89599, 9.0224, -2.89599, 5.95154, -6.48204, 6.00948, -6.62549, 4.56097, -7.48614, 4.50302, -7.55786, 2.99657, -8.41851, 2.99657, -9.35089, 2.24334, -9.35089, 1.31629, -7.55786, 0.0415952, -6.76893, -0.0163464, -6.48204, -4.59366, -4.76074, -4.53572 </vector2_array>
-				<int> -10000000 </int>
-				<int> 10000000 </int>
-				<real> 0.2 </real>
+				<vector2_array  len="38"> 					-20.6924, 10.4499, -19.855, 12.8574, -11.1671, 18.8239, -6.98011, 19.3472, -5.93337, 20.708, -3.21185, 21.2314, 1.18446, 18.3005, 2.96392, 17.9865, 3.17327, 20.08, 5.99947, 20.08, 12.1752, 20.08, 19.8164, 12.6481, 23.6894, 5.21061, 24.1081, 2.27974, 18.665, -2.11657, 17.1996, -2.84929, 22.7473, -7.76897, 22.852, -12.898, 19.0837, -18.8644, 16.5715, -18.7597, 12.0706, -15.2008, 9.13969, -15.3055, 4.63871, -18.027, 1.49849, -18.1317, -1.43238, -16.3522, -4.36326, -16.3466, -12.0045, -18.8588, -15.354, -19.9055, -18.7036, -19.9055, -21.6345, -17.7074, -22.8906, -15.6139, -22.7859, -12.8924, -18.0756, -7.13529, -18.9129, -5.8792, -18.4943, -3.26235, -16.1914, -0.540827, -14.412, 0.819935, -18.3896, 5.0069 </vector2_array>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

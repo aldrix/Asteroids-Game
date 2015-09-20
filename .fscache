@@ -1,43 +1,45 @@
-::res://::1442626953
-icon.png::ImageTexture::1442615293::
-::res://Fonts::1442626814
-Emulogic.fnt::Font::1442614137::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>0
-bit.fnt::Font::1442614137::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1442614137
-bits.fnt::::1442614137::
-::res://Scenes::1442627016
-AsteroideAzul1.xscn::PackedScene::1442618836::
-AsteroideGris1.xscn::PackedScene::1442618521::
-AsteroideMarron1.xscn::PackedScene::1442619320::
-AsteroideMorado1.xscn::PackedScene::1442615758::
-Astronauta.xscn::PackedScene::1442623345::
-Nivel0.xscn::PackedScene::1442627016::
-Nivel1.xscn::PackedScene::1442622510::
-main.xscn::PackedScene::1442621963::
-::res://Sound::1442626815
-Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1442614740::
-::res://Sprites::1442626815
-Asteroide azul 1.png::ImageTexture::1442614740::
+::res://::1442707941
+icon.png::ImageTexture::1442628248::
+::res://Fonts::1442628247
+Emulogic.fnt::Font::1442628247::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>0
+bit.fnt::Font::1442628247::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1442628247
+bits.fnt::::1442628247::
+::res://Scenes::1442681427
+AsteroideAzul1.xscn::PackedScene::1442628290::
+AsteroideGris1.xscn::PackedScene::1442628290::
+AsteroideMarron1.xscn::PackedScene::1442628290::
+AsteroideMorado1.xscn::PackedScene::1442628290::
+Astronauta.xscn::PackedScene::1442628290::
+Nivel0.xscn::PackedScene::1442681427::
+Nivel1.xscn::PackedScene::1442628290::
+main.xscn::PackedScene::1442628290::
+::res://Sound::1442628290
+Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1442628290::
+::res://Sprites::1442681427
+Asteroide azul 1.png::ImageTexture::1442616197::
 Asteroide gris 1.png::ImageTexture::1442615999::
-Asteroide marron 1.png::ImageTexture::1442614137::
+Asteroide marron 1.png::ImageTexture::1442616350::
 Asteroide morado 1.png::ImageTexture::1442611436::
-Astro 1.png::ImageTexture::1442618047::
-Espacio sideral 1.png::ImageTexture::1442607242::
-Mini asteroide gris 1.png::ImageTexture::1442614740::
-Mini asteroide gris 2.png::ImageTexture::1442614740::
-Mini asteroide gris 3.png::ImageTexture::1442614740::
-Mini asteroide gris 4.png::ImageTexture::1442614740::
-Mini asteroide gris 5.png::ImageTexture::1442614740::
-Mini asteroide marron 1.png::ImageTexture::1442614740::
-Mini asteroide marron 2.png::ImageTexture::1442614740::
-Mini asteroide marron 3.png::ImageTexture::1442614740::
-Nave 1.png::ImageTexture::1442614137::
-Nave_Thumbnail.png::ImageTexture::1442614137::
-Planeta azul 1.png::ImageTexture::1442614740::
-Planeta con anillo 1.png::ImageTexture::1442609946::
-Planeta rojo 1.png::ImageTexture::1442614740::
-Planeta verde 1.png::ImageTexture::1442614740::
-::res://Sprites/Main::1442626815
-Cuadro dialogo 3.png::ImageTexture::1442614740::
+Astro 1.png::ImageTexture::1442628016::
+Espacio sideral 1.png::ImageTexture::1442707904::
 Logo Asteroids.png::ImageTexture::1442611013::
-press_enter.png::ImageTexture::1442614137::
-press_space.png::ImageTexture::1442614137::
+Mini asteroide gris 1.png::ImageTexture::1442628290::
+Mini asteroide gris 2.png::ImageTexture::1442628290::
+Mini asteroide gris 3.png::ImageTexture::1442628290::
+Mini asteroide gris 4.png::ImageTexture::1442628290::
+Mini asteroide gris 5.png::ImageTexture::1442628290::
+Mini asteroide marron 1.png::ImageTexture::1442628290::
+Mini asteroide marron 2.png::ImageTexture::1442628290::
+Mini asteroide marron 3.png::ImageTexture::1442628290::
+Nave 1.png::ImageTexture::1442628635::
+Nave_Thumbnail.png::ImageTexture::1442628248::
+Planeta azul 1.png::ImageTexture::1442629628::
+Planeta con anillo 1.png::ImageTexture::1442609946::
+Planeta fucsia 1.png::ImageTexture::1442630062::
+Planeta rojo 1.png::ImageTexture::1442630429::
+Planeta verde 1.png::ImageTexture::1442630846::
+::res://Sprites/Main::1442628290
+Cuadro dialogo 3.png::ImageTexture::1442628290::
+Logo Asteroids.png::ImageTexture::1442628290::
+press_enter.png::ImageTexture::1442628248::
+press_space.png::ImageTexture::1442628248::
