@@ -1,7 +1,7 @@
 extends Node2D
 
 #Variables para el Gas.
-var gass_amount  = 1000
+var gas_amount  = 1000
 
 #Dialogos
 var time = 0
@@ -21,9 +21,9 @@ func _ready():
 func _fixed_process(delta):
 
 	time  += delta
-	if time > 1.5 and time < 1.6:
-		HUD.set_avatar(avatar_eddie)
-		HUD.show_dialogue(DialogoEddie1)
+#	if time > 1.5 and time < 1.6:
+#		HUD.set_avatar(avatar_eddie)
+#		HUD.show_dialogue(DialogoEddie1)
 			
 	#Cuando el astronauta llegue a la nave pasamos al siguiente nivel.
 	if win:

@@ -17,7 +17,7 @@ func has_gas(gas_amout):
 		return false
 
 func _ready():
-#	gas_amount  = get_parent().gas_amount
+	gas_amount  = get_parent().gas_amount
 #		
 #	if get_parent().get_name() == "Main":
 #		get_node("KinematicBody2D/Camera2D").set_limit(0,0)
