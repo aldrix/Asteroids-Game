@@ -1,11 +1,13 @@
-::res://::1442795859
+::res://::1442950830
 icon.png::ImageTexture::1442615293::
-::res://Fonts::1442626814
-Emulogic.fnt::Font::1442614137::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>0
+::res://Fonts::1442952813
+Emulogic.fnt::Font::1442952813::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>1442952659
+RosesAreFF0000.fnt::Font::1442804522::font<>../roses_are_ff0000/RosesareFF0000.ttf<>bea1481059bb9e3178e40c510c09b12e<>1442804141
 bit.fnt::Font::1442614137::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1442614137
 bits.fnt::::1442614137::
-::res://Scenes::1442796086
+::res://Scenes::1442953647
 Astronauta.xscn::PackedScene::1442796086::
+Main.xscn::PackedScene::1442953647::
 ::res://Scenes/Asteroides::1442784146
 ::res://Scenes/Asteroides/Asteroides azules::1442788681
 AsteroideAzul1.xscn::PackedScene::1442784146::
@@ -24,17 +26,23 @@ MiniAsteroideMarron6.xscn::PackedScene::1442784146::
 ::res://Scenes/Asteroides/Asteroides morados::1442788681
 AsteroideMorado1.xscn::PackedScene::1442784146::
 AsteroideMorado2.xscn::PackedScene::1442788681::
+::res://Scenes/Background::1442951479
+FondoDeEstrellas.xscn::PackedScene::1442951479::
+::res://Scenes/Barras::1442798056
+GasBar.xscn::PackedScene::1442798056::
+::res://Scenes/HUD::1442939197
+HUD.xscn::PackedScene::1442939196::
 ::res://Scenes/Khalum::1442786872
 BlueKhalum.xscn::PackedScene::1442786668::
 GreenKhalum.xscn::PackedScene::1442786392::
 RedKhalum.xscn::PackedScene::1442786872::
-::res://Scenes/Niveles::1442796129
-Nivel0.xscn::PackedScene::1442796129::
+::res://Scenes/Niveles::1442951445
+Nivel0.xscn::PackedScene::1442951445::
 ::res://Scripts::1442779133
 global.gd::GDScript::1442779133::
 score.gd::GDScript::1442779133::
-::res://Scripts/Astronauta::1442796086
-Astronauta.gd::GDScript::1442796086::
+::res://Scripts/Astronauta::1442953666
+Astronauta.gd::GDScript::1442953666::
 ::res://Scripts/Astronauta/Animaciones::1442796086
 AnimarGasDown.gd::GDScript::1442796086::
 AnimarGasLeft.gd::GDScript::1442779133::
@@ -44,22 +52,23 @@ AnimarGasUp.gd::GDScript::1442796086::
 gas_bar.gd::GDScript::1442779133::
 ::res://Scripts/Dialogos::1442779133
 DialogoLevel0.gd::GDScript::1442779133::
-::res://Scripts/HUD::1442779133
-HUD.gd::GDScript::1442779133::
+::res://Scripts/HUD::1442951445
+HUD.gd::GDScript::1442951445::
 ::res://Scripts/Minerals::1442786669
 mineral_animation.gd::GDScript::1442786669::
 mineral_collision.gd::GDScript::1442779133::
-::res://Scripts/Niveles::1442779133
-Nivel0.gd::GDScript::1442779133::
+::res://Scripts/Niveles::1442953666
+Nivel0.gd::GDScript::1442951445::
 Nivel1.gd::GDScript::1442779133::
 Nivel2.gd::GDScript::1442779133::
-main.gd::GDScript::1442779133::
+main.gd::GDScript::1442953666::
 press_enter.gd::GDScript::1442779133::
 ::res://Sound::1442626815
 Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1442614740::
-::res://Sprites::1442784302
+::res://Sprites::1442797737
 Nave 1.png::ImageTexture::1442776338::
 Nave_Thumbnail.png::ImageTexture::1442614137::
+New Piskel.png::ImageTexture::1442797607::
 ::res://Sprites/Animations::1442779133
 gass_0.png::ImageTexture::1442779133::
 gass_1.png::ImageTexture::1442779133::
@@ -80,14 +89,19 @@ gass_bar_9.png::ImageTexture::1442779133::
 ::res://Sprites/Astro::1442784302
 Astro 1.png::ImageTexture::1442776338::
 Astro.png::ImageTexture::1442779771::
+::res://Sprites/Barras::1442797745
+::res://Sprites/Barras/Gas::1442798035
+GasBar_Over.png::ImageTexture::1442797755::
+GasBar_Progress.png::ImageTexture::1442797975::
+GasBar_Under.png::ImageTexture::1442798035::
 ::res://Sprites/Gas::1442681057
 gass_0.png::ImageTexture::1442680998::
 gass_1.png::ImageTexture::1442680996::
 gass_2.png::ImageTexture::1442680996::
 gass_3.png::ImageTexture::1442680997::
-::res://Sprites/Main::1442779133
+::res://Sprites/Main::1442950695
 Cuadro dialogo 3.png::ImageTexture::1442614740::
-Logo Asteroids.png::ImageTexture::1442779133::
+Logo Asteroids.png::ImageTexture::1442945447::
 dialogue_background.tex::ImageTexture::1442779133::texture_2d<>Sprites/Main/dialogue_background.png<>c7c06841e633e30e93c1d9f46ec0ceac<>0
 press_enter.png::ImageTexture::1442614137::
 press_space.png::ImageTexture::1442614137::

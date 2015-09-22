@@ -21,9 +21,10 @@ func _ready():
 func _fixed_process(delta):
 
 	time  += delta
-#	if time > 1.5 and time < 1.6:
+	if time > 1.5 and time < 1.6:
 #		HUD.set_avatar(avatar_eddie)
-#		HUD.show_dialogue(DialogoEddie1)
+		HUD.show_dialogue(DialogoEddie1)
+		
 			
 	#Cuando el astronauta llegue a la nave pasamos al siguiente nivel.
 	if win:
