@@ -1,0 +1,178 @@
+::res://::1442974948
+icon.png::ImageTexture::1442954954::
+::res://Fonts::1442974928
+Emulogic.fnt::Font::1442974928::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>0
+RosesAreFF0000.fnt::Font::1442974928::font<>../roses_are_ff0000/RosesareFF0000.ttf<>bea1481059bb9e3178e40c510c09b12e<>0
+bit.fnt::Font::1442954954::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1442954954
+bits.fnt::::1442954954::
+::res://Scenes::1442974928
+Astronauta.xscn::PackedScene::1442955079::
+CreditosInicio.xscn::PackedScene::1442974928::
+Main.xscn::PackedScene::1442974928::
+Nave.xscn::PackedScene::1442974928::
+::res://Scenes/Asteroides::1442955079
+::res://Scenes/Asteroides/Asteroides azules::1442955078
+AsteroideAzul1.xscn::PackedScene::1442955078::
+AsteroideAzul2.xscn::PackedScene::1442955078::
+::res://Scenes/Asteroides/Asteroides grises::1442955078
+AsteroideGris1.xscn::PackedScene::1442955078::
+::res://Scenes/Asteroides/Asteroides marrones::1442955079
+AsteroideMarron1.xscn::PackedScene::1442955079::
+::res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones::1442955079
+MiniAsteroideMarron1.xscn::PackedScene::1442955079::
+MiniAsteroideMarron2.xscn::PackedScene::1442955079::
+MiniAsteroideMarron3.xscn::PackedScene::1442955079::
+MiniAsteroideMarron4.xscn::PackedScene::1442955079::
+MiniAsteroideMarron5.xscn::PackedScene::1442955079::
+MiniAsteroideMarron6.xscn::PackedScene::1442955079::
+::res://Scenes/Asteroides/Asteroides morados::1442955079
+AsteroideMorado1.xscn::PackedScene::1442955079::
+AsteroideMorado2.xscn::PackedScene::1442955079::
+::res://Scenes/Background::1442974928
+FondoDeEstrellas.xscn::PackedScene::1442974928::
+::res://Scenes/Barras::1442955079
+GasBar.xscn::PackedScene::1442955079::
+::res://Scenes/HUD::1442974928
+HUD.xscn::PackedScene::1442974928::
+::res://Scenes/Khalum::1442955079
+BlueKhalum.xscn::PackedScene::1442955079::
+GreenKhalum.xscn::PackedScene::1442955079::
+RedKhalum.xscn::PackedScene::1442955079::
+::res://Scenes/Niveles::1442974928
+Nivel0.xscn::PackedScene::1442974928::
+::res://Scripts::1442974928
+global.gd::GDScript::1442974928::
+score.gd::GDScript::1442955079::
+window_seetings.gd::GDScript::1442974928::
+window_settings.gd::GDScript::1442974928::
+::res://Scripts/Astronauta::1442974928
+Astronauta.gd::GDScript::1442974928::
+::res://Scripts/Astronauta/Animaciones::1442954954
+AnimarGasDown.gd::GDScript::1442954954::
+AnimarGasLeft.gd::GDScript::1442954954::
+AnimarGasRight.gd::GDScript::1442954954::
+AnimarGasUp.gd::GDScript::1442954954::
+::res://Scripts/Barras::1442954954
+gas_bar.gd::GDScript::1442954954::
+::res://Scripts/Dialogos::1442954954
+DialogoLevel0.gd::GDScript::1442954954::
+::res://Scripts/HUD::1442974928
+HUD.gd::GDScript::1442974928::
+::res://Scripts/Minerals::1442955079
+mineral_animation.gd::GDScript::1442955079::
+mineral_collision.gd::GDScript::1442955079::
+::res://Scripts/Niveles::1442974928
+CreditosInicio.gd::GDScript::1442974928::
+Nivel0.gd::GDScript::1442974928::
+Nivel1.gd::GDScript::1442955079::
+Nivel2.gd::GDScript::1442955079::
+main.gd::GDScript::1442974928::
+press_enter.gd::GDScript::1442954993::
+::res://Sound::1442955079
+Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1442955079::
+::res://Sprites::1442955079
+Nave 1.png::ImageTexture::1442955079::
+Nave_Thumbnail.png::ImageTexture::1442954954::
+New Piskel.png::ImageTexture::1442955079::
+::res://Sprites/Animations::1442954954
+gass_0.png::ImageTexture::1442954954::
+gass_1.png::ImageTexture::1442954954::
+gass_2.png::ImageTexture::1442954954::
+gass_3.png::ImageTexture::1442954954::
+::res://Sprites/Animations/GassBar::1442954954
+gass_bar_1.png::ImageTexture::1442954954::
+gass_bar_10.png::ImageTexture::1442954954::
+gass_bar_11.png::ImageTexture::1442954954::
+gass_bar_2.png::ImageTexture::1442954954::
+gass_bar_3.png::ImageTexture::1442954954::
+gass_bar_4.png::ImageTexture::1442954954::
+gass_bar_5.png::ImageTexture::1442954954::
+gass_bar_6.png::ImageTexture::1442954954::
+gass_bar_7.png::ImageTexture::1442954954::
+gass_bar_8.png::ImageTexture::1442954954::
+gass_bar_9.png::ImageTexture::1442954954::
+::res://Sprites/Astro::1442955079
+Astro 1.png::ImageTexture::1442955079::
+Astro.png::ImageTexture::1442955079::
+::res://Sprites/Barras::1442955079
+::res://Sprites/Barras/Gas::1442955079
+GasBar_Over.png::ImageTexture::1442955079::
+GasBar_Progress.png::ImageTexture::1442955079::
+GasBar_Under.png::ImageTexture::1442955079::
+::res://Sprites/Gas::1442955079
+gass_0.png::ImageTexture::1442955079::
+gass_1.png::ImageTexture::1442955079::
+gass_2.png::ImageTexture::1442955079::
+gass_3.png::ImageTexture::1442955079::
+::res://Sprites/Main::1442974928
+Cuadro dialogo 3.png::ImageTexture::1442955079::
+FondoCreditos.png::ImageTexture::1442974928::
+Logo Asteroids.png::ImageTexture::1442974928::
+LogoBitFunColores7.png::ImageTexture::1442974928::
+dialogue_background.tex::ImageTexture::1442954954::texture_2d<>Sprites/Main/dialogue_background.png<>c7c06841e633e30e93c1d9f46ec0ceac<>0
+press_enter.png::ImageTexture::1442954954::
+press_space.png::ImageTexture::1442954954::
+::res://Sprites/Minerals::1442955079
+blue_khalum.png::ImageTexture::1442955079::
+green_khalum.png::ImageTexture::1442955079::
+red_khalum.png::ImageTexture::1442955079::
+::res://Sprites/Niveles::1442955079
+Espacio sideral 1.png::ImageTexture::1442955079::
+Espacio sideral 2.png::ImageTexture::1442955079::
+Espacio sideral 3.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Primer plano::1442955079
+::res://Sprites/Niveles/Primer plano/Asteroides azules::1442955079
+Asteroide azul 1.png::ImageTexture::1442955079::
+Asteroide azul 2.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Primer plano/Asteroides grises::1442955079
+Asteroide gris 1.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Primer plano/Asteroides grises/Mini asteroides grises::1442955079
+Mini asteroide gris 1.png::ImageTexture::1442955079::
+Mini asteroide gris 2.png::ImageTexture::1442955079::
+Mini asteroide gris 3.png::ImageTexture::1442955079::
+Mini asteroide gris 4.png::ImageTexture::1442955079::
+Mini asteroide gris 5.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Primer plano/Asteroides marrones::1442955079
+Asteroide marron 1.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Primer plano/Asteroides marrones/Mini Asteroides Marrones::1442955079
+Mini asteroide marron 1.png::ImageTexture::1442955079::
+Mini asteroide marron 2.png::ImageTexture::1442955079::
+Mini asteroide marron 3.png::ImageTexture::1442955079::
+Mini asteroide marron 4.png::ImageTexture::1442955079::
+Mini asteroide marron 5.png::ImageTexture::1442955079::
+Mini asteroide marron 6.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Primer plano/Asteroides morados::1442955079
+Asteroide morado 1.png::ImageTexture::1442955079::
+Asteroide morado 2.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Segundo plano::1442955079
+::res://Sprites/Niveles/Segundo plano/Asteroides marrones::1442955079
+Asteroide marron 1.png::ImageTexture::1442955079::
+Asteroide marron 2.png::ImageTexture::1442955079::
+Asteroide marron 3.png::ImageTexture::1442955079::
+Asteroide marron 4.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones::1442955079
+Mini asteroide marron 1.png::ImageTexture::1442955079::
+Mini asteroide marron 2.png::ImageTexture::1442955079::
+Mini asteroide marron 3.png::ImageTexture::1442955079::
+Mini asteroide marron 4.png::ImageTexture::1442955079::
+Mini asteroide marron 5.png::ImageTexture::1442955079::
+Mini asteroide marron 6.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Tercer Plano::1442955079
+::res://Sprites/Niveles/Tercer Plano/Asteroides::1442955079
+::res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones::1442955079
+Asteroide marron 1.png::ImageTexture::1442955079::
+Asteroide marron 2.png::ImageTexture::1442955079::
+Asteroide marron 3.png::ImageTexture::1442955079::
+Asteroide marron 4.png::ImageTexture::1442955079::
+Asteroide marron 5.png::ImageTexture::1442955079::
+::res://Sprites/Niveles/Tercer Plano/Planetas::1442955079
+Planeta azul 1.png::ImageTexture::1442955079::
+Planeta con anillo 1.png::ImageTexture::1442955079::
+Planeta fucsia 1.png::ImageTexture::1442955079::
+Planeta rojo 1.png::ImageTexture::1442955079::
+Planeta verde 1.png::ImageTexture::1442955079::
+::res://Sprites/Score::1442955079
+gold_star.png::ImageTexture::1442955079::
+grey_star.png::ImageTexture::1442955079::
+press_enter_to_continue.png::ImageTexture::1442955079::
+success.png::ImageTexture::1442955079::
