@@ -281,12 +281,13 @@
 							<string> "current" </string>
 							<int> 0 </int>
 							<string> "sources" </string>
-							<array  len="5" shared="false">
+							<array  len="6" shared="false">
 								<string> "res://Scripts/Astronauta/Astronauta.gd" </string>
 								<string> "res://Scripts/Niveles/main.gd" </string>
 								<string> "res://Scripts/global.gd" </string>
 								<string> "res://Scripts/window_seetings.gd" </string>
 								<string> "res://Scripts/window_settings.gd" </string>
+								<string> "res://Scripts/HUD/HUD.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>

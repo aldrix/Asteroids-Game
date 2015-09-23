@@ -1,13 +1,14 @@
-::res://::1442961029
+::res://::1442966045
 icon.png::ImageTexture::1442615293::
 ::res://Fonts::1442955837
 Emulogic.fnt::Font::1442955837::font<>../freaky-fonts_emulogic/emulogic.ttf<>b10849c899982654fae3f01d02269043<>1442952659
 RosesAreFF0000.fnt::Font::1442804522::font<>../roses_are_ff0000/RosesareFF0000.ttf<>bea1481059bb9e3178e40c510c09b12e<>1442804141
 bit.fnt::Font::1442614137::font<>Fonts/VCR_OSD_MONO_1.fnt.ttf<>5fcd6c657ffa8a6791632c705f0944ea<>1442614137
 bits.fnt::::1442614137::
-::res://Scenes::1442961676
+::res://Scenes::1442966154
 Astronauta.xscn::PackedScene::1442796086::
-Main.xscn::PackedScene::1442959586::
+CreditosInicio.xscn::PackedScene::1442963110::
+Main.xscn::PackedScene::1442966154::
 Nave.xscn::PackedScene::1442961676::
 ::res://Scenes/Asteroides::1442784146
 ::res://Scenes/Asteroides/Asteroides azules::1442788681
@@ -31,21 +32,21 @@ AsteroideMorado2.xscn::PackedScene::1442788681::
 FondoDeEstrellas.xscn::PackedScene::1442951479::
 ::res://Scenes/Barras::1442798056
 GasBar.xscn::PackedScene::1442798056::
-::res://Scenes/HUD::1442939197
-HUD.xscn::PackedScene::1442939196::
+::res://Scenes/HUD::1442971226
+HUD.xscn::PackedScene::1442971226::
 ::res://Scenes/Khalum::1442786872
 BlueKhalum.xscn::PackedScene::1442786668::
 GreenKhalum.xscn::PackedScene::1442786392::
 RedKhalum.xscn::PackedScene::1442786872::
-::res://Scenes/Niveles::1442961730
-Nivel0.xscn::PackedScene::1442961730::
-::res://Scripts::1442959586
-global.gd::GDScript::1442959586::
+::res://Scenes/Niveles::1442969292
+Nivel0.xscn::PackedScene::1442969292::
+::res://Scripts::1442966154
+global.gd::GDScript::1442966154::
 score.gd::GDScript::1442779133::
-window_seetings.gd::GDScript::1442959586::
-window_settings.gd::GDScript::1442959586::
-::res://Scripts/Astronauta::1442961747
-Astronauta.gd::GDScript::1442961747::
+window_seetings.gd::GDScript::1442966154::
+window_settings.gd::GDScript::1442966154::
+::res://Scripts/Astronauta::1442969292
+Astronauta.gd::GDScript::1442969292::
 ::res://Scripts/Astronauta/Animaciones::1442796086
 AnimarGasDown.gd::GDScript::1442796086::
 AnimarGasLeft.gd::GDScript::1442779133::
@@ -55,22 +56,23 @@ AnimarGasUp.gd::GDScript::1442796086::
 gas_bar.gd::GDScript::1442779133::
 ::res://Scripts/Dialogos::1442779133
 DialogoLevel0.gd::GDScript::1442779133::
-::res://Scripts/HUD::1442961747
-HUD.gd::GDScript::1442961747::
+::res://Scripts/HUD::1442971236
+HUD.gd::GDScript::1442971236::
 ::res://Scripts/Minerals::1442786669
 mineral_animation.gd::GDScript::1442786669::
 mineral_collision.gd::GDScript::1442779133::
-::res://Scripts/Niveles::1442961747
-Nivel0.gd::GDScript::1442961747::
+::res://Scripts/Niveles::1442969292
+CreditosInicio.gd::GDScript::1442963152::
+Nivel0.gd::GDScript::1442969292::
 Nivel1.gd::GDScript::1442779133::
 Nivel2.gd::GDScript::1442779133::
-main.gd::GDScript::1442959586::
+main.gd::GDScript::1442966154::
 press_enter.gd::GDScript::1442779133::
 ::res://Sound::1442626815
 Main Title - ThoughtBot Short.ogg::AudioStreamOGGVorbis::1442614740::
-::res://Sprites::1442797737
+::res://Sprites::1442969283
 Nave 1.png::ImageTexture::1442776338::
-Nave_Thumbnail.png::ImageTexture::1442614137::
+Nave_Thumbnail.png::ImageTexture::1442969283::
 New Piskel.png::ImageTexture::1442797607::
 ::res://Sprites/Animations::1442779133
 gass_0.png::ImageTexture::1442779133::
@@ -102,9 +104,11 @@ gass_0.png::ImageTexture::1442680998::
 gass_1.png::ImageTexture::1442680996::
 gass_2.png::ImageTexture::1442680996::
 gass_3.png::ImageTexture::1442680997::
-::res://Sprites/Main::1442950695
+::res://Sprites/Main::1442962509
 Cuadro dialogo 3.png::ImageTexture::1442614740::
+FondoCreditos.png::ImageTexture::1442962510::
 Logo Asteroids.png::ImageTexture::1442945447::
+LogoBitFunColores7.png::ImageTexture::1441587127::
 dialogue_background.tex::ImageTexture::1442779133::texture_2d<>Sprites/Main/dialogue_background.png<>c7c06841e633e30e93c1d9f46ec0ceac<>0
 press_enter.png::ImageTexture::1442614137::
 press_space.png::ImageTexture::1442614137::
