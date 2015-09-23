@@ -2,7 +2,6 @@
 extends CanvasLayer
 
 ####### DECLARACION DE VARIABLES #######
-
 ####### SEGUIMIENTO DEL ASTRONAUTA #######
 var astro
 var gas_astro
