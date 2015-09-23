@@ -8,9 +8,9 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="28">
+			<string_array  len="37">
 				<string> "Nave" </string>
-				<string> "Sprite" </string>
+				<string> "StaticBody2D" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
 				<string> "visibility/opacity" </string>
@@ -21,6 +21,20 @@
 				<string> "transform/scale" </string>
 				<string> "z/z" </string>
 				<string> "z/relative" </string>
+				<string> "input/pickable" </string>
+				<string> "shape_count" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "__meta__" </string>
+				<string> "CollisionPolygon2D" </string>
+				<string> "build_mode" </string>
+				<string> "polygon" </string>
+				<string> "trigger" </string>
+				<string> "Sprite" </string>
 				<string> "texture" </string>
 				<string> "centered" </string>
 				<string> "offset" </string>
@@ -32,16 +46,11 @@
 				<string> "modulate" </string>
 				<string> "region" </string>
 				<string> "region_rect" </string>
-				<string> "__meta__" </string>
-				<string> "CollisionPolygon2D" </string>
-				<string> "build_mode" </string>
-				<string> "polygon" </string>
-				<string> "trigger" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 2 </int>
+			<int> 3 </int>
 			<string> "nodes" </string>
-			<int_array  len="84"> 				-1, -1, 1, 0, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 1, 14, 4, 15, 9, 16, 9, 17, 3, 18, 3, 19, 7, 20, 10, 21, 9, 22, 11, 23, 12, 0, 0, 0, 24, 24, -1, 13, 2, 0, 3, 9, 4, 2, 5, 2, 6, 3, 7, 13, 8, 5, 9, 6, 10, 7, 11, 1, 25, 7, 26, 14, 27, 9, 0 </int_array>
+			<int_array  len="127"> 				-1, -1, 1, 0, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 7, 14, 3, 15, 3, 16, 4, 17, 5, 18, 2, 19, 5, 20, 9, 0, 0, 0, 21, 21, -1, 13, 2, 0, 3, 8, 4, 2, 5, 2, 6, 3, 7, 10, 8, 5, 9, 6, 10, 7, 11, 1, 22, 7, 23, 11, 24, 8, 0, 0, 0, 25, 25, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 26, 12, 27, 1, 28, 4, 29, 8, 30, 8, 31, 3, 32, 3, 33, 7, 34, 13, 35, 8, 36, 14, 0 </int_array>
 			<string> "variants" </string>
 			<array  len="15" shared="false">
 				<node_path> "" </node_path>
@@ -52,10 +61,7 @@
 				<real> 0 </real>
 				<vector2> 1, 1 </vector2>
 				<int> 0 </int>
-				<resource  resource_type="Texture" path="res://Sprites/Nave 1.png">  </resource>
 				<bool> False </bool>
-				<color> 1, 1, 1, 1 </color>
-				<rect2> 0, 0, 0, 0 </rect2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -64,7 +70,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -122.898, -47.9002 </vector2>
+							<vector2> -70.3832, -33.3322 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -84,7 +90,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 3.424785 </real>
+							<real> 7.022678 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -188,7 +194,10 @@
 					</dictionary>
 				</dictionary>
 				<vector2> 0.068625, -8.88085 </vector2>
-				<vector2_array  len="20"> 					9.51083, 33.2466, 7.71166, 41.3429, 2.82819, 43.3991, 0.51497, 53.0375, -1.15569, 43.5276, -6.5532, 41.0859, -7.32427, 32.8611, -11.9507, 37.359, -13.6214, 52.7805, -17.8623, 43.6561, -17.3482, 25.1504, -9.89452, 18.2107, -9.73939, -18.3387, 0.348634, -33.1487, 10.0074, -18.5533, 11.053, 18.4677, 18.7637, 25.6644, 18.833, 43.7952, 14.4257, 52.1459, 13.1499, 37.3002 </vector2_array>
+				<vector2_array  len="20"> 					8.65989, 32.2074, 7.71166, 41.3429, 3.95499, 43.7299, 0.51497, 53.0375, -2.62559, 43.8553, -6.5532, 41.0859, -7.34467, 32.4382, -11.9507, 37.359, -13.0386, 52.9056, -17.8623, 43.6561, -17.3482, 25.1504, -9.89452, 18.2107, -9.61455, -18.1916, 0.455835, -33.7001, 10.7759, -18.7302, 11.053, 18.4677, 18.7637, 25.6644, 18.833, 43.7952, 14.046, 52.367, 13.1499, 37.3002 </vector2_array>
+				<resource  resource_type="Texture" path="res://Sprites/Nave 1.png">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

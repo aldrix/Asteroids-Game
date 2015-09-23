@@ -31,13 +31,12 @@ func _ready():
 	avatar = get_node("Control/Avatar")
 	press_space = get_node("Control/Animation")
 #	greenK = get_node("GreenKhalum")
-#	press_space = get_node("PressSpace")
+
 	gas_bar = get_node("GasBar")
 	gas_bar.hide()
 	initial_gas_amount = get_parent().gas_amount
 
 	canvas.hide()
-#	press_space.hide()
 #	greenK.hide()
 
 	set_process(true)
@@ -57,6 +56,7 @@ func show_dialogue(dialogue):
 	canvas.show()
 	press_space.play("PressSpace")
 	dialogue_on = true
+	index = 0
 	text = dialogue
 	
 func hide_dialogue():
@@ -97,9 +97,7 @@ func update_gas_bar(gas_astro):
 	
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
-	print("pretty woman")
 	if event.is_action("ui_accept") && event.is_pressed() && !event.is_echo():
-		print("helo")
 		index += 1
 		if index == text.size():
 			hide_dialogue()
