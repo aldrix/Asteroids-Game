@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 const ASTRO_SPEED = 2
-const GRAVITY = 15.0
+const GRAVITY = 10.0
 
 var velocity        = Vector2()
 var direction_up    = Vector2(0,1)
@@ -18,12 +18,12 @@ func has_gas(gas_amout):
 
 func _ready():
 	gas_amount  = get_parent().gas_amount
-#		
-#	if get_parent().get_name() == "Main":
-#		get_node("KinematicBody2D/Camera2D").set_limit(0,0)
-#		get_node("KinematicBody2D/Camera2D").set_limit(1,0)
-#		get_node("KinematicBody2D/Camera2D").set_limit(2,0)
-#		get_node("KinematicBody2D/Camera2D").set_limit(3,0)
+		
+	if get_parent().get_name() == "Main":
+		get_node("Camera2D").set_limit(0,0)
+		get_node("Camera2D").set_limit(1,0)
+		get_node("Camera2D").set_limit(2,0)
+		get_node("Camera2D").set_limit(3,0)
 		
 	set_fixed_process(true)
 
