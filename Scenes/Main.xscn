@@ -10,30 +10,6 @@
 	<ext_resource path="res://Fonts/Emulogic.fnt" type="Font"></ext_resource>
 	<ext_resource path="res://Sound/Main Title - ThoughtBot Short.ogg" type="AudioStream"></ext_resource>
 	<resource type="Animation" path="local://1">
-		<string name="resource/name"> "Press_Enter" </string>
-		<real name="length"> 2 </real>
-		<bool name="loop"> True </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "Label:text" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="3"> 				0, 1, 2 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="3"> 				1, 1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="3" shared="false">
-				<string> "PRESS ENTER" </string>
-				<string> "" </string>
-				<string> "PRESS ENTER" </string>
-			</array>
-		</dictionary>
-
-	</resource>
-	<resource type="Animation" path="local://2">
 		<real name="length"> 2 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
@@ -52,6 +28,29 @@
 				<vector2> 5, 20 </vector2>
 				<vector2> 5, 30 </vector2>
 				<vector2> 5, 40 </vector2>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://2">
+		<real name="length"> 2 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "Label:text" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1, 2 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<string> "PRESS ENTER" </string>
+				<string> "" </string>
+				<string> "PRESS ENTER" </string>
 			</array>
 		</dictionary>
 
@@ -110,8 +109,8 @@
 				<string> "playback/process_mode" </string>
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
-				<string> "anims/Press_Enter" </string>
 				<string> "anims/MainTitleEntry" </string>
+				<string> "anims/Press_Enter" </string>
 				<string> "playback/active" </string>
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
@@ -156,7 +155,7 @@
 				<resource  resource_type="Script" path="res://Scripts/Niveles/main.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
