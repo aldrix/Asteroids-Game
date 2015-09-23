@@ -12,7 +12,7 @@
 	<resource type="Animation" path="local://1">
 		<real name="length"> 2 </real>
 		<bool name="loop"> False </bool>
-		<real name="step"> 0.1 </real>
+		<real name="step"> 0.01 </real>
 		<string name="tracks/0/type"> "value" </string>
 		<node_path name="tracks/0/path"> "Title:rect/pos" </node_path>
 		<int name="tracks/0/interp"> 1 </int>
@@ -161,7 +161,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -120.497, -4.55177 </vector2>
+							<vector2> -128.062, -55.886 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -593,9 +593,9 @@
 					</dictionary>
 				</dictionary>
 				<real> 5 </real>
-				<real> 20 </real>
+				<real> 40 </real>
 				<real> 316 </real>
-				<real> 116 </real>
+				<real> 136 </real>
 				<resource  resource_type="Texture" path="res://Sprites/Main/Logo Asteroids.png">  </resource>
 				<node_path> ".." </node_path>
 				<resource  resource_type="Animation" path="local://1">  </resource>

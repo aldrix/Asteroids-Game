@@ -8,10 +8,11 @@ var astro
 var gas_astro
 
 #Variables para los textos a mostrar.
-var index = 0
-#var time = 0
-var canvas
+var index       = 0
+var dialogue_on = false
+var text        = [""]
 var avatar
+var canvas
 var label
 var greenK
 
@@ -19,9 +20,7 @@ var greenK
 var gas_bar
 var initial_gas_amount
 
-
 var press_space
-var bar_pressed = true
 
 func _ready():
 
@@ -30,73 +29,42 @@ func _ready():
 	#Valores para los mensajes en pantalla.
 	canvas = get_node("Control")
 	label  = get_node("Control/Label")
-#	avatar = get_node("Avatar")
+	avatar = get_node("Control/Avatar")
 #	greenK = get_node("GreenKhalum")
 #	press_space = get_node("PressSpace")
 	gas_bar = get_node("GasBar")
 	gas_bar.hide()
 	initial_gas_amount = get_parent().gas_amount
-	set_process(true)
-#	avatar.hide()
+
 	canvas.hide()
 #	press_space.hide()
 #	greenK.hide()
 
-#	set_process_input(true)
-
-
+	set_process(true)
+	set_process_input(true)
 
 func _process(delta):
 	gas_astro = astro.gas_amount
 	update_gas_bar(gas_astro)
 	
+	if dialogue_on:
+		label.set_text(text[index])
+		
+	
 #Muestra un dialogo en pantalla.
 #Dialogue es un arreglo de strings.
 func show_dialogue(dialogue):
-#	change_dialogue(dialogue)
-#	emit_signal("Dialogue_Ended")
 	canvas.show()
-	if bar_pressed:
-		label.set_text(dialogue[index])
-		index += 1
-		if index == dialogue.size():
-			bar_pressed = true
-		else:
-			bar_pressed = false
-#			wait_space(dialogue)
-#	else:
-#		wait_space(dialogue)
+	dialogue_on = true
+	text = dialogue
 	
-func wait_space(dialogue):
-	show_dialogue(dialogue)
-
-func change_dialogue(dialogue):
-	var total = dialogue.size()
-	var index = 0
-	
-	#Mostramos los cuadros.
-	canvas.show()
-#	avatar.show()
-#	press_space.show()
-	while index <= total:
-		print("Hello!")
-		if bar_pressed:
-			if index < total:
-				label.set_text(dialogue[index])
-			bar_pressed = false
-			print(index)
-			index += 1
-	
-	#Colocamos true para el siguiente dialogo
-	bar_pressed = true
-	#Ocultamos los cuadros.
+func hide_dialogue():
 	canvas.hide()
-#	avatar.hide()
-#	press_space.hide()
-#	get_node("Control").hide()
-		
-#func set_avatar(image):
-#	avatar.set_texture(image)
+	text = [""]
+	dialogue_on = false
+
+func set_avatar(image):
+	avatar.set_texture(image)
 
 
 ####### FUNCIONES PARA LA BARRA DE GAS #######
@@ -127,5 +95,9 @@ func update_gas_bar(gas_astro):
 	
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
-	if event.is_action("ui_space") && event.is_pressed() && !event.is_echo():
-		bar_pressed = true
+	print("pretty woman")
+	if event.is_action("ui_accept") && event.is_pressed() && !event.is_echo():
+		print("helo")
+		index += 1
+		if index == text.size():
+			hide_dialogue()
