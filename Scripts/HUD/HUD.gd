@@ -13,13 +13,13 @@ var text        = [""]
 var avatar
 var canvas
 var label
+var press_space  
 var greenK
 
 ####### BARRA DE GAS #######
 var gas_bar
 var initial_gas_amount
 
-var press_space
 
 func _ready():
 
@@ -29,14 +29,14 @@ func _ready():
 	canvas = get_node("Control")
 	label  = get_node("Control/Label")
 	avatar = get_node("Control/Avatar")
+	press_space = get_node("Control/Animation")
 #	greenK = get_node("GreenKhalum")
-#	press_space = get_node("PressSpace")
+
 	gas_bar = get_node("GasBar")
 	gas_bar.hide()
 	initial_gas_amount = get_parent().gas_amount
 
 	canvas.hide()
-#	press_space.hide()
 #	greenK.hide()
 
 	set_process(true)
@@ -54,11 +54,14 @@ func _process(delta):
 #Dialogue es un arreglo de strings.
 func show_dialogue(dialogue):
 	canvas.show()
+	press_space.play("PressSpace")
 	dialogue_on = true
+	index = 0
 	text = dialogue
 	
 func hide_dialogue():
 	canvas.hide()
+	press_space.stop()
 	text = [""]
 	dialogue_on = false
 
@@ -94,9 +97,7 @@ func update_gas_bar(gas_astro):
 	
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
-	print("pretty woman")
 	if event.is_action("ui_accept") && event.is_pressed() && !event.is_echo():
-		print("helo")
 		index += 1
 		if index == text.size():
 			hide_dialogue()

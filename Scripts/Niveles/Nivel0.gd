@@ -6,10 +6,12 @@ var gas_amount  = 1000
 #Dialogos
 var time = 0
 var HUD 
-var avatar_eddie = load("res://Sprites/Nave_Thumbnail.png")
-var DialogoEddie1 = ["[Eddie]: Hello Astro! I'm Eddie. Your ship's Artificial Intelligence.\nI'll be happy to help you with some things. Let's get started!\n",
-			   	     "Your first objective is to get to the ship.\nToo easy for an experienced astronaut like you!\n",
-			         "To move around, use the up, down, left and right keys. Give it a try."]
+var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
+var DialogoEddie1 =    ["[Eddie]: Hello Astro! I'm Eddie. Your ship's Artificial Intelligence.\n",
+						"I'll be happy to help you with some things. Let's get started!\n",
+						"Your first objective is to get to the ship.\n",
+						"Too easy for an experienced astronaut like you!\n",
+						"To move around, use the up, down, left and right keys. Give it a try."]
 			
 #Dececta si el astronauta llega a la nave.
 var win = false
@@ -22,7 +24,7 @@ func _fixed_process(delta):
 
 	time  += delta
 	if time > 1.5 and time < 1.6:
-#		HUD.set_avatar(avatar_eddie)
+		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
 		
 			

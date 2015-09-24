@@ -8,7 +8,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="28">
+			<string_array  len="37">
 				<string> "Nave" </string>
 				<string> "Sprite" </string>
 				<string> "_import_path" </string>
@@ -33,15 +33,24 @@
 				<string> "region" </string>
 				<string> "region_rect" </string>
 				<string> "__meta__" </string>
+				<string> "StaticBody2D" </string>
+				<string> "input/pickable" </string>
+				<string> "shape_count" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
 				<string> "CollisionPolygon2D" </string>
 				<string> "build_mode" </string>
 				<string> "polygon" </string>
 				<string> "trigger" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 2 </int>
+			<int> 3 </int>
 			<string> "nodes" </string>
-			<int_array  len="84"> 				-1, -1, 1, 0, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 1, 14, 4, 15, 9, 16, 9, 17, 3, 18, 3, 19, 7, 20, 10, 21, 9, 22, 11, 23, 12, 0, 0, 0, 24, 24, -1, 13, 2, 0, 3, 9, 4, 2, 5, 2, 6, 3, 7, 13, 8, 5, 9, 6, 10, 7, 11, 1, 25, 7, 26, 14, 27, 9, 0 </int_array>
+			<int_array  len="127"> 				-1, -1, 1, 0, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 1, 14, 4, 15, 9, 16, 9, 17, 3, 18, 3, 19, 7, 20, 10, 21, 9, 22, 11, 23, 12, 0, 0, 0, 24, 24, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 25, 9, 26, 7, 27, 3, 28, 3, 29, 4, 30, 5, 31, 2, 32, 5, 0, 1, 0, 33, 33, -1, 13, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 13, 8, 5, 9, 6, 10, 7, 11, 1, 34, 3, 35, 14, 36, 9, 0 </int_array>
 			<string> "variants" </string>
 			<array  len="15" shared="false">
 				<node_path> "" </node_path>
@@ -64,7 +73,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -122.898, -47.9002 </vector2>
+							<vector2> -106.565, -58.4819 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -84,7 +93,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 3.424785 </real>
+							<real> 5.162317 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -187,8 +196,8 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<vector2> 0.068625, -8.88085 </vector2>
-				<vector2_array  len="20"> 					9.51083, 33.2466, 7.71166, 41.3429, 2.82819, 43.3991, 0.51497, 53.0375, -1.15569, 43.5276, -6.5532, 41.0859, -7.32427, 32.8611, -11.9507, 37.359, -13.6214, 52.7805, -17.8623, 43.6561, -17.3482, 25.1504, -9.89452, 18.2107, -9.73939, -18.3387, 0.348634, -33.1487, 10.0074, -18.5533, 11.053, 18.4677, 18.7637, 25.6644, 18.833, 43.7952, 14.4257, 52.1459, 13.1499, 37.3002 </vector2_array>
+				<vector2> 0, -6.44315 </vector2>
+				<vector2_array  len="18"> 					-9.17361, -19.6258, -9.17361, 14.9895, -17.3904, 23.5559, -17.5652, 42.0873, -13.719, 49.7795, -12.1456, 34.5698, -7.60019, 30.8985, -0.257553, 48.9054, 8.30885, 30.0244, 13.2039, 34.9195, 13.7284, 49.6047, 18.2738, 40.339, 18.4487, 22.1573, 10.5816, 14.1153, 10.7564, -19.8006, 6.21095, -29.7656, 0.752014, -35.2655, -4.78191, -28.9411 </vector2_array>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
