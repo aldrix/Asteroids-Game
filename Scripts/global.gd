@@ -30,4 +30,4 @@ func _deferred_goto_scene(path):
 
     # Agrega la nueva escena al arbol de nodos
     get_tree().get_root().add_child(current_scene)
-    get_tree().set_current_scene( current_scene )
+    get_tree().set_current_scene( current_scene)

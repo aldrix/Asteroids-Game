@@ -51,5 +51,4 @@ func _fixed_process(delta):
 	if (is_colliding()):
 		print(get_collider().get_name())
 		if (get_collider().get_name() == "Nave"):
-			print("Astro llego a la nave! :D");
 			get_parent().set("win",true)

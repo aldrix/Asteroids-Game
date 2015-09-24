@@ -1,35 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="9" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="PackedScene" subresource_count="13" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
 	<ext_resource path="res://Scripts/score.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Sprites/Score/success.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Sprites/Score/star.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font"></ext_resource>
 	<resource type="Animation" path="local://1">
-		<string name="resource/name"> "SuccessIntro" </string>
-		<real name="length"> 1.5 </real>
+		<string name="resource/name"> "Score" </string>
+		<real name="length"> 2 </real>
 		<bool name="loop"> False </bool>
-		<real name="step"> 0.01 </real>
+		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "TextureFrame:rect/pos" </node_path>
+		<node_path name="tracks/0/path"> "LevelScore:visibility/visible" </node_path>
 		<int name="tracks/0/interp"> 1 </int>
 		<dictionary name="tracks/0/keys" shared="false">
 			<string> "cont" </string>
-			<bool> True </bool>
+			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0, 1.5 </real_array>
+			<real_array  len="2"> 				0, 0.5 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
 			<array  len="2" shared="false">
-				<vector2> 11, 0 </vector2>
-				<vector2> 11, 10 </vector2>
+				<bool> False </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+		<string name="tracks/1/type"> "value" </string>
+		<node_path name="tracks/1/path"> "TotalScore:visibility/visible" </node_path>
+		<int name="tracks/1/interp"> 1 </int>
+		<dictionary name="tracks/1/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0.5, 1 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
 			</array>
 		</dictionary>
 
 	</resource>
 	<resource type="Animation" path="local://2">
-		<string name="resource/name"> "3Star" </string>
-		<real name="length"> 3 </real>
+		<string name="resource/name"> "2Star" </string>
+		<real name="length"> 2 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
@@ -55,23 +73,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				1, 1.5 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<int> 0 </int>
-				<int> 1 </int>
-			</array>
-		</dictionary>
-		<string name="tracks/2/type"> "value" </string>
-		<node_path name="tracks/2/path"> "Star3:frame" </node_path>
-		<int name="tracks/2/interp"> 1 </int>
-		<dictionary name="tracks/2/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				2, 2.5 </real_array>
+			<real_array  len="2"> 				0.5, 1 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -106,7 +108,51 @@
 
 	</resource>
 	<resource type="Animation" path="local://4">
-		<string name="resource/name"> "2Star" </string>
+		<real name="length"> 1.5 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.01 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "TextureFrame:rect/pos" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1.5 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<vector2> 11, 0 </vector2>
+				<vector2> 11, 10 </vector2>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://5">
+		<real name="length"> 2 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "PressSpace:visibility/visible" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1, 2 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<bool> False </bool>
+				<bool> True </bool>
+				<bool> True </bool>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://6">
 		<real name="length"> 2 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
@@ -133,6 +179,22 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
+			<real_array  len="2"> 				0.5, 1 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<int> 0 </int>
+				<int> 1 </int>
+			</array>
+		</dictionary>
+		<string name="tracks/2/type"> "value" </string>
+		<node_path name="tracks/2/path"> "Star3:frame" </node_path>
+		<int name="tracks/2/interp"> 1 </int>
+		<dictionary name="tracks/2/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
 			<real_array  len="2"> 				1, 1.5 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
@@ -151,7 +213,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="59">
+			<string_array  len="81">
 				<string> "Score" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
@@ -190,10 +252,12 @@
 				<string> "playback/process_mode" </string>
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
-				<string> "anims/SuccessIntro" </string>
-				<string> "anims/3Star" </string>
-				<string> "anims/1Star" </string>
+				<string> "anims/Score" </string>
 				<string> "anims/2Star" </string>
+				<string> "anims/1Star" </string>
+				<string> "anims/SuccessIntro" </string>
+				<string> "anims/PressSpace" </string>
+				<string> "anims/3Star" </string>
 				<string> "playback/active" </string>
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
@@ -211,13 +275,33 @@
 				<string> "region_rect" </string>
 				<string> "Star1" </string>
 				<string> "Star3" </string>
+				<string> "BackgroundText" </string>
+				<string> "visibility/behind_parent" </string>
+				<string> "LevelScore" </string>
+				<string> "Label" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "range/min" </string>
+				<string> "range/max" </string>
+				<string> "range/step" </string>
+				<string> "range/page" </string>
+				<string> "range/value" </string>
+				<string> "range/exp_edit" </string>
+				<string> "rounded_values" </string>
+				<string> "text" </string>
+				<string> "align" </string>
+				<string> "valign" </string>
+				<string> "autowrap" </string>
+				<string> "uppercase" </string>
+				<string> "percent_visible" </string>
+				<string> "TotalScore" </string>
+				<string> "PressSpace" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 7 </int>
+			<int> 11 </int>
 			<string> "nodes" </string>
-			<int_array  len="269"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 2, 2, 0, 13, 11, 0, 0, 0, 16, 16, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 17, 12, 18, 13, 19, 14, 20, 15, 21, 0, 22, 0, 23, 0, 24, 0, 25, 1, 26, 1, 27, 16, 28, 16, 29, 2, 30, 17, 31, 18, 32, 19, 0, 0, 0, 34, 33, -1, 12, 2, 0, 35, 3, 36, 5, 37, 20, 38, 21, 39, 22, 40, 23, 41, 24, 42, 1, 43, 2, 44, 25, 45, 26, 0, 0, 0, 47, 46, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 27, 8, 5, 9, 28, 10, 7, 11, 1, 30, 29, 48, 1, 49, 4, 50, 19, 51, 19, 52, 3, 53, 16, 54, 7, 31, 18, 55, 19, 56, 30, 0, 0, 0, 47, 57, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 31, 8, 5, 9, 28, 10, 7, 11, 1, 30, 29, 48, 1, 49, 4, 50, 19, 51, 19, 52, 3, 53, 16, 54, 7, 31, 18, 55, 19, 56, 30, 0, 0, 0, 47, 58, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 28, 10, 7, 11, 1, 30, 29, 48, 1, 49, 4, 50, 19, 51, 19, 52, 3, 53, 16, 54, 7, 31, 18, 55, 19, 56, 30, 0 </int_array>
+			<int_array  len="531"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 2, 2, 0, 13, 11, 0, 0, 0, 16, 16, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 17, 12, 18, 13, 19, 14, 20, 15, 21, 0, 22, 0, 23, 0, 24, 0, 25, 1, 26, 1, 27, 16, 28, 16, 29, 2, 30, 17, 31, 18, 32, 19, 0, 0, 0, 34, 33, -1, 14, 2, 0, 35, 3, 36, 5, 37, 20, 38, 21, 39, 22, 40, 23, 41, 24, 42, 25, 43, 26, 44, 1, 45, 2, 46, 27, 47, 28, 0, 0, 0, 49, 48, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 29, 8, 5, 9, 6, 10, 7, 11, 1, 30, 30, 50, 1, 51, 4, 52, 19, 53, 19, 54, 3, 55, 16, 56, 7, 31, 18, 57, 19, 58, 31, 0, 0, 0, 49, 59, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 6, 10, 7, 11, 1, 30, 30, 50, 1, 51, 4, 52, 19, 53, 19, 54, 3, 55, 16, 56, 7, 31, 18, 57, 19, 58, 31, 0, 0, 0, 49, 60, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 33, 8, 5, 9, 6, 10, 7, 11, 1, 30, 30, 50, 1, 51, 4, 52, 19, 53, 19, 54, 3, 55, 16, 56, 7, 31, 18, 57, 19, 58, 31, 0, 0, 0, 16, 61, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 62, 1, 6, 3, 17, 34, 18, 35, 19, 36, 20, 37, 21, 0, 22, 0, 23, 0, 24, 0, 25, 1, 26, 1, 27, 16, 28, 16, 29, 2, 30, 38, 31, 18, 32, 19, 0, 0, 0, 64, 63, -1, 31, 2, 0, 3, 19, 4, 2, 5, 2, 6, 3, 17, 39, 18, 40, 19, 41, 20, 42, 21, 0, 22, 0, 23, 0, 24, 0, 25, 1, 26, 1, 27, 16, 29, 2, 65, 43, 66, 5, 67, 2, 68, 2, 69, 2, 70, 5, 71, 19, 72, 19, 73, 28, 74, 3, 75, 3, 76, 19, 77, 19, 78, 44, 0, 0, 0, 64, 79, -1, 31, 2, 0, 3, 19, 4, 2, 5, 2, 6, 3, 17, 39, 18, 42, 19, 41, 20, 45, 21, 0, 22, 0, 23, 0, 24, 0, 25, 1, 26, 1, 27, 16, 29, 2, 65, 43, 66, 5, 67, 2, 68, 2, 69, 46, 70, 5, 71, 19, 72, 19, 73, 28, 74, 3, 75, 3, 76, 1, 77, 19, 78, 44, 0, 0, 0, 64, 80, -1, 31, 2, 0, 3, 19, 4, 2, 5, 2, 6, 3, 17, 47, 18, 48, 19, 49, 20, 50, 21, 0, 22, 0, 23, 0, 24, 0, 25, 1, 26, 1, 27, 16, 29, 2, 65, 43, 66, 5, 67, 46, 68, 2, 69, 46, 70, 5, 71, 19, 72, 19, 73, 51, 74, 7, 75, 7, 76, 19, 77, 19, 78, 44, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="33" shared="false">
+			<array  len="52" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -235,7 +319,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -152.162, 0.464244 </vector2>
+							<vector2> -345.246, -30.8458 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -255,7 +339,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 1.850618 </real>
+							<real> 1 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -512,15 +596,34 @@
 				<resource  resource_type="Animation" path="local://2">  </resource>
 				<resource  resource_type="Animation" path="local://3">  </resource>
 				<resource  resource_type="Animation" path="local://4">  </resource>
+				<resource  resource_type="Animation" path="local://5">  </resource>
+				<resource  resource_type="Animation" path="local://6">  </resource>
 				<array  len="0" shared="false">
 				</array>
 				<string> "" </string>
 				<vector2> 166.014, 104.127 </vector2>
-				<vector2> 1, 1 </vector2>
 				<resource  resource_type="Texture" path="res://Sprites/Score/star.png">  </resource>
 				<rect2> 0, 0, 0, 0 </rect2>
 				<vector2> 140.926, 110 </vector2>
 				<vector2> 190, 110 </vector2>
+				<real> 47 </real>
+				<real> 126 </real>
+				<real> 277 </real>
+				<real> 166 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Main/Cuadro Dialogo.png">  </resource>
+				<real> 49 </real>
+				<real> 128 </real>
+				<real> 275 </real>
+				<real> 144 </real>
+				<resource  resource_type="Font" path="res://Fonts/Emulogic_TextSize.fnt">  </resource>
+				<real> -1 </real>
+				<real> 160 </real>
+				<real> 2 </real>
+				<real> 120 </real>
+				<real> 164 </real>
+				<real> 208 </real>
+				<real> 190 </real>
+				<string> "Press space&#000a;" </string>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
