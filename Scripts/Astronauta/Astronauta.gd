@@ -49,6 +49,5 @@ func _fixed_process(delta):
 		gas_amount -= delta
 	
 	if (is_colliding()):
-		print(get_collider().get_name())
 		if (get_collider().get_name() == "Nave"):
 			get_parent().set("win",true)
