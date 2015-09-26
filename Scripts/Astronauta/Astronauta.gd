@@ -44,3 +44,5 @@ func _fixed_process(delta):
 	if (is_colliding()):
 		if (get_collider().get_name() == "Nave"):
 			get_parent().set("win",true)
+	if not(has_gas(gas_amount)):
+		get_parent().set("game_over",true)

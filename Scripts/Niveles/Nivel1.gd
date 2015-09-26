@@ -15,8 +15,8 @@ var DialogoEddie1 = ["[Eddie]:Nothing is endless. You have a limited amount of g
 			         "Get to the ship before the gas bar gets empty."]
 
 #Dececta si el astronauta llega a la nave.
-var win = false
-
+var win       = false
+var game_over = false
 
 func _ready():
 	HUD = get_node("HUD")
@@ -32,7 +32,10 @@ func _fixed_process(delta):
 		HUD.show_dialogue(DialogoEddie1)
 	
 	if win:
-		get_node("/root/global").set("next_level","res://Scenes/Nivel2.scn")
+		get_node("/root/global").set("next_level","res://Scenes/Niveles/Nivel2.xscn")
 		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gas_amount*100)
 		get_node("/root/global").set("max_score",3000)
 		get_node("/root/global").goto_scene("res://Scenes/score.scn")
+	if game_over:
+		get_node("/root/global").set("previous_level","res://Scenes/Niveles/Nivel1.xscn")
+		get_node("/root/global").goto_scene("res://Scenes/GameOver.xscn")

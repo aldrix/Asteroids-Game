@@ -17,7 +17,8 @@ var DialogoEddie1 = ["[Eddie]: We're here to collect 'Khalum'.\nKhalum is a stra
 var DialogoEddie2 = ["[Eddie]: Great job Astro! Now collect the rest of the crystals and lets get out of here."]
 
 #Dececta si el astronauta llega a la nave.
-var win = false
+var win       = false
+var game_over = false
 
 #Cantidad de khalum recolectado.
 var greenKhal_collected = 0
@@ -50,10 +51,11 @@ func _process(delta):
 		print("Se recolecto: ",greenKhal_collected," khalums")
 		print("Se obtuvieron ",get_node("Astronauta").gass_amount*100," por el gas sobrante")
 		print("Se obtuvieron ",greenKhal_collected*greenKhal_value," por el khalum recolectado")
-		
-		get_node("/root/global").set("next_level","res://Scenes/main.scn")
+	
+		get_node("/root/global").set("next_level","res://Scenes/Main.scn")
 		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gass_amount*100 + greenKhal_collected*greenKhal_value)
 		get_node("/root/global").set("max_score",3000)
 		get_node("/root/global").goto_scene("res://Scenes/score.scn")
-
-
+	if game_over:
+		get_node("/root/global").set("previous_level","res://Scenes/Niveles/Nivel2.xscn")
+		get_node("/root/global").goto_scene("res://Scenes/GameOver.xscn")
