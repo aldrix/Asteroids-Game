@@ -17,6 +17,7 @@ var DialogoEddie1 =    ["[Eddie]: Hello Astro! I'm Eddie. Your ship's Artificial
 var win = false
 
 func _ready():
+
 	HUD = get_node("HUD")
 	set_fixed_process(true)
 

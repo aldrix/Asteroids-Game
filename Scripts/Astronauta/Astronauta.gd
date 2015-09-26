@@ -18,13 +18,6 @@ func has_gas(gas_amout):
 
 func _ready():
 	gas_amount  = get_parent().gas_amount
-		
-	if get_parent().get_name() == "Main":
-		get_node("Camera2D").set_limit(0,0)
-		get_node("Camera2D").set_limit(1,0)
-		get_node("Camera2D").set_limit(2,0)
-		get_node("Camera2D").set_limit(3,0)
-		
 	set_fixed_process(true)
 
 func _fixed_process(delta):
@@ -49,6 +42,5 @@ func _fixed_process(delta):
 		gas_amount -= delta
 	
 	if (is_colliding()):
-		print(get_collider().get_name())
 		if (get_collider().get_name() == "Nave"):
 			get_parent().set("win",true)
