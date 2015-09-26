@@ -207,7 +207,7 @@
 				<resource  resource_type="Script" path="res://Scripts/Niveles/Nivel0.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
@@ -692,7 +692,7 @@
 					<bool> True </bool>
 				</dictionary>
 				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn">  </resource>
-				<vector2> 261.593, 177.382 </vector2>
+				<vector2> 261.593, 175.88 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -1891,7 +1891,7 @@
 				<vector2> 412.862, 186.763 </vector2>
 				<real> -85.113533 </real>
 				<resource  resource_type="PackedScene" path="res://Scenes/Astronauta.xscn">  </resource>
-				<vector2> 179.952, 98.2848 </vector2>
+				<vector2> 179.952, 101.211 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -2024,7 +2024,7 @@
 					</dictionary>
 				</dictionary>
 				<resource  resource_type="PackedScene" path="res://Scenes/Nave.xscn">  </resource>
-				<vector2> 484.947, 53.3019 </vector2>
+				<vector2> 483.151, 52.7032 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
