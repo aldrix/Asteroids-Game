@@ -1,6 +1,7 @@
 extends Node
 
-var current_scene = null
+var current_scene  = null
+var previous_level = null
 var global_score  = 0
 var level_score   = 0
 var max_score     = 0
@@ -31,3 +32,9 @@ func _deferred_goto_scene(path):
     # Agrega la nueva escena al arbol de nodos
     get_tree().get_root().add_child(current_scene)
     get_tree().set_current_scene( current_scene)
+
+#Carga la escena anterior
+func retry():
+	print(previous_level)
+	call_deferred("_deferred_goto_scene",previous_level)
+	
