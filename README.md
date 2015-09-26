@@ -8,13 +8,19 @@ Are you ready?
 
 ##Features
 
-*Main Title.
-*Astro's movement
-*Gas bar controllers.
-*Fist stage.
-*First Eddie's dialogs.
+*	Main Title.
+*	Astro's movement
+*	Gas bar controllers.
+*	First stages.
+*	Eddie's dialogs.
+*	Score and Game Over Titles.
 
 ##Authors
 
-***Aldrix Marfil**
-***Leonardo Martinez**
+*Aldrix Marfil*
+*Leonardo Martinez*
+
+##Special Thanks To:
+*Jan Marcano*
+*Edward Fernandez*
+*Jesus Requena*
