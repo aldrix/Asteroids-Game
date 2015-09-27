@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="6" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="PackedScene" subresource_count="7" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
 	<ext_resource path="res://Scripts/HUD/HUD.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Scenes/Barras/GasBar.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font"></ext_resource>
 	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Minerals/green_khalum.png" type="Texture"></ext_resource>
 	<resource type="Animation" path="local://1">
 		<string name="resource/name"> "PressSpace" </string>
 		<real name="length"> 2 </real>
@@ -35,7 +36,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="61">
+			<string_array  len="77">
 				<string> "HUD" </string>
 				<string> "CanvasLayer" </string>
 				<string> "_import_path" </string>
@@ -97,13 +98,29 @@
 				<string> "blend_times" </string>
 				<string> "autoplay" </string>
 				<string> "PressSpace" </string>
+				<string> "GreenKhalum" </string>
+				<string> "Sprite" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
+				<string> "centered" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "Collected" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 8 </int>
+			<int> 10 </int>
 			<string> "nodes" </string>
-			<int_array  len="344"> 				-1, -1, 1, 0, -1, 7, 2, 0, 3, 1, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 0, 0, 0, 10, 9, 7, 6, 2, 0, 11, 8, 12, 9, 13, 10, 14, 11, 8, 12, 0, 0, 0, 15, 15, -1, 17, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 12, 14, 13, 15, 14, 16, 20, 0, 21, 0, 22, 0, 23, 0, 24, 17, 25, 13, 26, 18, 27, 18, 28, 14, 0, 2, 0, 29, 29, -1, 31, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 19, 12, 20, 13, 21, 14, 22, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 28, 14, 30, 23, 31, 3, 32, 24, 33, 14, 34, 25, 35, 3, 36, 17, 37, 17, 38, 26, 39, 27, 40, 1, 41, 13, 42, 17, 43, 28, 0, 2, 0, 45, 44, -1, 21, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 29, 12, 30, 13, 31, 14, 32, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 27, 18, 28, 14, 46, 33, 47, 34, 48, 17, 0, 2, 0, 45, 45, -1, 22, 2, 0, 16, 13, 17, 14, 18, 14, 49, 13, 19, 1, 11, 31, 12, 35, 13, 36, 14, 37, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 27, 18, 28, 14, 46, 38, 47, 34, 48, 17, 0, 2, 0, 51, 50, -1, 9, 2, 0, 52, 1, 53, 3, 54, 39, 55, 40, 56, 13, 57, 14, 58, 41, 59, 42, 0, 2, 0, 29, 60, -1, 31, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 43, 12, 44, 13, 45, 14, 46, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 28, 14, 30, 23, 31, 3, 32, 14, 33, 14, 34, 14, 35, 3, 36, 17, 37, 17, 38, 47, 39, 27, 40, 27, 41, 17, 42, 17, 43, 28, 0 </int_array>
+			<int_array  len="464"> 				-1, -1, 1, 0, -1, 7, 2, 0, 3, 1, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 0, 0, 0, 10, 9, 7, 6, 2, 0, 11, 8, 12, 9, 13, 10, 14, 11, 8, 12, 0, 0, 0, 15, 15, -1, 18, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 12, 14, 13, 15, 14, 16, 20, 0, 21, 0, 22, 0, 23, 0, 24, 17, 25, 13, 26, 18, 27, 18, 28, 14, 8, 19, 0, 2, 0, 29, 29, -1, 31, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 20, 12, 21, 13, 22, 14, 23, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 28, 14, 30, 24, 31, 3, 32, 25, 33, 14, 34, 26, 35, 3, 36, 17, 37, 17, 38, 27, 39, 28, 40, 1, 41, 13, 42, 17, 43, 29, 0, 2, 0, 45, 44, -1, 21, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 30, 12, 31, 13, 32, 14, 33, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 27, 18, 28, 14, 46, 34, 47, 35, 48, 17, 0, 2, 0, 45, 45, -1, 22, 2, 0, 16, 13, 17, 14, 18, 14, 49, 13, 19, 1, 11, 32, 12, 36, 13, 37, 14, 38, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 27, 18, 28, 14, 46, 39, 47, 35, 48, 17, 0, 2, 0, 51, 50, -1, 9, 2, 0, 52, 1, 53, 3, 54, 40, 55, 41, 56, 13, 57, 14, 58, 42, 59, 43, 0, 2, 0, 29, 60, -1, 31, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 44, 12, 45, 13, 46, 14, 47, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 28, 14, 30, 24, 31, 3, 32, 14, 33, 14, 34, 14, 35, 3, 36, 17, 37, 17, 38, 48, 39, 28, 40, 28, 41, 17, 42, 17, 43, 29, 0, 0, 0, 62, 61, -1, 21, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 63, 49, 64, 3, 65, 50, 66, 28, 67, 13, 46, 51, 68, 13, 4, 2, 69, 17, 70, 17, 71, 1, 72, 52, 73, 28, 47, 35, 74, 17, 75, 53, 0, 8, 0, 29, 76, -1, 31, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 54, 12, 55, 13, 56, 14, 57, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 28, 14, 30, 24, 31, 3, 32, 14, 33, 14, 34, 14, 35, 3, 36, 17, 37, 17, 38, 58, 39, 28, 40, 1, 41, 17, 42, 17, 43, 29, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="48" shared="false">
+			<array  len="59" shared="false">
 				<node_path> "" </node_path>
 				<int> 1 </int>
 				<vector2> 0, 0 </vector2>
@@ -118,7 +135,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> 16.4129, 103.538 </vector2>
+							<vector2> -102.641, -59.533 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -138,7 +155,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 4.20474 </real>
+							<real> 2.050547 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -392,13 +409,17 @@
 				<real> 41 </real>
 				<bool> False </bool>
 				<int> 2 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 75 </real>
 				<real> 135 </real>
 				<real> 295 </real>
 				<real> 160 </real>
 				<resource  resource_type="Font" path="res://Fonts/Emulogic_TextSize.fnt">  </resource>
 				<real> 2 </real>
-				<real> 5 </real>
+				<real> 3.125 </real>
 				<string> "&#000a;" </string>
 				<int> 0 </int>
 				<real> -1 </real>
@@ -421,6 +442,16 @@
 				<real> 316 </real>
 				<real> 175 </real>
 				<string> "Press Space" </string>
+				<vector2> 98.8105, 10.644 </vector2>
+				<vector2> 1.7, 1.7 </vector2>
+				<resource  resource_type="Texture" path="res://Sprites/Minerals/green_khalum.png">  </resource>
+				<int> 5 </int>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<real> 6 </real>
+				<real> -3 </real>
+				<real> 30 </real>
+				<real> 5 </real>
+				<string> "0" </string>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
