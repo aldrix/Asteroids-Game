@@ -39,6 +39,8 @@ func _ready():
 	animation.queue("Score")
 	animation.queue("PressSpace")
 	
+	#Guardamos la partida actual
+	get_node("/root/global").save_game()
 	set_process(true)
 	
 func _process(delta):

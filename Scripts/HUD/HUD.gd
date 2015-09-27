@@ -97,7 +97,7 @@ func set_collected(collected):
 	
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
-	if event.is_action("ui_accept") && event.is_pressed() && !event.is_echo():
+	if event.is_action("ui_space") && event.is_pressed() && !event.is_echo():
 		index += 1
 		if index == text.size():
 			hide_dialogue()
