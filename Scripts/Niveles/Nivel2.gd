@@ -11,7 +11,7 @@ var time = 0
 var HUD 
 var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
 var DialogoEddie1 = ["[Eddie]: We're here to collect 'Khalum'.\n","Khalum is a strange mineral found only in asteroids.\n",
-                     "From it, we can extract Potassium. Which is needed to make nutritional","suplements for space stations.\n\n",
+                     "From it, we can extract Potassium. Which is needed to make nutritional","supplements for space stations.\n\n",
                      "That green Khalum crystal over there has over 80% of Potassium. Collect it."]
 
 var DialogoEddie2 = ["[Eddie]: Great job Astro! Now collect the rest of the crystals and lets get out of here."]

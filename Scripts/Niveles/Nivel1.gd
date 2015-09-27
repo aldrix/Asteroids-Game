@@ -3,7 +3,7 @@ extends Node2D
 
 
 #Variables para el Gas.
-var gas_amount  = 20
+var gas_amount  = 25
 
 #Variables para los textos a mostrar.
 #Dialogos
@@ -11,8 +11,8 @@ var time = 0
 var HUD 
 var avatar_eddie = load("res://Sprites/Nave_Thumbnail.png")
 var DialogoEddie1 = ["[Eddie]:Nothing is endless. You have a limited amount of gas in every level.\n",
-			         "You can see the gas level in the blue gas bar above. If you ran out of gas,","you're over! :(\n\n",
-			         "Get to the ship before the gas bar gets empty.\n"]
+			         "You can see the gas level in the blue gas bar above. If you ran out of gas,","you're over! :(\n",
+			         "Get to the ship before the gas bar gets empty."]
 
 #Dececta si el astronauta llega a la nave.
 var win       = false
