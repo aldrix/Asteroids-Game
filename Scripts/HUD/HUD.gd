@@ -20,6 +20,13 @@ var greenK
 var gas_bar
 var initial_gas_amount
 
+####### Controles #######
+var control_canvas
+var up_button
+var down_button
+var left_button
+var right_button
+
 
 func _ready():
 
@@ -35,6 +42,15 @@ func _ready():
 	gas_bar = get_node("GasBar")
 	gas_bar.hide()
 	initial_gas_amount = get_parent().gas_amount
+	
+	## Manejo de los controles.
+	control_canvas = get_node("Controls")
+	control_canvas.hide()
+
+	up_button    = get_node("Controls/ControlUp")
+	down_button  = get_node("Controls/ControlDown")
+	left_button  = get_node("Controls/ControlLeft")
+	right_button = get_node("Controls/ControlRight")
 
 	canvas.hide()
 #	greenK.hide()
@@ -55,6 +71,8 @@ func _process(delta):
 func show_dialogue(dialogue):
 	canvas.show()
 	button.show()
+	hide_controls()
+	disable_controls()
 	dialogue_on = true
 	index = 0
 	text = dialogue
@@ -62,13 +80,14 @@ func show_dialogue(dialogue):
 func hide_dialogue():
 	canvas.hide()
 	button.hide()
+	show_controls()
+	enable_controls()
 	text = [""]
 	dialogue_on = false
 
 func set_avatar(image):
 	avatar.set_texture(image)
-
-
+	
 ####### FUNCIONES PARA LA BARRA DE GAS #######
 
 #Muestra u Oculta la barra de Gass.
@@ -94,10 +113,29 @@ func update_gas_bar(gas_astro):
 #Actualizta el visor de Khalum
 #func set_collected(collected):
 #	greenK.get_node("Collected").set_text(str(collected))
+
+#Funciones para el control de los botones
+func show_controls():
+	control_canvas.show()
+
+func hide_controls():
+	control_canvas.hide()
+
+func disable_controls():
+	up_button.set_disabled(true)
+	down_button.set_disabled(true)
+	left_button.set_disabled(true)
+	right_button.set_disabled(true)
 	
+func enable_controls():
+	up_button.set_disabled(false)
+	down_button.set_disabled(false)
+	left_button.set_disabled(false)
+	right_button.set_disabled(false)
+
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
-	if button.is_pressed():
+	if get_node("Control/Button").is_pressed() && !event.is_echo() && event.is_pressed():
 		index += 1
 		if index == text.size():
 			hide_dialogue()

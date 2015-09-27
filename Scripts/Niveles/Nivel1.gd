@@ -3,7 +3,7 @@ extends Node2D
 
 
 #Variables para el Gas.
-var gas_amount  = 25
+var gas_amount  = 10
 
 #Variables para los textos a mostrar.
 #Dialogos
@@ -32,10 +32,10 @@ func _fixed_process(delta):
 		HUD.show_dialogue(DialogoEddie1)
 	
 	if win:
-		get_node("/root/global").set("next_level","res://Scenes/Niveles/Nivel2.xscn")
+		get_node("/root/global").set("next_level","res://Scenes/Main.xscn")
 		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gas_amount*100)
 		get_node("/root/global").set("max_score",3000)
-		get_node("/root/global").goto_scene("res://Scenes/score.scn")
+		get_node("/root/global").goto_scene("res://Scenes/Score.xscn")
 	if game_over:
 		get_node("/root/global").set("previous_level","res://Scenes/Niveles/Nivel1.xscn")
 		get_node("/root/global").goto_scene("res://Scenes/GameOver.xscn")

@@ -37,13 +37,11 @@ func _ready():
 	panel_total.set_text("Total: " + str(new_global))
 	
 	animation.queue("Score")
-	animation.queue("PressSpace")
 	
-	set_process(true)
+	set_process_input(true)
 	
-func _process(delta):
-	pass
-	if (Input.is_action_pressed("ui_accept")):
+func _input(event):
+	if (get_node("Continue").is_pressed()):
 		get_node("/root/global").goto_scene(get_node("/root/global").next_level)	
 	
 func calc_score(level_score, max_score):

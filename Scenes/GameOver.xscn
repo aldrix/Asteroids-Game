@@ -3,48 +3,10 @@
 	<ext_resource path="res://Scripts/Niveles/game_over.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Sprites/GameOver/Logo out of gas.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font"></ext_resource>
 	<ext_resource path="res://Sprites/GameOver/Tanque gas.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Controles/retry_button.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Controles/exit_button.png" type="Texture"></ext_resource>
 	<resource type="Animation" path="local://1">
-		<string name="resource/name"> "text" </string>
-		<real name="length"> 2 </real>
-		<bool name="loop"> True </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "Label:visibility/visible" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				0, 1 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<bool> True </bool>
-				<bool> False </bool>
-			</array>
-		</dictionary>
-		<string name="tracks/1/type"> "value" </string>
-		<node_path name="tracks/1/path"> "TanqueGas:visibility/visible" </node_path>
-		<int name="tracks/1/interp"> 1 </int>
-		<dictionary name="tracks/1/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				0, 1 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<bool> True </bool>
-				<bool> False </bool>
-			</array>
-		</dictionary>
-
-	</resource>
-	<resource type="Animation" path="local://2">
 		<string name="resource/name"> "OutOfGasEnter" </string>
 		<real name="length"> 0.5 </real>
 		<bool name="loop"> False </bool>
@@ -67,31 +29,14 @@
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://3">
-		<string name="resource/name"> "text" </string>
+	<resource type="Animation" path="local://2">
 		<real name="length"> 2 </real>
 		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "Label:visibility/visible" </node_path>
+		<node_path name="tracks/0/path"> "TanqueGas:visibility/visible" </node_path>
 		<int name="tracks/0/interp"> 1 </int>
 		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				0, 1 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<bool> True </bool>
-				<bool> False </bool>
-			</array>
-		</dictionary>
-		<string name="tracks/1/type"> "value" </string>
-		<node_path name="tracks/1/path"> "TanqueGas:visibility/visible" </node_path>
-		<int name="tracks/1/interp"> 1 </int>
-		<dictionary name="tracks/1/keys" shared="false">
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
@@ -113,7 +58,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="62">
+			<string_array  len="55">
 				<string> "GameOver" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
@@ -153,36 +98,29 @@
 				<string> "playback/process_mode" </string>
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
-				<string> "anims/text" </string>
 				<string> "anims/OutOfGasEnter" </string>
-				<string> "anims/text (copy)" </string>
+				<string> "anims/BarraGas" </string>
 				<string> "playback/active" </string>
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
 				<string> "autoplay" </string>
-				<string> "Label" </string>
-				<string> "custom_fonts/font" </string>
-				<string> "range/min" </string>
-				<string> "range/max" </string>
-				<string> "range/step" </string>
-				<string> "range/page" </string>
-				<string> "range/value" </string>
-				<string> "range/exp_edit" </string>
-				<string> "rounded_values" </string>
-				<string> "text" </string>
-				<string> "align" </string>
-				<string> "valign" </string>
-				<string> "autowrap" </string>
-				<string> "uppercase" </string>
-				<string> "percent_visible" </string>
 				<string> "TanqueGas" </string>
+				<string> "Retry" </string>
+				<string> "TouchScreenButton" </string>
+				<string> "normal" </string>
+				<string> "pressed" </string>
+				<string> "bitmask" </string>
+				<string> "passby_press" </string>
+				<string> "action" </string>
+				<string> "visibility_mode" </string>
+				<string> "Exit" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 6 </int>
+			<int> 7 </int>
 			<string> "nodes" </string>
-			<int_array  len="238"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 2, 2, 0, 13, 11, 0, 0, 0, 17, 16, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 18, 12, 19, 13, 20, 14, 21, 15, 22, 0, 23, 0, 24, 0, 25, 0, 26, 1, 27, 1, 28, 16, 29, 16, 30, 2, 31, 17, 32, 18, 33, 19, 0, 0, 0, 35, 34, -1, 11, 2, 0, 36, 3, 37, 5, 38, 20, 39, 21, 40, 22, 41, 23, 42, 1, 43, 2, 44, 24, 45, 25, 0, 0, 0, 46, 46, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 18, 26, 19, 27, 20, 28, 21, 29, 22, 0, 23, 0, 24, 0, 25, 0, 26, 1, 27, 1, 28, 16, 30, 2, 47, 30, 48, 5, 49, 31, 50, 2, 51, 31, 52, 5, 53, 19, 54, 19, 55, 32, 56, 3, 57, 3, 58, 19, 59, 19, 60, 33, 0, 0, 0, 17, 61, -1, 21, 2, 0, 3, 19, 4, 2, 5, 2, 6, 3, 18, 34, 19, 35, 20, 36, 21, 37, 22, 0, 23, 0, 24, 0, 25, 0, 26, 1, 27, 1, 28, 16, 29, 16, 30, 2, 31, 38, 32, 18, 33, 19, 0 </int_array>
+			<int_array  len="245"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 2, 2, 0, 13, 11, 0, 0, 0, 17, 16, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 18, 12, 19, 13, 20, 14, 21, 15, 22, 0, 23, 0, 24, 0, 25, 0, 26, 1, 27, 1, 28, 16, 29, 16, 30, 2, 31, 17, 32, 18, 33, 19, 0, 0, 0, 35, 34, -1, 10, 2, 0, 36, 3, 37, 5, 38, 20, 39, 21, 40, 22, 41, 1, 42, 2, 43, 23, 44, 24, 0, 0, 0, 17, 45, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 18, 25, 19, 26, 20, 27, 21, 28, 22, 0, 23, 0, 24, 0, 25, 0, 26, 1, 27, 1, 28, 16, 29, 16, 30, 2, 31, 29, 32, 18, 33, 19, 0, 0, 0, 47, 46, -1, 16, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 30, 8, 5, 9, 6, 10, 7, 11, 1, 48, 31, 49, 31, 50, 32, 51, 19, 52, 24, 53, 7, 0, 0, 0, 47, 54, -1, 16, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 33, 8, 5, 9, 6, 10, 7, 11, 1, 48, 34, 49, 34, 50, 32, 51, 19, 52, 24, 53, 7, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="39" shared="false">
+			<array  len="35" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -194,13 +132,13 @@
 				<resource  resource_type="Script" path="res://Scripts/Niveles/game_over.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
+					<string> "Script" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -42.8882, 58.2545 </vector2>
+							<vector2> -93.2713, -60.5148 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -220,7 +158,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 2.78951 </real>
+							<real> 1.670183 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -480,23 +418,18 @@
 				<node_path> ".." </node_path>
 				<resource  resource_type="Animation" path="local://1">  </resource>
 				<resource  resource_type="Animation" path="local://2">  </resource>
-				<resource  resource_type="Animation" path="local://3">  </resource>
 				<array  len="0" shared="false">
 				</array>
 				<string> "" </string>
-				<real> 83 </real>
-				<real> 148 </real>
-				<real> 243 </real>
-				<real> 187 </real>
-				<resource  resource_type="Font" path="res://Fonts/Emulogic_TextSize.fnt">  </resource>
-				<real> 3 </real>
-				<string> "Press enter to retry&#000a;&#000a;press esc to exit" </string>
-				<real> -1 </real>
 				<real> 107 </real>
 				<real> 111 </real>
 				<real> 267 </real>
 				<real> 160 </real>
 				<resource  resource_type="Texture" path="res://Sprites/GameOver/Tanque gas.png">  </resource>
+				<vector2> 195, 150 </vector2>
+				<resource  resource_type="Texture" path="res://Sprites/Controles/retry_button.png">  </resource>
+				<resource name=""></resource>				<vector2> 47.899, 150 </vector2>
+				<resource  resource_type="Texture" path="res://Sprites/Controles/exit_button.png">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
