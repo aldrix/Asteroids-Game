@@ -242,7 +242,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -352, -291.109 </vector2>
+							<vector2> 36.9195, -96.6051 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -262,7 +262,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.735091 </real>
+							<real> 1.670181 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -1728,7 +1728,7 @@
 				<vector2> 591.959, 149.699 </vector2>
 				<vector2> 525.77, 139.413 </vector2>
 				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn">  </resource>
-				<vector2> 280.209, 112.563 </vector2>
+				<vector2> 278.306, 108.758 </vector2>
 				<real> -106.451241 </real>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1862,7 +1862,7 @@
 					</dictionary>
 				</dictionary>
 				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn">  </resource>
-				<vector2> 315.535, 114.958 </vector2>
+				<vector2> 320.054, 121.855 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -1995,7 +1995,7 @@
 					</dictionary>
 				</dictionary>
 				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn">  </resource>
-				<vector2> 283.203, 82.027 </vector2>
+				<vector2> 294.998, 89.8742 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>

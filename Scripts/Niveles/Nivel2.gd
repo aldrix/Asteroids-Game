@@ -3,7 +3,7 @@ extends Node2D
 
 
 #Variables para el Gas.
-var gas_amount  = 25
+var gas_amount  = 50
 
 #Variables para los textos a mostrar.
 #Dialogos
