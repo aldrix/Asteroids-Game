@@ -324,13 +324,13 @@
 				<resource  resource_type="Script" path="res://Scripts/Niveles/Nivel2.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
+					<string> "Script" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -277.253, -279.553 </vector2>
+							<vector2> -189.708, -269.831 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -350,7 +350,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.663421 </real>
+							<real> 0.814507 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -898,15 +898,15 @@
 					<bool> True </bool>
 				</dictionary>
 				<resource  resource_type="Shape2D" path="local://2">  </resource>
-				<matrix32> 0.837842, -0, 0, 29.0354, 130.8, 133.565 </matrix32>
+				<matrix32> 0.837842, -0, 0, 29.0354, 125.889, 128.654 </matrix32>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<vector2> 130.8, 133.565 </vector2>
+				<vector2> 125.889, 128.654 </vector2>
 				<vector2> 0.837842, 29.0354 </vector2>
-				<matrix32> 0.933741, -0, 0, 29.0912, 909.087, 134.72 </matrix32>
-				<vector2> 909.087, 134.72 </vector2>
+				<matrix32> 0.933741, -0, 0, 29.0912, 912.77, 129.809 </matrix32>
+				<vector2> 912.77, 129.809 </vector2>
 				<vector2> 0.933741, 29.0912 </vector2>
 				<resource  resource_type="Shape2D" path="local://3">  </resource>
 				<matrix32> 40.2448, -0, 0, 0.866367, 520.183, -153.158 </matrix32>
