@@ -155,13 +155,13 @@
 				<resource  resource_type="Script" path="res://Scripts/Niveles/main.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -165.715, -72.1731 </vector2>
+							<vector2> -55.9422, -349.137 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -181,7 +181,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 1.670183 </real>
+							<real> 0.9025 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -280,12 +280,10 @@
 							<string> "current" </string>
 							<int> 1 </int>
 							<string> "sources" </string>
-							<array  len="6" shared="false">
+							<array  len="4" shared="false">
 								<string> "res://Scripts/Astronauta/Astronauta.gd" </string>
 								<string> "res://Scripts/Niveles/main.gd" </string>
 								<string> "res://Scripts/global.gd" </string>
-								<string> "res://Scripts/window_seetings.gd" </string>
-								<string> "res://Scripts/window_settings.gd" </string>
 								<string> "res://Scripts/HUD/HUD.gd" </string>
 							</array>
 						</dictionary>
@@ -438,15 +436,15 @@
 				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta con anillo 1.png">  </resource>
 				<color> 1, 1, 1, 1 </color>
 				<bool> False </bool>
-				<real> -39 </real>
-				<real> 158 </real>
-				<real> 117 </real>
-				<real> 209 </real>
+				<real> -38 </real>
+				<real> 156 </real>
+				<real> 118 </real>
+				<real> 207 </real>
 				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 1.png">  </resource>
 				<real> 119 </real>
-				<real> 159 </real>
+				<real> 158 </real>
 				<real> 275 </real>
-				<real> 210 </real>
+				<real> 209 </real>
 				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png">  </resource>
 				<resource  resource_type="PackedScene" path="res://Scenes/Astronauta.xscn">  </resource>
 				<vector2> 218.846, 27.5583 </vector2>

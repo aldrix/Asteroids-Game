@@ -91,7 +91,7 @@ func update_gas_bar(gas_astro):
 #	else:
 #		greenK.hide()
 #		
-#Actualizta el visor de Khalum
+#Actualiza el visor de Khalum
 #func set_collected(collected):
 #	greenK.get_node("Collected").set_text(str(collected))
 	
