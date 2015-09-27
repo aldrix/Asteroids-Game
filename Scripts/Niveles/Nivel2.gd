@@ -8,6 +8,7 @@ var gas_amount  = 20
 #Variables para los textos a mostrar.
 #Dialogos
 var time = 0
+var repeat = true
 var HUD 
 var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
 var DialogoEddie1 = ["[Eddie]: We're here to collect 'Khalum'.\n","Khalum is a strange mineral found only in asteroids.\n",
@@ -42,9 +43,10 @@ func _process(delta):
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
 	
-	if greenKhal_collected == 1:
+	if greenKhal_collected == 1 && repeat:
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie2)
+		repeat = false
 		
 	if win:
 		print("Se recolecto: ",greenKhal_collected," khalums")
