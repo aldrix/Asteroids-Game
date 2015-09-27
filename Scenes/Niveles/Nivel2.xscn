@@ -447,12 +447,13 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 0 </int>
+							<int> 3 </int>
 							<string> "sources" </string>
-							<array  len="3" shared="false">
+							<array  len="4" shared="false">
 								<string> "res://Scripts/Niveles/Nivel2.gd" </string>
 								<string> "res://Scripts/Camera/Camera.gd" </string>
 								<string> "res://Scripts/HUD/HUD.gd" </string>
+								<string> "res://Scripts/global.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
