@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="35" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="PackedScene" subresource_count="49" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
 	<ext_resource path="res://Scripts/Niveles/Nivel2.gd" type="Script"></ext_resource>
 	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene"></ext_resource>
@@ -19,7 +19,14 @@
 	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 2.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 4.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 1.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 1.png" type="Texture"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn" type="PackedScene"></ext_resource>
@@ -31,6 +38,13 @@
 	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn" type="PackedScene"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron1.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron3.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn" type="PackedScene"></ext_resource>
+	<ext_resource path="res://Scenes/Khalum/GreenKhalum.xscn" type="PackedScene"></ext_resource>
 	<resource type="Animation" path="local://1">
 		<string name="resource/name"> "Camera Movement" </string>
 		<real name="length"> 2 </real>
@@ -71,7 +85,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="176">
+			<string_array  len="220">
 				<string> "Nivel2" </string>
 				<string> "Node2D" </string>
 				<string> "_import_path" </string>
@@ -201,7 +215,20 @@
 				<string> "Asteroide21" </string>
 				<string> "Asteroide22" </string>
 				<string> "Asteroide23" </string>
-				<string> "TextureFrame 3" </string>
+				<string> "Asteroide24" </string>
+				<string> "Asteroide25" </string>
+				<string> "Asteroide26" </string>
+				<string> "Asteroide27" </string>
+				<string> "Asteroide28" </string>
+				<string> "Asteroide29" </string>
+				<string> "Asteroide30" </string>
+				<string> "Asteroide31" </string>
+				<string> "Asteroide32" </string>
+				<string> "Asteroide33" </string>
+				<string> "Asteroide34" </string>
+				<string> "Asteroide35" </string>
+				<string> "Asteroide36" </string>
+				<string> "Asteroide37" </string>
 				<string> "Asteroides" </string>
 				<string> "AsteroideGris1" </string>
 				<string> "AsteroideGris2" </string>
@@ -247,14 +274,45 @@
 				<string> "MiniAsteroideGris38" </string>
 				<string> "MiniAsteroideGris39" </string>
 				<string> "AsteroideMarron1" </string>
+				<string> "MiniAsteroideMarron1" </string>
+				<string> "MiniAsteroideMarron2" </string>
+				<string> "MiniAsteroideMarron3" </string>
+				<string> "MiniAsteroideMarron4" </string>
+				<string> "MiniAsteroideMarron5" </string>
+				<string> "MiniAsteroideMarron6" </string>
+				<string> "MiniAsteroideMarron7" </string>
 				<string> "AsteroideMarron2" </string>
+				<string> "MiniAsteroideMarron8" </string>
+				<string> "MiniAsteroideMarron9" </string>
+				<string> "MiniAsteroideMarron10 " </string>
+				<string> "MiniAsteroideMarron11 " </string>
+				<string> "MiniAsteroideMarron12" </string>
+				<string> "MiniAsteroideMarron13" </string>
+				<string> "MiniAsteroideMarron14" </string>
+				<string> "MiniAsteroideMarron15" </string>
+				<string> "MiniAsteroideMarron16" </string>
+				<string> "MiniAsteroideMarron17" </string>
+				<string> "MiniAsteroideMarron18" </string>
+				<string> "MiniAsteroideMarron19" </string>
+				<string> "KhalumVerde" </string>
+				<string> "GreenKhalum" </string>
+				<string> "GreenKhalum1" </string>
+				<string> "GreenKhalum2" </string>
+				<string> "GreenKhalum3" </string>
+				<string> "GreenKhalum4" </string>
+				<string> "GreenKhalum5" </string>
+				<string> "GreenKhalum6" </string>
+				<string> "GreenKhalum7" </string>
+				<string> "GreenKhalum8" </string>
+				<string> "GreenKhalum9" </string>
+				<string> "GreenKhalum10" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 88 </int>
+			<int> 132 </int>
 			<string> "nodes" </string>
-			<int_array  len="2428"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 3, 2, 0, 7, 11, 13, 12, 0, 0, 0, 1, 16, 13, 3, 2, 0, 7, 14, 13, 15, 0, 0, 0, 18, 17, 16, 2, 2, 0, 13, 17, 0, 0, 0, 19, 19, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 18, 8, 5, 9, 6, 10, 7, 11, 1, 20, 1, 21, 19, 22, 1, 23, 5, 24, 6, 25, 20, 26, 20, 27, 21, 28, 21, 29, 1, 30, 1, 31, 22, 32, 22, 33, 22, 34, 22, 12, 23, 0, 0, 0, 36, 35, -1, 9, 2, 0, 37, 3, 38, 5, 39, 24, 40, 25, 41, 1, 42, 2, 43, 26, 44, 27, 0, 0, 0, 1, 45, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 13, 28, 0, 6, 0, 47, 46, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 29, 51, 30, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 13, 31, 0, 7, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 33, 10, 7, 11, 1, 60, 29, 61, 19, 0, 6, 0, 47, 62, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 29, 51, 34, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 13, 31, 0, 9, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 35, 8, 5, 9, 36, 10, 7, 11, 1, 60, 29, 61, 19, 0, 6, 0, 47, 63, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 37, 51, 38, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 0, 11, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 39, 8, 5, 9, 40, 10, 7, 11, 1, 60, 37, 61, 19, 0, 0, 0, 65, 64, 41, 2, 2, 0, 13, 42, 0, 0, 0, 65, 66, -1, 10, 2, 0, 67, 43, 68, 4, 69, 5, 70, 6, 71, 4, 72, 4, 73, 6, 74, 4, 75, 4, 0, 14, 0, 76, 76, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 77, 6, 78, 4, 0, 15, 0, 80, 79, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 44, 82, 45, 83, 46, 84, 47, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 49, 95, 50, 96, 19, 0, 15, 0, 98, 97, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 51, 8, 52, 9, 6, 10, 7, 11, 1, 94, 53, 20, 1, 68, 4, 99, 19, 100, 19, 101, 3, 102, 3, 103, 7, 95, 50, 104, 19, 105, 54, 0, 15, 0, 80, 106, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 55, 82, 56, 83, 57, 84, 58, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 59, 95, 50, 96, 19, 0, 15, 0, 80, 107, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 60, 82, 61, 83, 62, 84, 63, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 64, 95, 50, 96, 19, 0, 15, 0, 80, 108, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 65, 82, 66, 83, 67, 84, 68, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 69, 95, 50, 96, 19, 0, 15, 0, 80, 109, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 70, 82, 71, 83, 72, 84, 73, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 74, 95, 50, 96, 19, 0, 15, 0, 80, 110, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 75, 82, 76, 83, 77, 84, 78, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 79, 95, 50, 96, 19, 0, 15, 0, 80, 111, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 80, 82, 81, 83, 82, 84, 83, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 84, 95, 50, 96, 19, 0, 15, 0, 80, 112, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 85, 82, 76, 83, 86, 84, 78, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 87, 95, 50, 96, 19, 0, 15, 0, 80, 113, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 88, 82, 89, 83, 90, 84, 91, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 92, 95, 50, 96, 19, 0, 15, 0, 80, 114, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 93, 82, 94, 83, 95, 84, 66, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 92, 95, 50, 96, 19, 0, 15, 0, 80, 115, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 96, 82, 97, 83, 98, 84, 99, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 100, 95, 50, 96, 19, 0, 15, 0, 80, 116, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 101, 82, 102, 83, 103, 84, 58, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 69, 95, 50, 96, 19, 0, 15, 0, 80, 117, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 104, 82, 105, 83, 106, 84, 107, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 74, 95, 50, 96, 19, 0, 15, 0, 80, 118, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 108, 82, 109, 83, 110, 84, 111, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 74, 95, 50, 96, 19, 0, 15, 0, 80, 119, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 112, 82, 66, 83, 113, 84, 68, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 64, 95, 50, 96, 19, 0, 15, 0, 80, 120, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 114, 82, 115, 83, 116, 84, 117, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 74, 95, 50, 96, 19, 0, 15, 0, 80, 121, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 118, 82, 119, 83, 120, 84, 102, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 79, 95, 50, 96, 19, 0, 15, 0, 80, 122, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 121, 82, 122, 83, 123, 84, 124, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 74, 95, 50, 96, 19, 0, 15, 0, 80, 123, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 125, 82, 89, 83, 126, 84, 91, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 84, 95, 50, 96, 19, 0, 15, 0, 80, 124, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 127, 82, 128, 83, 129, 84, 130, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 131, 95, 50, 96, 19, 0, 15, 0, 80, 125, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 132, 82, 133, 83, 134, 84, 135, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 87, 95, 50, 96, 19, 0, 15, 0, 80, 126, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 136, 82, 137, 83, 138, 84, 139, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 92, 95, 50, 96, 19, 0, 15, 0, 80, 127, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 140, 82, 141, 83, 142, 84, 109, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 92, 95, 50, 96, 19, 0, 15, 0, 80, 128, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 143, 82, 144, 83, 145, 84, 146, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 147, 95, 50, 96, 19, 0, 15, 0, 80, 129, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 148, 82, 149, 83, 150, 84, 151, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 48, 92, 48, 93, 2, 94, 152, 95, 50, 96, 19, 0, 0, 0, 1, 130, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 0, 42, 0, 1, 131, 153, 3, 2, 0, 7, 154, 13, 155, 0, 42, 0, 1, 132, 156, 3, 2, 0, 7, 157, 13, 158, 0, 42, 0, 1, 133, 153, 3, 2, 0, 7, 159, 13, 155, 0, 42, 0, 1, 134, 160, 3, 2, 0, 7, 161, 13, 162, 0, 42, 0, 1, 135, 163, 4, 2, 0, 7, 164, 8, 165, 13, 166, 0, 42, 0, 1, 136, 167, 4, 2, 0, 7, 168, 8, 169, 13, 170, 0, 42, 0, 1, 137, 171, 4, 2, 0, 7, 172, 8, 173, 13, 174, 0, 42, 0, 1, 138, 167, 4, 2, 0, 7, 175, 8, 169, 13, 170, 0, 42, 0, 1, 139, 167, 4, 2, 0, 7, 176, 8, 177, 13, 170, 0, 42, 0, 1, 140, 171, 3, 2, 0, 7, 178, 13, 174, 0, 42, 0, 1, 141, 167, 4, 2, 0, 7, 179, 8, 180, 13, 170, 0, 42, 0, 1, 142, 181, 4, 2, 0, 7, 182, 8, 183, 13, 184, 0, 42, 0, 1, 143, 163, 4, 2, 0, 7, 185, 8, 186, 13, 166, 0, 42, 0, 1, 144, 163, 4, 2, 0, 7, 187, 8, 188, 13, 166, 0, 42, 0, 1, 145, 163, 3, 2, 0, 7, 189, 13, 166, 0, 42, 0, 1, 146, 163, 4, 2, 0, 7, 190, 8, 186, 13, 166, 0, 42, 0, 1, 147, 167, 4, 2, 0, 7, 191, 8, 177, 13, 170, 0, 42, 0, 1, 148, 163, 3, 2, 0, 7, 192, 13, 166, 0, 42, 0, 1, 149, 193, 4, 2, 0, 7, 194, 8, 195, 13, 196, 0, 42, 0, 1, 150, 163, 3, 2, 0, 7, 197, 13, 166, 0, 42, 0, 1, 151, 167, 4, 2, 0, 7, 198, 8, 177, 13, 170, 0, 42, 0, 1, 152, 163, 3, 2, 0, 7, 199, 13, 166, 0, 42, 0, 1, 153, 200, 3, 2, 0, 7, 201, 13, 202, 0, 42, 0, 1, 154, 163, 3, 2, 0, 7, 203, 13, 166, 0, 42, 0, 1, 155, 167, 4, 2, 0, 7, 204, 8, 180, 13, 170, 0, 42, 0, 1, 156, 181, 4, 2, 0, 7, 205, 8, 206, 13, 184, 0, 42, 0, 1, 157, 163, 3, 2, 0, 7, 207, 13, 166, 0, 42, 0, 1, 158, 171, 3, 2, 0, 7, 208, 13, 174, 0, 42, 0, 1, 159, 167, 4, 2, 0, 7, 209, 8, 180, 13, 170, 0, 42, 0, 1, 160, 163, 4, 2, 0, 7, 210, 8, 211, 13, 166, 0, 42, 0, 1, 161, 163, 4, 2, 0, 7, 212, 8, 213, 13, 166, 0, 42, 0, 1, 162, 167, 4, 2, 0, 7, 214, 8, 180, 13, 170, 0, 42, 0, 1, 163, 163, 3, 2, 0, 7, 215, 13, 166, 0, 42, 0, 1, 164, 167, 4, 2, 0, 7, 216, 8, 180, 13, 170, 0, 42, 0, 1, 165, 217, 3, 2, 0, 7, 218, 13, 219, 0, 42, 0, 1, 166, 181, 4, 2, 0, 7, 220, 8, 221, 13, 184, 0, 42, 0, 1, 167, 171, 4, 2, 0, 7, 222, 8, 223, 13, 174, 0, 42, 0, 1, 168, 167, 4, 2, 0, 7, 224, 8, 177, 13, 170, 0, 42, 0, 1, 169, 163, 3, 2, 0, 7, 225, 13, 166, 0, 42, 0, 1, 170, 181, 3, 2, 0, 7, 226, 13, 184, 0, 42, 0, 1, 171, 167, 3, 2, 0, 7, 227, 13, 170, 0, 42, 0, 1, 172, 163, 3, 2, 0, 7, 228, 13, 166, 0, 42, 0, 1, 173, 167, 4, 2, 0, 7, 229, 8, 177, 13, 170, 0, 42, 0, 1, 174, 230, 3, 2, 0, 7, 231, 13, 232, 0, 42, 0, 1, 175, 230, 3, 2, 0, 7, 233, 13, 232, 0 </int_array>
+			<int_array  len="3496"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 3, 2, 0, 7, 11, 13, 12, 0, 0, 0, 1, 16, 13, 3, 2, 0, 7, 14, 13, 15, 0, 0, 0, 18, 17, 16, 2, 2, 0, 13, 17, 0, 0, 0, 19, 19, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 18, 8, 5, 9, 6, 10, 7, 11, 1, 20, 1, 21, 19, 22, 1, 23, 5, 24, 6, 25, 20, 26, 20, 27, 21, 28, 21, 29, 1, 30, 1, 31, 22, 32, 22, 33, 22, 34, 22, 12, 23, 0, 0, 0, 36, 35, -1, 9, 2, 0, 37, 3, 38, 5, 39, 24, 40, 25, 41, 1, 42, 2, 43, 26, 44, 27, 0, 0, 0, 1, 45, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 13, 28, 0, 6, 0, 47, 46, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 29, 51, 30, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 13, 31, 0, 7, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 33, 10, 7, 11, 1, 60, 29, 61, 19, 0, 6, 0, 47, 62, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 29, 51, 34, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 13, 31, 0, 9, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 35, 8, 5, 9, 36, 10, 7, 11, 1, 60, 29, 61, 19, 0, 6, 0, 47, 63, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 37, 51, 38, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 0, 11, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 39, 8, 5, 9, 40, 10, 7, 11, 1, 60, 37, 61, 19, 0, 0, 0, 65, 64, 41, 2, 2, 0, 13, 42, 0, 0, 0, 65, 66, -1, 11, 2, 0, 67, 43, 68, 4, 69, 5, 70, 6, 71, 4, 72, 4, 73, 6, 74, 4, 75, 4, 13, 44, 0, 14, 0, 76, 76, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 77, 6, 78, 4, 0, 15, 0, 80, 79, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 45, 82, 46, 83, 47, 84, 48, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 50, 95, 51, 96, 19, 0, 15, 0, 98, 97, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 52, 8, 53, 9, 6, 10, 7, 11, 1, 94, 54, 20, 1, 68, 4, 99, 19, 100, 19, 101, 3, 102, 3, 103, 7, 95, 51, 104, 19, 105, 55, 0, 15, 0, 80, 106, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 56, 82, 57, 83, 58, 84, 59, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 60, 95, 51, 96, 19, 0, 15, 0, 80, 107, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 61, 82, 62, 83, 63, 84, 64, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 65, 95, 51, 96, 19, 0, 15, 0, 80, 108, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 66, 82, 67, 83, 68, 84, 69, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 70, 95, 51, 96, 19, 0, 15, 0, 80, 109, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 71, 82, 72, 83, 73, 84, 74, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 110, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 76, 82, 77, 83, 78, 84, 79, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 80, 95, 51, 96, 19, 0, 15, 0, 80, 111, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 81, 82, 82, 83, 83, 84, 84, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 85, 95, 51, 96, 19, 0, 15, 0, 80, 112, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 86, 82, 77, 83, 87, 84, 79, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 88, 95, 51, 96, 19, 0, 15, 0, 80, 113, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 89, 82, 90, 83, 91, 84, 92, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 114, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 94, 82, 95, 83, 96, 84, 67, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 115, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 97, 82, 98, 83, 99, 84, 100, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 101, 95, 51, 96, 19, 0, 15, 0, 80, 116, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 102, 82, 103, 83, 104, 84, 59, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 70, 95, 51, 96, 19, 0, 15, 0, 80, 117, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 105, 82, 106, 83, 107, 84, 108, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 118, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 109, 82, 110, 83, 111, 84, 112, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 119, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 113, 82, 67, 83, 114, 84, 69, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 65, 95, 51, 96, 19, 0, 15, 0, 80, 120, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 115, 82, 116, 83, 117, 84, 118, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 121, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 119, 82, 120, 83, 121, 84, 103, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 80, 95, 51, 96, 19, 0, 15, 0, 80, 122, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 122, 82, 123, 83, 124, 84, 125, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 123, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 126, 82, 90, 83, 127, 84, 92, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 85, 95, 51, 96, 19, 0, 15, 0, 80, 124, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 128, 82, 129, 83, 130, 84, 131, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 132, 95, 51, 96, 19, 0, 15, 0, 80, 125, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 133, 82, 134, 83, 135, 84, 136, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 88, 95, 51, 96, 19, 0, 15, 0, 80, 126, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 137, 82, 138, 83, 139, 84, 140, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 127, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 141, 82, 142, 83, 143, 84, 110, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 128, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 144, 82, 145, 83, 146, 84, 147, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 148, 95, 51, 96, 19, 0, 15, 0, 80, 129, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 149, 82, 150, 83, 151, 84, 152, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 153, 95, 51, 96, 19, 0, 15, 0, 80, 130, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 154, 82, 155, 83, 156, 84, 157, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 158, 95, 51, 96, 19, 0, 15, 0, 80, 131, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 152, 82, 159, 83, 160, 84, 161, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 162, 95, 51, 96, 19, 0, 15, 0, 80, 132, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 157, 82, 163, 83, 164, 84, 165, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 166, 95, 51, 96, 19, 0, 15, 0, 80, 133, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 167, 82, 159, 83, 168, 84, 161, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 169, 95, 51, 96, 19, 0, 15, 0, 80, 134, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 147, 82, 170, 83, 171, 84, 76, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 172, 95, 51, 96, 19, 0, 15, 0, 80, 135, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 147, 82, 100, 83, 171, 84, 173, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 166, 95, 51, 96, 19, 0, 15, 0, 80, 136, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 174, 82, 175, 83, 176, 84, 177, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 178, 95, 51, 96, 19, 0, 15, 0, 80, 137, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 179, 82, 180, 83, 181, 84, 182, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 183, 95, 51, 96, 19, 0, 15, 0, 80, 138, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 184, 82, 185, 83, 186, 84, 187, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 153, 95, 51, 96, 19, 0, 15, 0, 80, 139, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 188, 82, 189, 83, 190, 84, 191, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 158, 95, 51, 96, 19, 0, 15, 0, 80, 140, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 192, 82, 193, 83, 194, 84, 175, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 162, 95, 51, 96, 19, 0, 15, 0, 80, 141, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 195, 82, 189, 83, 196, 84, 191, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 166, 95, 51, 96, 19, 0, 15, 0, 80, 142, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 197, 82, 198, 83, 199, 84, 200, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 162, 95, 51, 96, 19, 0, 0, 0, 1, 143, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 13, 201, 0, 55, 0, 1, 144, 202, 3, 2, 0, 7, 203, 13, 204, 0, 55, 0, 1, 145, 205, 3, 2, 0, 7, 206, 13, 207, 0, 55, 0, 1, 146, 202, 3, 2, 0, 7, 208, 13, 204, 0, 55, 0, 1, 147, 209, 3, 2, 0, 7, 210, 13, 211, 0, 55, 0, 1, 148, 212, 4, 2, 0, 7, 213, 8, 214, 13, 215, 0, 55, 0, 1, 149, 216, 4, 2, 0, 7, 217, 8, 218, 13, 219, 0, 55, 0, 1, 150, 220, 4, 2, 0, 7, 221, 8, 222, 13, 223, 0, 55, 0, 1, 151, 216, 4, 2, 0, 7, 224, 8, 218, 13, 219, 0, 55, 0, 1, 152, 216, 4, 2, 0, 7, 225, 8, 226, 13, 219, 0, 55, 0, 1, 153, 220, 3, 2, 0, 7, 227, 13, 223, 0, 55, 0, 1, 154, 216, 4, 2, 0, 7, 228, 8, 229, 13, 219, 0, 55, 0, 1, 155, 230, 4, 2, 0, 7, 231, 8, 232, 13, 233, 0, 55, 0, 1, 156, 212, 4, 2, 0, 7, 234, 8, 235, 13, 215, 0, 55, 0, 1, 157, 212, 4, 2, 0, 7, 236, 8, 237, 13, 215, 0, 55, 0, 1, 158, 212, 3, 2, 0, 7, 238, 13, 215, 0, 55, 0, 1, 159, 212, 4, 2, 0, 7, 239, 8, 235, 13, 215, 0, 55, 0, 1, 160, 216, 4, 2, 0, 7, 240, 8, 226, 13, 219, 0, 55, 0, 1, 161, 212, 3, 2, 0, 7, 241, 13, 215, 0, 55, 0, 1, 162, 242, 4, 2, 0, 7, 243, 8, 244, 13, 245, 0, 55, 0, 1, 163, 212, 3, 2, 0, 7, 246, 13, 215, 0, 55, 0, 1, 164, 216, 4, 2, 0, 7, 247, 8, 226, 13, 219, 0, 55, 0, 1, 165, 212, 3, 2, 0, 7, 248, 13, 215, 0, 55, 0, 1, 166, 249, 3, 2, 0, 7, 250, 13, 251, 0, 55, 0, 1, 167, 212, 3, 2, 0, 7, 252, 13, 215, 0, 55, 0, 1, 168, 216, 4, 2, 0, 7, 253, 8, 229, 13, 219, 0, 55, 0, 1, 169, 230, 4, 2, 0, 7, 254, 8, 255, 13, 233, 0, 55, 0, 1, 170, 212, 3, 2, 0, 7, 256, 13, 215, 0, 55, 0, 1, 171, 220, 3, 2, 0, 7, 257, 13, 223, 0, 55, 0, 1, 172, 216, 4, 2, 0, 7, 258, 8, 229, 13, 219, 0, 55, 0, 1, 173, 212, 4, 2, 0, 7, 259, 8, 260, 13, 215, 0, 55, 0, 1, 174, 212, 4, 2, 0, 7, 261, 8, 262, 13, 215, 0, 55, 0, 1, 175, 216, 4, 2, 0, 7, 263, 8, 229, 13, 219, 0, 55, 0, 1, 176, 212, 3, 2, 0, 7, 264, 13, 215, 0, 55, 0, 1, 177, 216, 4, 2, 0, 7, 265, 8, 229, 13, 219, 0, 55, 0, 1, 178, 266, 3, 2, 0, 7, 267, 13, 268, 0, 55, 0, 1, 179, 230, 4, 2, 0, 7, 269, 8, 270, 13, 233, 0, 55, 0, 1, 180, 220, 4, 2, 0, 7, 271, 8, 272, 13, 223, 0, 55, 0, 1, 181, 216, 4, 2, 0, 7, 273, 8, 226, 13, 219, 0, 55, 0, 1, 182, 212, 3, 2, 0, 7, 274, 13, 215, 0, 55, 0, 1, 183, 230, 3, 2, 0, 7, 275, 13, 233, 0, 55, 0, 1, 184, 216, 3, 2, 0, 7, 276, 13, 219, 0, 55, 0, 1, 185, 212, 3, 2, 0, 7, 277, 13, 215, 0, 55, 0, 1, 186, 216, 4, 2, 0, 7, 278, 8, 226, 13, 219, 0, 55, 0, 1, 187, 279, 3, 2, 0, 7, 280, 13, 281, 0, 55, 0, 1, 188, 282, 3, 2, 0, 7, 283, 13, 284, 0, 55, 0, 1, 189, 285, 3, 2, 0, 7, 286, 13, 287, 0, 55, 0, 1, 190, 288, 3, 2, 0, 7, 289, 13, 290, 0, 55, 0, 1, 191, 291, 3, 2, 0, 7, 292, 13, 293, 0, 55, 0, 1, 192, 294, 3, 2, 0, 7, 295, 13, 296, 0, 55, 0, 1, 193, 297, 3, 2, 0, 7, 298, 13, 299, 0, 55, 0, 1, 194, 294, 4, 2, 0, 7, 300, 8, 301, 13, 296, 0, 55, 0, 1, 195, 279, 3, 2, 0, 7, 302, 13, 281, 0, 55, 0, 1, 196, 282, 3, 2, 0, 7, 303, 13, 284, 0, 55, 0, 1, 197, 291, 3, 2, 0, 7, 304, 13, 293, 0, 55, 0, 1, 198, 288, 4, 2, 0, 7, 305, 8, 306, 13, 290, 0, 55, 0, 1, 199, 297, 3, 2, 0, 7, 307, 13, 299, 0, 55, 0, 1, 200, 288, 4, 2, 0, 7, 308, 8, 309, 13, 290, 0, 55, 0, 1, 201, 285, 4, 2, 0, 7, 310, 8, 311, 13, 287, 0, 55, 0, 1, 202, 291, 3, 2, 0, 7, 312, 13, 293, 0, 55, 0, 1, 203, 294, 4, 2, 0, 7, 313, 8, 314, 13, 296, 0, 55, 0, 1, 204, 297, 3, 2, 0, 7, 315, 13, 299, 0, 55, 0, 1, 205, 294, 3, 2, 0, 7, 316, 13, 296, 0, 55, 0, 1, 206, 297, 3, 2, 0, 7, 317, 13, 299, 0, 55, 0, 1, 207, 297, 3, 2, 0, 7, 318, 13, 299, 0, 0, 0, 1, 208, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 0, 120, 0, 98, 209, 319, 3, 2, 0, 7, 320, 13, 321, 0, 120, 0, 98, 210, 319, 3, 2, 0, 7, 322, 13, 321, 0, 120, 0, 98, 211, 319, 3, 2, 0, 7, 323, 13, 321, 0, 120, 0, 98, 212, 319, 3, 2, 0, 7, 324, 13, 321, 0, 120, 0, 98, 213, 319, 3, 2, 0, 7, 325, 13, 321, 0, 120, 0, 98, 214, 319, 3, 2, 0, 7, 326, 13, 321, 0, 120, 0, 98, 215, 319, 3, 2, 0, 7, 327, 13, 321, 0, 120, 0, 98, 216, 319, 3, 2, 0, 7, 328, 13, 321, 0, 120, 0, 98, 217, 319, 3, 2, 0, 7, 329, 13, 321, 0, 120, 0, 98, 218, 319, 3, 2, 0, 7, 330, 13, 321, 0, 120, 0, 98, 219, 319, 3, 2, 0, 7, 331, 13, 321, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="234" shared="false">
+			<array  len="332" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -272,7 +330,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -352, -187.72 </vector2>
+							<vector2> -277.253, -279.553 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -292,7 +350,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.735092 </real>
+							<real> 0.663421 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -391,9 +449,10 @@
 							<string> "current" </string>
 							<int> 0 </int>
 							<string> "sources" </string>
-							<array  len="2" shared="false">
+							<array  len="3" shared="false">
 								<string> "res://Scripts/Niveles/Nivel2.gd" </string>
 								<string> "res://Scripts/Camera/Camera.gd" </string>
+								<string> "res://Scripts/HUD/HUD.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
@@ -986,6 +1045,10 @@
 					</dictionary>
 				</dictionary>
 				<int> -1 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 828 </real>
 				<real> 212 </real>
 				<real> 962 </real>
@@ -1090,11 +1153,62 @@
 				<real> 159 </real>
 				<real> 126 </real>
 				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 1.png">  </resource>
+				<real> 20 </real>
+				<real> 43 </real>
+				<real> 60 </real>
+				<real> 83 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png">  </resource>
+				<real> 51 </real>
+				<real> 56 </real>
+				<real> 91 </real>
+				<real> 96 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png">  </resource>
+				<real> 46 </real>
+				<real> 123 </real>
+				<real> 86 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png">  </resource>
+				<real> 34 </real>
+				<real> 136 </real>
+				<real> 74 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png">  </resource>
+				<real> 99 </real>
+				<real> 139 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png">  </resource>
+				<real> 33 </real>
+				<real> 166 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png">  </resource>
+				<real> 18 </real>
 				<real> 144 </real>
 				<real> 266 </real>
 				<real> 245 </real>
 				<real> 317 </real>
 				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png">  </resource>
+				<real> 197 </real>
+				<real> 232 </real>
+				<real> 237 </real>
+				<real> 272 </real>
+				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 1.png">  </resource>
+				<real> 170 </real>
+				<real> 206 </real>
+				<real> 210 </real>
+				<real> 246 </real>
+				<real> 164 </real>
+				<real> 241 </real>
+				<real> 204 </real>
+				<real> 281 </real>
+				<real> 150 </real>
+				<real> 226 </real>
+				<real> 190 </real>
+				<real> 143 </real>
+				<real> 183 </real>
+				<real> 125 </real>
+				<real> 220 </real>
+				<real> 165 </real>
+				<real> 260 </real>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn">  </resource>
 				<vector2> 181.702, -40.9365 </vector2>
 				<dictionary  shared="false">
@@ -1764,7 +1878,7 @@
 					</dictionary>
 				</dictionary>
 				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn">  </resource>
-				<vector2> 127.594, 13.8784 </vector2>
+				<vector2> 114.298, 11.6623 </vector2>
 				<real> -18.367071 </real>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2605,7 +2719,975 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
+				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron1.xscn">  </resource>
+				<vector2> 114.763, 191.361 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -65.7027, -42.0222 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 7.022678 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron3.xscn">  </resource>
+				<vector2> 56.7461, 172.459 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -62.8492, -33.0717 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 8.622005 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn">  </resource>
+				<vector2> 89.3725, 128.742 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -45.7095, -21.371 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 9.553469 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn">  </resource>
+				<vector2> 127.814, 104.454 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -25.3801, -13.4329 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 19.589828 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn">  </resource>
+				<vector2> 139.583, 64.664 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -30.9327, -17.7871 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 14.400323 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn">  </resource>
+				<vector2> 152.715, 34.7471 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -33.3812, -17.8375 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 15.956037 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<vector2> 150.971, 2.47032 </vector2>
+				<real> -43.868839 </real>
 				<vector2> 384.372, 348.196 </vector2>
+				<vector2> 508.149, 368.891 </vector2>
+				<vector2> 511.296, 416.385 </vector2>
+				<vector2> 553.927, 354.158 </vector2>
+				<real> 103.985046 </real>
+				<vector2> 514.476, 327.171 </vector2>
+				<vector2> 267.581, 380.411 </vector2>
+				<real> 22.602732 </real>
+				<vector2> 238.161, 340.707 </vector2>
+				<real> 33.644909 </real>
+				<vector2> 249.908, 304.931 </vector2>
+				<vector2> 266.241, 284.041 </vector2>
+				<real> 22.434254 </real>
+				<vector2> 244.662, 259.341 </vector2>
+				<vector2> 228.202, 228.933 </vector2>
+				<vector2> 261.911, 225.506 </vector2>
+				<vector2> 360.327, 165.852 </vector2>
+				<resource  resource_type="PackedScene" path="res://Scenes/Khalum/GreenKhalum.xscn">  </resource>
+				<vector2> 207.31, -94.0462 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -11.0019, -5.5602 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 29.52854 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="1" shared="false">
+								<string> "res://Scripts/Minerals/mineral_animation.gd" </string>
+							</array>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<vector2> 325.869, 113.636 </vector2>
+				<vector2> 575.577, 184.68 </vector2>
+				<vector2> 471.693, 294.375 </vector2>
+				<vector2> 746.922, 367.733 </vector2>
+				<vector2> 304.794, 113.494 </vector2>
+				<vector2> 280.872, 113.636 </vector2>
+				<vector2> 533.001, 187.955 </vector2>
+				<vector2> 440.366, 294.945 </vector2>
+				<vector2> 672.164, 368.16 </vector2>
+				<vector2> 764.977, 367.941 </vector2>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

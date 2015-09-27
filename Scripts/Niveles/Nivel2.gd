@@ -3,7 +3,7 @@ extends Node2D
 
 
 #Variables para el Gas.
-var gas_amount  = 50
+var gas_amount  = 20
 
 #Variables para los textos a mostrar.
 #Dialogos
@@ -11,7 +11,7 @@ var time = 0
 var HUD 
 var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
 var DialogoEddie1 = ["[Eddie]: We're here to collect 'Khalum'.\n","Khalum is a strange mineral found only in asteroids.\n",
-                     "From it, we can extract Potassium. Which is needed to make nutritional","supplements for space stations.\n\n",
+                     "From it, we can extract Potassium. Which is needed to make nutritional","suplements for space stations.\n\n",
                      "That green Khalum crystal over there has over 80% of Potassium. Collect it."]
 
 var DialogoEddie2 = ["[Eddie]: Great job Astro! Now collect the rest of the crystals and lets get out of here."]
@@ -24,7 +24,7 @@ var game_over = false
 var greenKhal_collected = 0
 
 #Valor del khalum.
-var greenKhal_value     = 20
+var greenKhal_value     = 40
 
 func _ready():
 	HUD = get_node("HUD")

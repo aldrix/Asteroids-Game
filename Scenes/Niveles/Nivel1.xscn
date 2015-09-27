@@ -359,7 +359,7 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 3 </int>
+							<int> 0 </int>
 							<string> "sources" </string>
 							<array  len="4" shared="false">
 								<string> "res://Scripts/Niveles/Nivel1.gd" </string>
