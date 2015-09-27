@@ -1,7 +1,6 @@
 
 extends Node2D
 
-
 #Variables para el Gas.
 var gas_amount  = 20
 
@@ -10,11 +9,7 @@ var gas_amount  = 20
 var time = 0
 var HUD 
 var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
-var DialogoEddie1 = ["[Eddie]: We're here to collect 'Khalum'.\n","Khalum is a strange mineral found only in asteroids.\n",
-                     "From it, we can extract Potassium. Which is needed to make nutritional","suplements for space stations.\n\n",
-                     "That green Khalum crystal over there has over 80% of Potassium. Collect it."]
-
-var DialogoEddie2 = ["[Eddie]: Great job Astro! Now collect the rest of the crystals and lets get out of here."]
+var DialogoEddie1 = ["[Eddie]: Hello"]
 
 #Dececta si el astronauta llega a la nave.
 var win       = false
@@ -52,10 +47,13 @@ func _process(delta):
 		print("Se obtuvieron ",get_node("Astronauta").gas_amount*100," por el gas sobrante")
 		print("Se obtuvieron ",greenKhal_collected*greenKhal_value," por el khalum recolectado")
 	
-		get_node("/root/global").set("next_level","res://Scenes/Niveles/Nivel3.xscn")
+		get_node("/root/global").set("next_level","res://Scenes/Main.xscn")
 		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gas_amount*100 + greenKhal_collected*greenKhal_value)
 		get_node("/root/global").set("max_score",3000)
 		get_node("/root/global").goto_scene("res://Scenes/Score.xscn")
 	if game_over:
-		get_node("/root/global").set("previous_level","res://Scenes/Niveles/Nivel2.xscn")
+		get_node("/root/global").set("previous_level","res://Scenes/Niveles/Nivel3.xscn")
 		get_node("/root/global").goto_scene("res://Scenes/GameOver.xscn")
+
+
+

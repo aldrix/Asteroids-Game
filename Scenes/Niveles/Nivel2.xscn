@@ -324,7 +324,7 @@
 				<resource  resource_type="Script" path="res://Scripts/Niveles/Nivel2.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
+					<string> "Script" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
@@ -449,10 +449,11 @@
 							<string> "current" </string>
 							<int> 0 </int>
 							<string> "sources" </string>
-							<array  len="3" shared="false">
+							<array  len="4" shared="false">
 								<string> "res://Scripts/Niveles/Nivel2.gd" </string>
 								<string> "res://Scripts/Camera/Camera.gd" </string>
 								<string> "res://Scripts/HUD/HUD.gd" </string>
+								<string> "res://Scripts/global.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
