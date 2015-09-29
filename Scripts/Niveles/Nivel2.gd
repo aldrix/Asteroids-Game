@@ -1,4 +1,3 @@
-
 extends Node2D
 
 
@@ -49,10 +48,6 @@ func _process(delta):
 		repeat = false
 		
 	if win:
-		print("Se recolecto: ",greenKhal_collected," khalums")
-		print("Se obtuvieron ",get_node("Astronauta").gas_amount*100," por el gas sobrante")
-		print("Se obtuvieron ",greenKhal_collected*greenKhal_value," por el khalum recolectado")
-	
 		get_node("/root/global").set("next_level","res://Scenes/Niveles/Nivel3.xscn")
 		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gas_amount*100 + greenKhal_collected*greenKhal_value)
 		get_node("/root/global").set("max_score",3000)

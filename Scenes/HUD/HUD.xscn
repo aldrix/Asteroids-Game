@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="9" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+<resource_file type="PackedScene" subresource_count="8" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://Scenes/HUD/control_buttons.xscn" type="PackedScene" index="6"></ext_resource>
+	<ext_resource path="res://Scenes/Barras/GasBar.xscn" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://Sprites/Controles/continue_button.png" type="Texture" index="4"></ext_resource>
 	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font" index="2"></ext_resource>
 	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture" index="3"></ext_resource>
 	<ext_resource path="res://Sprites/Minerals/green_khalum.png" type="Texture" index="5"></ext_resource>
 	<ext_resource path="res://Scripts/HUD/HUD.gd" type="Script" index="0"></ext_resource>
-	<ext_resource path="res://Scenes/Barras/GasBar.xscn" type="PackedScene" index="1"></ext_resource>
-	<ext_resource path="res://Scenes/HUD/control_buttons.xscn" type="PackedScene" index="6"></ext_resource>
-	<ext_resource path="res://Sprites/Controles/continue_button.png" type="Texture" index="4"></ext_resource>
-	<resource type="Animation" path="local://1">
-		<string name="resource/name"> "PressSpace" </string>
-		<real name="length"> 2 </real>
-		<bool name="loop"> True </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "Continue:text" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="3"> 				0, 1, 2 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="3"> 				1, 1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="3" shared="false">
-				<string> "Press Space" </string>
-				<string> "" </string>
-				<string> "Press Space" </string>
-			</array>
-		</dictionary>
-
-	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -38,7 +14,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="62">
+			<string_array  len="52">
 				<string> "HUD" </string>
 				<string> "CanvasLayer" </string>
 				<string> "layer" </string>
@@ -76,16 +52,6 @@
 				<string> "TextureFrame" </string>
 				<string> "visibility/behind_parent" </string>
 				<string> "texture" </string>
-				<string> "Animation" </string>
-				<string> "AnimationPlayer" </string>
-				<string> "playback/process_mode" </string>
-				<string> "playback/default_blend_time" </string>
-				<string> "root/root" </string>
-				<string> "anims/PressSpace" </string>
-				<string> "playback/active" </string>
-				<string> "playback/speed" </string>
-				<string> "blend_times" </string>
-				<string> "autoplay" </string>
 				<string> "Continue" </string>
 				<string> "TouchScreenButton" </string>
 				<string> "transform/pos" </string>
@@ -103,11 +69,11 @@
 				<string> "Controls" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 11 </int>
+			<int> 10 </int>
 			<string> "nodes" </string>
-			<int_array  len="271"> 				-1, -1, 1, 0, -1, 6, 2, 0, 3, 1, 4, 2, 5, 3, 6, 4, 7, 5, 0, 0, 0, 9, 8, 6, 6, 10, 7, 11, 8, 12, 9, 13, 10, 14, 11, 7, 12, 0, 0, 0, 15, 15, -1, 7, 12, 13, 13, 14, 14, 15, 16, 16, 17, 17, 18, 18, 19, 18, 0, 2, 0, 20, 20, -1, 19, 11, 19, 12, 20, 13, 21, 14, 22, 16, 17, 17, 17, 18, 18, 21, 23, 22, 2, 23, 24, 24, 13, 25, 25, 26, 2, 27, 16, 28, 16, 29, 26, 30, 0, 31, 17, 32, 27, 0, 2, 0, 34, 33, -1, 8, 11, 28, 12, 29, 13, 30, 14, 31, 16, 17, 17, 17, 18, 18, 19, 18, 0, 2, 0, 34, 34, -1, 10, 35, 17, 11, 30, 12, 32, 13, 33, 14, 34, 16, 17, 17, 17, 18, 18, 19, 18, 36, 35, 0, 2, 0, 38, 37, -1, 8, 39, 0, 40, 2, 41, 36, 42, 37, 43, 17, 44, 13, 45, 38, 46, 39, 0, 2, 0, 48, 47, -1, 8, 49, 40, 50, 41, 51, 42, 52, 42, 53, 43, 54, 16, 55, 39, 56, 44, 0, 0, 0, 58, 57, -1, 5, 49, 45, 50, 46, 36, 47, 59, 48, 7, 49, 0, 8, 0, 20, 60, -1, 18, 11, 50, 12, 51, 13, 52, 14, 53, 16, 17, 17, 17, 18, 18, 21, 23, 22, 2, 23, 13, 24, 13, 25, 13, 26, 2, 27, 16, 28, 16, 29, 54, 30, 0, 32, 27, 0, 0, 0, 15, 61, 55, 2, 10, 7, 7, 56, 0 </int_array>
+			<int_array  len="250"> 				-1, -1, 1, 0, -1, 6, 2, 0, 3, 1, 4, 2, 5, 3, 6, 4, 7, 5, 0, 0, 0, 9, 8, 6, 6, 10, 7, 11, 8, 12, 9, 13, 10, 14, 11, 7, 12, 0, 0, 0, 15, 15, -1, 8, 12, 13, 13, 14, 14, 15, 16, 16, 17, 17, 18, 18, 19, 18, 7, 19, 0, 2, 0, 20, 20, -1, 19, 11, 20, 12, 21, 13, 22, 14, 23, 16, 17, 17, 17, 18, 18, 21, 24, 22, 2, 23, 25, 24, 13, 25, 26, 26, 2, 27, 16, 28, 16, 29, 27, 30, 0, 31, 17, 32, 28, 0, 2, 0, 34, 33, -1, 8, 11, 29, 12, 30, 13, 31, 14, 32, 16, 17, 17, 17, 18, 18, 19, 18, 0, 2, 0, 34, 34, -1, 10, 35, 17, 11, 31, 12, 33, 13, 34, 14, 35, 16, 17, 17, 17, 18, 18, 19, 18, 36, 36, 0, 2, 0, 38, 37, -1, 8, 39, 37, 40, 38, 41, 39, 42, 39, 43, 40, 44, 16, 45, 41, 46, 42, 0, 0, 0, 48, 47, -1, 5, 39, 43, 40, 44, 36, 45, 49, 46, 7, 47, 0, 7, 0, 20, 50, -1, 18, 11, 48, 12, 49, 13, 50, 14, 51, 16, 17, 17, 17, 18, 18, 21, 24, 22, 2, 23, 13, 24, 13, 25, 13, 26, 2, 27, 16, 28, 16, 29, 52, 30, 0, 32, 28, 0, 0, 0, 15, 51, 53, 2, 10, 7, 7, 54, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="57" shared="false">
+			<array  len="55" shared="false">
 				<int> 1 </int>
 				<vector2> 0, 0 </vector2>
 				<real> 0 </real>
@@ -121,7 +87,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> 189.86, 113.293 </vector2>
+							<vector2> -54.2696, -26.2717 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -141,7 +107,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 6.337973 </real>
+							<real> 2.517534 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -392,6 +358,10 @@
 				<bool> False </bool>
 				<bool> True </bool>
 				<int> 2 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<real> 75 </real>
 				<real> 135 </real>
 				<real> 295 </real>
@@ -409,15 +379,11 @@
 				<real> 300 </real>
 				<real> 165 </real>
 				<resource  external="3">  </resource>
-				<node_path> ".." </node_path>
-				<resource  resource_type="Animation" path="local://1">  </resource>
-				<array  len="0" shared="false">
-				</array>
-				<string> "" </string>
 				<vector2> 246.183, 160.952 </vector2>
 				<vector2> 0.787634, 0.792515 </vector2>
 				<resource  external="4">  </resource>
-				<resource name=""></resource>				<int> 0 </int>
+				<resource name=""></resource>				<string> "" </string>
+				<int> 0 </int>
 				<vector2> 98.8105, 10.644 </vector2>
 				<vector2> 1.7, 1.7 </vector2>
 				<resource  external="5">  </resource>

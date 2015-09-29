@@ -37,11 +37,11 @@ func _ready():
 	panel_total.set_text("Total: " + str(new_global))
 	
 	animation.queue("Score")
-	
+	get_node("/root/global").save_game()
 	set_process_input(true)
 	
 func _input(event):
-	if (get_node("Continue").is_pressed()):
+	if (get_node("Continue").is_pressed() && event.is_pressed() && !event.is_echo()):
 		get_node("/root/global").goto_scene(get_node("/root/global").next_level)	
 	
 func calc_score(level_score, max_score):
