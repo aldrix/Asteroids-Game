@@ -36,8 +36,8 @@ func _ready():
 	canvas = get_node("Control")
 	label  = get_node("Control/Label")
 	avatar = get_node("Control/Avatar")
-	button = get_node("Control/Button")
-#	greenK = get_node("GreenKhalum")
+	button = get_node("Control/Continue")
+	greenK = get_node("GreenKhalum")
 
 	gas_bar = get_node("GasBar")
 	gas_bar.hide()
@@ -53,7 +53,7 @@ func _ready():
 	right_button = get_node("Controls/ControlRight")
 
 	canvas.hide()
-#	greenK.hide()
+	greenK.hide()
 
 	set_process(true)
 	set_process_input(true)
@@ -104,15 +104,15 @@ func update_gas_bar(gas_astro):
 
 		
 #Muestra u oculta el contador de Khalum.
-#func show_green_khalum(boolean):
-#	if boolean == true:
-#		greenK.show()
-#	else:
-#		greenK.hide()
-#		
+func show_green_khalum(boolean):
+	if boolean == true:
+		greenK.show()
+	else:
+		greenK.hide()
+		
 #Actualizta el visor de Khalum
-#func set_collected(collected):
-#	greenK.get_node("Collected").set_text(str(collected))
+func set_collected(collected):
+	greenK.get_node("Collected").set_text(str(collected))
 
 #Funciones para el control de los botones
 func show_controls():
@@ -135,7 +135,7 @@ func enable_controls():
 
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
-	if get_node("Control/Button").is_pressed() && !event.is_echo() && event.is_pressed():
+	if get_node("Control/Continue").is_pressed() && !event.is_echo() && event.is_pressed():
 		index += 1
 		if index == text.size():
 			hide_dialogue()

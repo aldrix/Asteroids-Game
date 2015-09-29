@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="8" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Scripts/HUD/HUD.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Scenes/Barras/GasBar.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font"></ext_resource>
-	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Controles/continue_button.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Scenes/HUD/control_buttons.xscn" type="PackedScene"></ext_resource>
+<resource_file type="PackedScene" subresource_count="9" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font" index="2"></ext_resource>
+	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://Sprites/Minerals/green_khalum.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://Scripts/HUD/HUD.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Scenes/Barras/GasBar.xscn" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://Scenes/HUD/control_buttons.xscn" type="PackedScene" index="6"></ext_resource>
+	<ext_resource path="res://Sprites/Controles/continue_button.png" type="Texture" index="4"></ext_resource>
 	<resource type="Animation" path="local://1">
 		<string name="resource/name"> "PressSpace" </string>
 		<real name="length"> 2 </real>
 		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "Continue:text" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1, 2 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<string> "Press Space" </string>
+				<string> "" </string>
+				<string> "Press Space" </string>
+			</array>
+		</dictionary>
 
 	</resource>
 	<main_resource>
@@ -20,10 +38,9 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="74">
+			<string_array  len="62">
 				<string> "HUD" </string>
 				<string> "CanvasLayer" </string>
-				<string> "_import_path" </string>
 				<string> "layer" </string>
 				<string> "offset" </string>
 				<string> "rotation" </string>
@@ -32,24 +49,16 @@
 				<string> "__meta__" </string>
 				<string> "GasBar" </string>
 				<string> "TextureProgress" </string>
+				<string> "_import_path" </string>
 				<string> "margin/left" </string>
 				<string> "margin/top" </string>
 				<string> "margin/right" </string>
 				<string> "margin/bottom" </string>
 				<string> "Control" </string>
-				<string> "visibility/visible" </string>
-				<string> "visibility/opacity" </string>
-				<string> "visibility/self_opacity" </string>
-				<string> "visibility/light_mask" </string>
-				<string> "focus_neighbour/left" </string>
-				<string> "focus_neighbour/top" </string>
-				<string> "focus_neighbour/right" </string>
-				<string> "focus_neighbour/bottom" </string>
 				<string> "focus/ignore_mouse" </string>
 				<string> "focus/stop_mouse" </string>
 				<string> "size_flags/horizontal" </string>
 				<string> "size_flags/vertical" </string>
-				<string> "size_flags/stretch_ratio" </string>
 				<string> "Label" </string>
 				<string> "custom_fonts/font" </string>
 				<string> "range/min" </string>
@@ -60,17 +69,13 @@
 				<string> "range/exp_edit" </string>
 				<string> "rounded_values" </string>
 				<string> "text" </string>
-				<string> "align" </string>
 				<string> "valign" </string>
 				<string> "autowrap" </string>
-				<string> "uppercase" </string>
 				<string> "percent_visible" </string>
 				<string> "Avatar" </string>
 				<string> "TextureFrame" </string>
-				<string> "texture" </string>
-				<string> "modulate" </string>
-				<string> "expand" </string>
 				<string> "visibility/behind_parent" </string>
+				<string> "texture" </string>
 				<string> "Animation" </string>
 				<string> "AnimationPlayer" </string>
 				<string> "playback/process_mode" </string>
@@ -81,33 +86,33 @@
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
 				<string> "autoplay" </string>
-				<string> "Button" </string>
+				<string> "Continue" </string>
 				<string> "TouchScreenButton" </string>
 				<string> "transform/pos" </string>
-				<string> "transform/rot" </string>
 				<string> "transform/scale" </string>
-				<string> "z/z" </string>
-				<string> "z/relative" </string>
 				<string> "normal" </string>
 				<string> "pressed" </string>
 				<string> "bitmask" </string>
 				<string> "passby_press" </string>
 				<string> "action" </string>
 				<string> "visibility_mode" </string>
+				<string> "GreenKhalum" </string>
+				<string> "Sprite" </string>
+				<string> "hframes" </string>
+				<string> "Collected" </string>
 				<string> "Controls" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 9 </int>
+			<int> 11 </int>
 			<string> "nodes" </string>
-			<int_array  len="325"> 				-1, -1, 1, 0, -1, 7, 2, 0, 3, 1, 4, 2, 5, 3, 6, 4, 7, 5, 8, 6, 0, 0, 0, 10, 9, 7, 6, 2, 0, 11, 8, 12, 9, 13, 10, 14, 11, 8, 12, 0, 0, 0, 15, 15, -1, 17, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 12, 14, 13, 15, 14, 16, 20, 0, 21, 0, 22, 0, 23, 0, 24, 17, 25, 13, 26, 18, 27, 18, 28, 14, 0, 2, 0, 29, 29, -1, 31, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 19, 12, 20, 13, 21, 14, 22, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 28, 14, 30, 23, 31, 3, 32, 24, 33, 14, 34, 25, 35, 3, 36, 17, 37, 17, 38, 26, 39, 27, 40, 1, 41, 13, 42, 17, 43, 28, 0, 2, 0, 45, 44, -1, 21, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 11, 29, 12, 30, 13, 31, 14, 32, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 27, 18, 28, 14, 46, 33, 47, 34, 48, 17, 0, 2, 0, 45, 45, -1, 22, 2, 0, 16, 13, 17, 14, 18, 14, 49, 13, 19, 1, 11, 31, 12, 35, 13, 36, 14, 37, 20, 0, 21, 0, 22, 0, 23, 0, 24, 13, 25, 13, 26, 18, 27, 18, 28, 14, 46, 38, 47, 34, 48, 17, 0, 2, 0, 51, 50, -1, 9, 2, 0, 52, 1, 53, 3, 54, 39, 55, 40, 56, 13, 57, 14, 58, 41, 59, 42, 0, 2, 0, 61, 60, -1, 16, 2, 0, 16, 13, 17, 14, 18, 14, 19, 1, 62, 43, 63, 3, 64, 44, 65, 27, 66, 13, 67, 45, 68, 45, 69, 33, 70, 17, 71, 42, 72, 27, 0, 0, 0, 15, 73, 46, 2, 2, 0, 8, 47, 0 </int_array>
+			<int_array  len="271"> 				-1, -1, 1, 0, -1, 6, 2, 0, 3, 1, 4, 2, 5, 3, 6, 4, 7, 5, 0, 0, 0, 9, 8, 6, 6, 10, 7, 11, 8, 12, 9, 13, 10, 14, 11, 7, 12, 0, 0, 0, 15, 15, -1, 7, 12, 13, 13, 14, 14, 15, 16, 16, 17, 17, 18, 18, 19, 18, 0, 2, 0, 20, 20, -1, 19, 11, 19, 12, 20, 13, 21, 14, 22, 16, 17, 17, 17, 18, 18, 21, 23, 22, 2, 23, 24, 24, 13, 25, 25, 26, 2, 27, 16, 28, 16, 29, 26, 30, 0, 31, 17, 32, 27, 0, 2, 0, 34, 33, -1, 8, 11, 28, 12, 29, 13, 30, 14, 31, 16, 17, 17, 17, 18, 18, 19, 18, 0, 2, 0, 34, 34, -1, 10, 35, 17, 11, 30, 12, 32, 13, 33, 14, 34, 16, 17, 17, 17, 18, 18, 19, 18, 36, 35, 0, 2, 0, 38, 37, -1, 8, 39, 0, 40, 2, 41, 36, 42, 37, 43, 17, 44, 13, 45, 38, 46, 39, 0, 2, 0, 48, 47, -1, 8, 49, 40, 50, 41, 51, 42, 52, 42, 53, 43, 54, 16, 55, 39, 56, 44, 0, 0, 0, 58, 57, -1, 5, 49, 45, 50, 46, 36, 47, 59, 48, 7, 49, 0, 8, 0, 20, 60, -1, 18, 11, 50, 12, 51, 13, 52, 14, 53, 16, 17, 17, 17, 18, 18, 21, 23, 22, 2, 23, 13, 24, 13, 25, 13, 26, 2, 27, 16, 28, 16, 29, 54, 30, 0, 32, 27, 0, 0, 0, 15, 61, 55, 2, 10, 7, 7, 56, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="48" shared="false">
-				<node_path> "" </node_path>
+			<array  len="57" shared="false">
 				<int> 1 </int>
 				<vector2> 0, 0 </vector2>
 				<real> 0 </real>
 				<vector2> 1, 1 </vector2>
-				<resource  resource_type="Script" path="res://Scripts/HUD/HUD.gd">  </resource>
+				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "Script" </string>
@@ -116,7 +121,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -12.5524, -10.1934 </vector2>
+							<vector2> 189.86, 113.293 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -136,7 +141,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 2.517534 </real>
+							<real> 6.337973 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -230,15 +235,10 @@
 							<string> "znear" </string>
 							<real> 0.1 </real>
 						</dictionary>
-						<string> "Script" </string>
+						<string> "Anim" </string>
 						<dictionary  shared="false">
-							<string> "current" </string>
-							<int> 0 </int>
-							<string> "sources" </string>
-							<array  len="2" shared="false">
-								<string> "res://Scripts/HUD/HUD.gd" </string>
-								<string> "res://Scripts/Astronauta/Astronauta.gd" </string>
-							</array>
+							<string> "visible" </string>
+							<bool> False </bool>
 						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
@@ -249,7 +249,8 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Barras/GasBar.xscn">  </resource>
+				<resource  external="1">  </resource>
+				<node_path> "" </node_path>
 				<real> 8 </real>
 				<real> 7 </real>
 				<real> 78 </real>
@@ -385,40 +386,52 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<bool> True </bool>
 				<real> 1 </real>
 				<real> 40 </real>
 				<real> 41 </real>
 				<bool> False </bool>
+				<bool> True </bool>
 				<int> 2 </int>
 				<real> 75 </real>
 				<real> 135 </real>
 				<real> 295 </real>
 				<real> 160 </real>
-				<resource  resource_type="Font" path="res://Fonts/Emulogic_TextSize.fnt">  </resource>
+				<resource  external="2">  </resource>
 				<real> 2 </real>
 				<real> 3.125 </real>
 				<string> "&#000a;" </string>
-				<int> 0 </int>
 				<real> -1 </real>
 				<real> 20 </real>
 				<real> 100 </real>
 				<real> 70 </real>
 				<real> 170 </real>
-				<resource name=""></resource>				<color> 1, 1, 1, 1 </color>
 				<real> 130 </real>
 				<real> 300 </real>
 				<real> 165 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Main/Cuadro Dialogo.png">  </resource>
+				<resource  external="3">  </resource>
 				<node_path> ".." </node_path>
 				<resource  resource_type="Animation" path="local://1">  </resource>
 				<array  len="0" shared="false">
 				</array>
 				<string> "" </string>
-				<vector2> 248.417, 159.417 </vector2>
-				<vector2> 0.74667, 0.794685 </vector2>
-				<resource  resource_type="Texture" path="res://Sprites/Controles/continue_button.png">  </resource>
-				<resource  resource_type="PackedScene" path="res://Scenes/HUD/control_buttons.xscn">  </resource>
+				<vector2> 246.183, 160.952 </vector2>
+				<vector2> 0.787634, 0.792515 </vector2>
+				<resource  external="4">  </resource>
+				<resource name=""></resource>				<int> 0 </int>
+				<vector2> 98.8105, 10.644 </vector2>
+				<vector2> 1.7, 1.7 </vector2>
+				<resource  external="5">  </resource>
+				<int> 5 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 6 </real>
+				<real> -3 </real>
+				<real> 30 </real>
+				<real> 5 </real>
+				<string> "0" </string>
+				<resource  external="6">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -546,8 +559,7 @@
 							<string> "current" </string>
 							<int> 0 </int>
 							<string> "sources" </string>
-							<array  len="2" shared="false">
-								<string> "res://Scripts/HUD/control_buttons.gd" </string>
+							<array  len="1" shared="false">
 								<string> "res://Scripts/HUD/HUD.gd" </string>
 							</array>
 						</dictionary>
