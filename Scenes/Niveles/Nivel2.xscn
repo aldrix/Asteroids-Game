@@ -1,73 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="49" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Scripts/Niveles/Nivel2.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/HUD/HUD.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scripts/Camera/Camera.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Lunas/Luna rosada 1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta fucsia 1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 6.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 5.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris7.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris3.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris4.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron1.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron3.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Khalum/GreenKhalum.xscn" type="PackedScene"></ext_resource>
-	<resource type="Animation" path="local://1">
-		<string name="resource/name"> "Camera Movement" </string>
-		<real name="length"> 2 </real>
-		<bool name="loop"> False </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "Camera2D:transform/pos" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> True </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				0, 2 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<vector2> 866.089, 327.559 </vector2>
-				<vector2> 164.705, -96.2321 </vector2>
-			</array>
-		</dictionary>
-
-	</resource>
+<resource_file type="PackedScene" subresource_count="49" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 2.png" type="Texture" index="11"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png" type="Texture" index="24"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png" type="Texture" index="20"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta fucsia 1.png" type="Texture" index="25"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png" type="Texture" index="23"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 2.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 1.png" type="Texture" index="10"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png" type="Texture" index="13"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 1.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 4.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 4.png" type="Texture" index="19"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 4.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png" type="Texture" index="22"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 5.png" type="Texture" index="18"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 6.png" type="Texture" index="17"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 3.png" type="Texture" index="21"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Lunas/Luna rosada 1.png" type="Texture" index="26"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 3.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 1.png" type="Texture" index="12"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://Scripts/Niveles/Nivel2.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Scripts/Camera/Camera.gd" type="Script" index="4"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris4.xscn" type="PackedScene" index="34"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn" type="PackedScene" index="36"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn" type="PackedScene" index="37"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron1.xscn" type="PackedScene" index="38"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn" type="PackedScene" index="35"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron3.xscn" type="PackedScene" index="39"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn" type="PackedScene" index="40"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn" type="PackedScene" index="42"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn" type="PackedScene" index="41"></ext_resource>
+	<ext_resource path="res://Scenes/Khalum/GreenKhalum.xscn" type="PackedScene" index="44"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn" type="PackedScene" index="43"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris3.xscn" type="PackedScene" index="33"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene" index="32"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn" type="PackedScene" index="28"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris7.xscn" type="PackedScene" index="30"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene" index="31"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn" type="PackedScene" index="29"></ext_resource>
+	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://Scenes/HUD/HUD.xscn" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene" index="3"></ext_resource>
+	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="5"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene" index="27"></ext_resource>
 	<resource type="RectangleShape2D" path="local://2">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2 name="extents"> 10, 10 </vector2>
@@ -78,6 +55,29 @@
 		<vector2 name="extents"> 10, 10 </vector2>
 
 	</resource>
+	<resource type="Animation" path="local://1">
+		<string name="resource/name"> "Camera Movement" </string>
+		<real name="length"> 2.5 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "Camera2D:transform/pos" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 2.5 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<vector2> 866.089, 327.559 </vector2>
+				<vector2> 164.705, -96.2321 </vector2>
+			</array>
+		</dictionary>
+
+	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -85,28 +85,40 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="220">
+			<string_array  len="204">
 				<string> "Nivel2" </string>
 				<string> "Node2D" </string>
-				<string> "_import_path" </string>
-				<string> "visibility/visible" </string>
-				<string> "visibility/opacity" </string>
-				<string> "visibility/self_opacity" </string>
-				<string> "visibility/light_mask" </string>
-				<string> "transform/pos" </string>
-				<string> "transform/rot" </string>
-				<string> "transform/scale" </string>
-				<string> "z/z" </string>
-				<string> "z/relative" </string>
 				<string> "script/script" </string>
 				<string> "__meta__" </string>
-				<string> "Astronauta" </string>
-				<string> "KinematicBody2D" </string>
-				<string> "Nave" </string>
+				<string> "Limites" </string>
+				<string> "LimiteIzquierdo" </string>
+				<string> "StaticBody2D" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/scale" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "LimiteDerecho" </string>
+				<string> "LimiteSuperior" </string>
 				<string> "HUD" </string>
 				<string> "CanvasLayer" </string>
+				<string> "_import_path" </string>
+				<string> "Nave" </string>
+				<string> "Astronauta" </string>
+				<string> "KinematicBody2D" </string>
 				<string> "Camera2D" </string>
-				<string> "centered" </string>
+				<string> "anchor_mode" </string>
 				<string> "rotating" </string>
 				<string> "current" </string>
 				<string> "smoothing" </string>
@@ -131,28 +143,9 @@
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
 				<string> "autoplay" </string>
-				<string> "Limites" </string>
-				<string> "LimiteIzquierdo" </string>
-				<string> "StaticBody2D" </string>
-				<string> "input/pickable" </string>
-				<string> "shape_count" </string>
-				<string> "shapes/0/shape" </string>
-				<string> "shapes/0/transform" </string>
-				<string> "shapes/0/trigger" </string>
-				<string> "collision/layers" </string>
-				<string> "collision/mask" </string>
-				<string> "constant_linear_velocity" </string>
-				<string> "constant_angular_velocity" </string>
-				<string> "friction" </string>
-				<string> "bounce" </string>
-				<string> "CollisionShape2D" </string>
-				<string> "shape" </string>
-				<string> "trigger" </string>
-				<string> "LimiteDerecho" </string>
-				<string> "LimiteSuperior" </string>
 				<string> "FondoEstrellas" </string>
-				<string> "ParallaxBackground" </string>
 				<string> "AsteroidesFondo" </string>
+				<string> "ParallaxBackground" </string>
 				<string> "layer" </string>
 				<string> "offset" </string>
 				<string> "rotation" </string>
@@ -162,45 +155,25 @@
 				<string> "scroll/base_scale" </string>
 				<string> "scroll/limit_begin" </string>
 				<string> "scroll/limit_end" </string>
+				<string> "AsteroidesSegundoPlano" </string>
 				<string> "ParallaxLayer" </string>
 				<string> "motion/scale" </string>
 				<string> "motion/mirroring" </string>
-				<string> "LunaRosada" </string>
+				<string> "Asteroide1" </string>
 				<string> "TextureFrame" </string>
 				<string> "margin/left" </string>
 				<string> "margin/top" </string>
 				<string> "margin/right" </string>
 				<string> "margin/bottom" </string>
-				<string> "focus_neighbour/left" </string>
-				<string> "focus_neighbour/top" </string>
-				<string> "focus_neighbour/right" </string>
-				<string> "focus_neighbour/bottom" </string>
 				<string> "focus/ignore_mouse" </string>
 				<string> "focus/stop_mouse" </string>
 				<string> "size_flags/horizontal" </string>
 				<string> "size_flags/vertical" </string>
-				<string> "size_flags/stretch_ratio" </string>
 				<string> "texture" </string>
-				<string> "modulate" </string>
-				<string> "expand" </string>
-				<string> "PlanetaFucsia" </string>
-				<string> "Sprite" </string>
-				<string> "flip_h" </string>
-				<string> "flip_v" </string>
-				<string> "vframes" </string>
-				<string> "hframes" </string>
-				<string> "frame" </string>
-				<string> "region" </string>
-				<string> "region_rect" </string>
-				<string> "Asteroide1" </string>
 				<string> "Asteroide2" </string>
 				<string> "Asteroide3" </string>
 				<string> "Asteroide4" </string>
 				<string> "Asteroide5" </string>
-				<string> "Asteroide6" </string>
-				<string> "Asteroide7" </string>
-				<string> "Asteroide8" </string>
-				<string> "Asteroide9" </string>
 				<string> "Asteroide10" </string>
 				<string> "Asteroide11" </string>
 				<string> "Asteroide12" </string>
@@ -209,26 +182,37 @@
 				<string> "Asteroide15" </string>
 				<string> "Asteroide16" </string>
 				<string> "Asteroide17" </string>
-				<string> "Asteroide18" </string>
-				<string> "Asteroide19" </string>
-				<string> "Asteroide20" </string>
-				<string> "Asteroide21" </string>
-				<string> "Asteroide22" </string>
 				<string> "Asteroide23" </string>
 				<string> "Asteroide24" </string>
 				<string> "Asteroide25" </string>
-				<string> "Asteroide26" </string>
-				<string> "Asteroide27" </string>
-				<string> "Asteroide28" </string>
-				<string> "Asteroide29" </string>
-				<string> "Asteroide30" </string>
 				<string> "Asteroide31" </string>
 				<string> "Asteroide32" </string>
 				<string> "Asteroide33" </string>
 				<string> "Asteroide34" </string>
+				<string> "AsteroidesTercerPlano" </string>
+				<string> "Asteroide6" </string>
+				<string> "Asteroide7" </string>
+				<string> "Asteroide18" </string>
+				<string> "Asteroide19" </string>
+				<string> "Asteroide20" </string>
+				<string> "Asteroide26" </string>
 				<string> "Asteroide35" </string>
-				<string> "Asteroide36" </string>
 				<string> "Asteroide37" </string>
+				<string> "AsteroidesCuartoPlano" </string>
+				<string> "Asteroide8" </string>
+				<string> "Asteroide9" </string>
+				<string> "Asteroide21" </string>
+				<string> "Asteroide22" </string>
+				<string> "Asteroide27" </string>
+				<string> "Asteroide28" </string>
+				<string> "Asteroide29" </string>
+				<string> "Asteroide30" </string>
+				<string> "Asteroide36" </string>
+				<string> "Planeta" </string>
+				<string> "PlanetaFucsia" </string>
+				<string> "Sprite" </string>
+				<string> "transform/rot" </string>
+				<string> "LunaRosada" </string>
 				<string> "Asteroides" </string>
 				<string> "AsteroideGris1" </string>
 				<string> "AsteroideGris2" </string>
@@ -308,29 +292,21 @@
 				<string> "GreenKhalum10" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 132 </int>
+			<int> 135 </int>
 			<string> "nodes" </string>
-			<int_array  len="3496"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 3, 2, 0, 7, 11, 13, 12, 0, 0, 0, 1, 16, 13, 3, 2, 0, 7, 14, 13, 15, 0, 0, 0, 18, 17, 16, 2, 2, 0, 13, 17, 0, 0, 0, 19, 19, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 18, 8, 5, 9, 6, 10, 7, 11, 1, 20, 1, 21, 19, 22, 1, 23, 5, 24, 6, 25, 20, 26, 20, 27, 21, 28, 21, 29, 1, 30, 1, 31, 22, 32, 22, 33, 22, 34, 22, 12, 23, 0, 0, 0, 36, 35, -1, 9, 2, 0, 37, 3, 38, 5, 39, 24, 40, 25, 41, 1, 42, 2, 43, 26, 44, 27, 0, 0, 0, 1, 45, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 13, 28, 0, 6, 0, 47, 46, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 29, 51, 30, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 13, 31, 0, 7, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 33, 10, 7, 11, 1, 60, 29, 61, 19, 0, 6, 0, 47, 62, -1, 22, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 29, 51, 34, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 13, 31, 0, 9, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 35, 8, 5, 9, 36, 10, 7, 11, 1, 60, 29, 61, 19, 0, 6, 0, 47, 63, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 48, 19, 49, 3, 50, 37, 51, 38, 52, 19, 53, 3, 54, 3, 55, 4, 56, 5, 57, 2, 58, 5, 0, 11, 0, 59, 59, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 39, 8, 5, 9, 40, 10, 7, 11, 1, 60, 37, 61, 19, 0, 0, 0, 65, 64, 41, 2, 2, 0, 13, 42, 0, 0, 0, 65, 66, -1, 11, 2, 0, 67, 43, 68, 4, 69, 5, 70, 6, 71, 4, 72, 4, 73, 6, 74, 4, 75, 4, 13, 44, 0, 14, 0, 76, 76, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 77, 6, 78, 4, 0, 15, 0, 80, 79, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 45, 82, 46, 83, 47, 84, 48, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 50, 95, 51, 96, 19, 0, 15, 0, 98, 97, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 52, 8, 53, 9, 6, 10, 7, 11, 1, 94, 54, 20, 1, 68, 4, 99, 19, 100, 19, 101, 3, 102, 3, 103, 7, 95, 51, 104, 19, 105, 55, 0, 15, 0, 80, 106, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 56, 82, 57, 83, 58, 84, 59, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 60, 95, 51, 96, 19, 0, 15, 0, 80, 107, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 61, 82, 62, 83, 63, 84, 64, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 65, 95, 51, 96, 19, 0, 15, 0, 80, 108, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 66, 82, 67, 83, 68, 84, 69, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 70, 95, 51, 96, 19, 0, 15, 0, 80, 109, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 71, 82, 72, 83, 73, 84, 74, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 110, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 76, 82, 77, 83, 78, 84, 79, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 80, 95, 51, 96, 19, 0, 15, 0, 80, 111, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 81, 82, 82, 83, 83, 84, 84, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 85, 95, 51, 96, 19, 0, 15, 0, 80, 112, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 86, 82, 77, 83, 87, 84, 79, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 88, 95, 51, 96, 19, 0, 15, 0, 80, 113, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 89, 82, 90, 83, 91, 84, 92, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 114, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 94, 82, 95, 83, 96, 84, 67, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 115, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 97, 82, 98, 83, 99, 84, 100, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 101, 95, 51, 96, 19, 0, 15, 0, 80, 116, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 102, 82, 103, 83, 104, 84, 59, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 70, 95, 51, 96, 19, 0, 15, 0, 80, 117, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 105, 82, 106, 83, 107, 84, 108, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 118, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 109, 82, 110, 83, 111, 84, 112, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 119, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 113, 82, 67, 83, 114, 84, 69, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 65, 95, 51, 96, 19, 0, 15, 0, 80, 120, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 115, 82, 116, 83, 117, 84, 118, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 121, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 119, 82, 120, 83, 121, 84, 103, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 80, 95, 51, 96, 19, 0, 15, 0, 80, 122, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 122, 82, 123, 83, 124, 84, 125, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 75, 95, 51, 96, 19, 0, 15, 0, 80, 123, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 126, 82, 90, 83, 127, 84, 92, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 85, 95, 51, 96, 19, 0, 15, 0, 80, 124, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 128, 82, 129, 83, 130, 84, 131, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 132, 95, 51, 96, 19, 0, 15, 0, 80, 125, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 133, 82, 134, 83, 135, 84, 136, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 88, 95, 51, 96, 19, 0, 15, 0, 80, 126, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 137, 82, 138, 83, 139, 84, 140, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 127, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 141, 82, 142, 83, 143, 84, 110, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 93, 95, 51, 96, 19, 0, 15, 0, 80, 128, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 144, 82, 145, 83, 146, 84, 147, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 148, 95, 51, 96, 19, 0, 15, 0, 80, 129, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 149, 82, 150, 83, 151, 84, 152, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 153, 95, 51, 96, 19, 0, 15, 0, 80, 130, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 154, 82, 155, 83, 156, 84, 157, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 158, 95, 51, 96, 19, 0, 15, 0, 80, 131, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 152, 82, 159, 83, 160, 84, 161, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 162, 95, 51, 96, 19, 0, 15, 0, 80, 132, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 157, 82, 163, 83, 164, 84, 165, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 166, 95, 51, 96, 19, 0, 15, 0, 80, 133, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 167, 82, 159, 83, 168, 84, 161, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 169, 95, 51, 96, 19, 0, 15, 0, 80, 134, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 147, 82, 170, 83, 171, 84, 76, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 172, 95, 51, 96, 19, 0, 15, 0, 80, 135, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 147, 82, 100, 83, 171, 84, 173, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 166, 95, 51, 96, 19, 0, 15, 0, 80, 136, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 174, 82, 175, 83, 176, 84, 177, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 178, 95, 51, 96, 19, 0, 15, 0, 80, 137, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 179, 82, 180, 83, 181, 84, 182, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 183, 95, 51, 96, 19, 0, 15, 0, 80, 138, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 184, 82, 185, 83, 186, 84, 187, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 153, 95, 51, 96, 19, 0, 15, 0, 80, 139, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 188, 82, 189, 83, 190, 84, 191, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 158, 95, 51, 96, 19, 0, 15, 0, 80, 140, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 192, 82, 193, 83, 194, 84, 175, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 162, 95, 51, 96, 19, 0, 15, 0, 80, 141, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 195, 82, 189, 83, 196, 84, 191, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 166, 95, 51, 96, 19, 0, 15, 0, 80, 142, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 81, 197, 82, 198, 83, 199, 84, 200, 85, 0, 86, 0, 87, 0, 88, 0, 89, 1, 90, 1, 91, 49, 92, 49, 93, 2, 94, 162, 95, 51, 96, 19, 0, 0, 0, 1, 143, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 13, 201, 0, 55, 0, 1, 144, 202, 3, 2, 0, 7, 203, 13, 204, 0, 55, 0, 1, 145, 205, 3, 2, 0, 7, 206, 13, 207, 0, 55, 0, 1, 146, 202, 3, 2, 0, 7, 208, 13, 204, 0, 55, 0, 1, 147, 209, 3, 2, 0, 7, 210, 13, 211, 0, 55, 0, 1, 148, 212, 4, 2, 0, 7, 213, 8, 214, 13, 215, 0, 55, 0, 1, 149, 216, 4, 2, 0, 7, 217, 8, 218, 13, 219, 0, 55, 0, 1, 150, 220, 4, 2, 0, 7, 221, 8, 222, 13, 223, 0, 55, 0, 1, 151, 216, 4, 2, 0, 7, 224, 8, 218, 13, 219, 0, 55, 0, 1, 152, 216, 4, 2, 0, 7, 225, 8, 226, 13, 219, 0, 55, 0, 1, 153, 220, 3, 2, 0, 7, 227, 13, 223, 0, 55, 0, 1, 154, 216, 4, 2, 0, 7, 228, 8, 229, 13, 219, 0, 55, 0, 1, 155, 230, 4, 2, 0, 7, 231, 8, 232, 13, 233, 0, 55, 0, 1, 156, 212, 4, 2, 0, 7, 234, 8, 235, 13, 215, 0, 55, 0, 1, 157, 212, 4, 2, 0, 7, 236, 8, 237, 13, 215, 0, 55, 0, 1, 158, 212, 3, 2, 0, 7, 238, 13, 215, 0, 55, 0, 1, 159, 212, 4, 2, 0, 7, 239, 8, 235, 13, 215, 0, 55, 0, 1, 160, 216, 4, 2, 0, 7, 240, 8, 226, 13, 219, 0, 55, 0, 1, 161, 212, 3, 2, 0, 7, 241, 13, 215, 0, 55, 0, 1, 162, 242, 4, 2, 0, 7, 243, 8, 244, 13, 245, 0, 55, 0, 1, 163, 212, 3, 2, 0, 7, 246, 13, 215, 0, 55, 0, 1, 164, 216, 4, 2, 0, 7, 247, 8, 226, 13, 219, 0, 55, 0, 1, 165, 212, 3, 2, 0, 7, 248, 13, 215, 0, 55, 0, 1, 166, 249, 3, 2, 0, 7, 250, 13, 251, 0, 55, 0, 1, 167, 212, 3, 2, 0, 7, 252, 13, 215, 0, 55, 0, 1, 168, 216, 4, 2, 0, 7, 253, 8, 229, 13, 219, 0, 55, 0, 1, 169, 230, 4, 2, 0, 7, 254, 8, 255, 13, 233, 0, 55, 0, 1, 170, 212, 3, 2, 0, 7, 256, 13, 215, 0, 55, 0, 1, 171, 220, 3, 2, 0, 7, 257, 13, 223, 0, 55, 0, 1, 172, 216, 4, 2, 0, 7, 258, 8, 229, 13, 219, 0, 55, 0, 1, 173, 212, 4, 2, 0, 7, 259, 8, 260, 13, 215, 0, 55, 0, 1, 174, 212, 4, 2, 0, 7, 261, 8, 262, 13, 215, 0, 55, 0, 1, 175, 216, 4, 2, 0, 7, 263, 8, 229, 13, 219, 0, 55, 0, 1, 176, 212, 3, 2, 0, 7, 264, 13, 215, 0, 55, 0, 1, 177, 216, 4, 2, 0, 7, 265, 8, 229, 13, 219, 0, 55, 0, 1, 178, 266, 3, 2, 0, 7, 267, 13, 268, 0, 55, 0, 1, 179, 230, 4, 2, 0, 7, 269, 8, 270, 13, 233, 0, 55, 0, 1, 180, 220, 4, 2, 0, 7, 271, 8, 272, 13, 223, 0, 55, 0, 1, 181, 216, 4, 2, 0, 7, 273, 8, 226, 13, 219, 0, 55, 0, 1, 182, 212, 3, 2, 0, 7, 274, 13, 215, 0, 55, 0, 1, 183, 230, 3, 2, 0, 7, 275, 13, 233, 0, 55, 0, 1, 184, 216, 3, 2, 0, 7, 276, 13, 219, 0, 55, 0, 1, 185, 212, 3, 2, 0, 7, 277, 13, 215, 0, 55, 0, 1, 186, 216, 4, 2, 0, 7, 278, 8, 226, 13, 219, 0, 55, 0, 1, 187, 279, 3, 2, 0, 7, 280, 13, 281, 0, 55, 0, 1, 188, 282, 3, 2, 0, 7, 283, 13, 284, 0, 55, 0, 1, 189, 285, 3, 2, 0, 7, 286, 13, 287, 0, 55, 0, 1, 190, 288, 3, 2, 0, 7, 289, 13, 290, 0, 55, 0, 1, 191, 291, 3, 2, 0, 7, 292, 13, 293, 0, 55, 0, 1, 192, 294, 3, 2, 0, 7, 295, 13, 296, 0, 55, 0, 1, 193, 297, 3, 2, 0, 7, 298, 13, 299, 0, 55, 0, 1, 194, 294, 4, 2, 0, 7, 300, 8, 301, 13, 296, 0, 55, 0, 1, 195, 279, 3, 2, 0, 7, 302, 13, 281, 0, 55, 0, 1, 196, 282, 3, 2, 0, 7, 303, 13, 284, 0, 55, 0, 1, 197, 291, 3, 2, 0, 7, 304, 13, 293, 0, 55, 0, 1, 198, 288, 4, 2, 0, 7, 305, 8, 306, 13, 290, 0, 55, 0, 1, 199, 297, 3, 2, 0, 7, 307, 13, 299, 0, 55, 0, 1, 200, 288, 4, 2, 0, 7, 308, 8, 309, 13, 290, 0, 55, 0, 1, 201, 285, 4, 2, 0, 7, 310, 8, 311, 13, 287, 0, 55, 0, 1, 202, 291, 3, 2, 0, 7, 312, 13, 293, 0, 55, 0, 1, 203, 294, 4, 2, 0, 7, 313, 8, 314, 13, 296, 0, 55, 0, 1, 204, 297, 3, 2, 0, 7, 315, 13, 299, 0, 55, 0, 1, 205, 294, 3, 2, 0, 7, 316, 13, 296, 0, 55, 0, 1, 206, 297, 3, 2, 0, 7, 317, 13, 299, 0, 55, 0, 1, 207, 297, 3, 2, 0, 7, 318, 13, 299, 0, 0, 0, 1, 208, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 0, 120, 0, 98, 209, 319, 3, 2, 0, 7, 320, 13, 321, 0, 120, 0, 98, 210, 319, 3, 2, 0, 7, 322, 13, 321, 0, 120, 0, 98, 211, 319, 3, 2, 0, 7, 323, 13, 321, 0, 120, 0, 98, 212, 319, 3, 2, 0, 7, 324, 13, 321, 0, 120, 0, 98, 213, 319, 3, 2, 0, 7, 325, 13, 321, 0, 120, 0, 98, 214, 319, 3, 2, 0, 7, 326, 13, 321, 0, 120, 0, 98, 215, 319, 3, 2, 0, 7, 327, 13, 321, 0, 120, 0, 98, 216, 319, 3, 2, 0, 7, 328, 13, 321, 0, 120, 0, 98, 217, 319, 3, 2, 0, 7, 329, 13, 321, 0, 120, 0, 98, 218, 319, 3, 2, 0, 7, 330, 13, 321, 0, 120, 0, 98, 219, 319, 3, 2, 0, 7, 331, 13, 321, 0 </int_array>
+			<int_array  len="2349"> 				-1, -1, 1, 0, -1, 2, 2, 0, 3, 1, 0, 0, 0, 1, 4, -1, 1, 3, 2, 0, 1, 0, 6, 5, -1, 11, 7, 3, 8, 4, 9, 5, 10, 3, 11, 6, 12, 6, 13, 7, 14, 8, 15, 9, 16, 8, 3, 10, 0, 2, 0, 17, 17, -1, 5, 18, 11, 19, 12, 20, 4, 21, 3, 22, 13, 0, 1, 0, 6, 23, -1, 11, 7, 3, 8, 4, 9, 14, 10, 3, 11, 6, 12, 6, 13, 7, 14, 8, 15, 9, 16, 8, 3, 10, 0, 4, 0, 17, 17, -1, 5, 18, 15, 19, 16, 20, 4, 21, 3, 22, 13, 0, 1, 0, 6, 24, -1, 10, 7, 3, 8, 17, 9, 18, 10, 3, 11, 6, 12, 6, 13, 7, 14, 8, 15, 9, 16, 8, 0, 6, 0, 17, 17, -1, 5, 18, 19, 19, 20, 20, 17, 21, 3, 22, 13, 0, 0, 0, 26, 25, 21, 2, 27, 22, 3, 23, 0, 0, 0, 1, 28, 24, 3, 27, 22, 18, 25, 3, 26, 0, 0, 0, 30, 29, 27, 3, 27, 22, 18, 28, 3, 29, 0, 0, 0, 31, 31, -1, 17, 18, 30, 32, 6, 33, 3, 34, 31, 35, 8, 36, 32, 37, 33, 38, 33, 39, 34, 40, 34, 41, 31, 42, 31, 43, 35, 44, 35, 45, 35, 46, 35, 2, 36, 0, 0, 0, 48, 47, -1, 8, 49, 6, 50, 8, 51, 37, 52, 38, 53, 31, 54, 9, 55, 39, 56, 40, 0, 0, 0, 1, 57, 41, 2, 27, 22, 3, 42, 0, 13, 0, 59, 58, -1, 9, 60, 13, 61, 7, 62, 8, 63, 32, 64, 7, 65, 7, 66, 32, 67, 7, 68, 7, 0, 14, 0, 70, 69, -1, 2, 71, 43, 72, 7, 0, 15, 0, 74, 73, -1, 9, 75, 44, 76, 45, 77, 46, 78, 47, 79, 31, 80, 31, 81, 48, 82, 48, 83, 49, 0, 15, 0, 74, 84, -1, 9, 75, 50, 76, 51, 77, 52, 78, 53, 79, 31, 80, 31, 81, 48, 82, 48, 83, 54, 0, 15, 0, 74, 85, -1, 9, 75, 55, 76, 56, 77, 57, 78, 58, 79, 31, 80, 31, 81, 48, 82, 48, 83, 59, 0, 15, 0, 74, 86, -1, 9, 75, 60, 76, 61, 77, 62, 78, 63, 79, 31, 80, 31, 81, 48, 82, 48, 83, 64, 0, 15, 0, 74, 87, -1, 9, 75, 65, 76, 66, 77, 67, 78, 68, 79, 31, 80, 31, 81, 48, 82, 48, 83, 69, 0, 15, 0, 74, 88, -1, 9, 75, 70, 76, 71, 77, 72, 78, 73, 79, 31, 80, 31, 81, 48, 82, 48, 83, 74, 0, 15, 0, 74, 89, -1, 9, 75, 75, 76, 53, 77, 76, 78, 77, 79, 31, 80, 31, 81, 48, 82, 48, 83, 59, 0, 15, 0, 74, 90, -1, 9, 75, 78, 76, 79, 77, 80, 78, 81, 79, 31, 80, 31, 81, 48, 82, 48, 83, 64, 0, 15, 0, 74, 91, -1, 9, 75, 82, 76, 83, 77, 84, 78, 71, 79, 31, 80, 31, 81, 48, 82, 48, 83, 64, 0, 15, 0, 74, 92, -1, 9, 75, 85, 76, 86, 77, 87, 78, 88, 79, 31, 80, 31, 81, 48, 82, 48, 83, 54, 0, 15, 0, 74, 93, -1, 9, 75, 89, 76, 90, 77, 91, 78, 92, 79, 31, 80, 31, 81, 48, 82, 48, 83, 64, 0, 15, 0, 74, 94, -1, 9, 75, 93, 76, 94, 77, 95, 78, 96, 79, 31, 80, 31, 81, 48, 82, 48, 83, 69, 0, 15, 0, 74, 95, -1, 9, 75, 97, 76, 98, 77, 99, 78, 100, 79, 31, 80, 31, 81, 48, 82, 48, 83, 64, 0, 15, 0, 74, 96, -1, 8, 76, 101, 77, 102, 78, 46, 79, 31, 80, 31, 81, 48, 82, 48, 83, 103, 0, 15, 0, 74, 97, -1, 9, 75, 104, 76, 105, 77, 106, 78, 107, 79, 31, 80, 31, 81, 48, 82, 48, 83, 108, 0, 15, 0, 74, 98, -1, 9, 75, 109, 76, 110, 77, 111, 78, 112, 79, 31, 80, 31, 81, 48, 82, 48, 83, 113, 0, 15, 0, 74, 99, -1, 9, 75, 114, 76, 115, 77, 116, 78, 117, 79, 31, 80, 31, 81, 48, 82, 48, 83, 118, 0, 15, 0, 74, 100, -1, 9, 75, 119, 76, 120, 77, 121, 78, 122, 79, 31, 80, 31, 81, 48, 82, 48, 83, 123, 0, 15, 0, 74, 101, -1, 9, 75, 124, 76, 125, 77, 126, 78, 127, 79, 31, 80, 31, 81, 48, 82, 48, 83, 108, 0, 15, 0, 74, 102, -1, 9, 75, 128, 76, 129, 77, 130, 78, 131, 79, 31, 80, 31, 81, 48, 82, 48, 83, 113, 0, 14, 0, 70, 103, -1, 2, 71, 132, 72, 7, 0, 36, 0, 74, 104, -1, 9, 75, 112, 76, 133, 77, 134, 78, 135, 79, 31, 80, 31, 81, 48, 82, 48, 83, 136, 0, 36, 0, 74, 105, -1, 9, 75, 137, 76, 138, 77, 139, 78, 140, 79, 31, 80, 31, 81, 48, 82, 48, 83, 141, 0, 36, 0, 74, 106, -1, 9, 75, 142, 76, 143, 77, 144, 78, 145, 79, 31, 80, 31, 81, 48, 82, 48, 83, 136, 0, 36, 0, 74, 107, -1, 9, 75, 146, 76, 147, 77, 148, 78, 149, 79, 31, 80, 31, 81, 48, 82, 48, 83, 150, 0, 36, 0, 74, 108, -1, 9, 75, 151, 76, 152, 77, 93, 78, 153, 79, 31, 80, 31, 81, 48, 82, 48, 83, 141, 0, 36, 0, 74, 109, -1, 9, 75, 154, 76, 155, 77, 137, 78, 156, 79, 31, 80, 31, 81, 48, 82, 48, 83, 157, 0, 36, 0, 74, 110, -1, 9, 75, 158, 76, 159, 77, 160, 78, 115, 79, 31, 80, 31, 81, 48, 82, 48, 83, 157, 0, 36, 0, 74, 111, -1, 9, 75, 161, 76, 162, 77, 163, 78, 164, 79, 31, 80, 31, 81, 48, 82, 48, 83, 157, 0, 14, 0, 70, 112, -1, 2, 71, 165, 72, 7, 0, 45, 0, 74, 113, -1, 9, 75, 166, 76, 143, 77, 167, 78, 145, 79, 31, 80, 31, 81, 48, 82, 48, 83, 168, 0, 45, 0, 74, 114, -1, 9, 75, 169, 76, 138, 77, 170, 78, 140, 79, 31, 80, 31, 81, 48, 82, 48, 83, 168, 0, 45, 0, 74, 115, -1, 9, 75, 171, 76, 172, 77, 173, 78, 174, 79, 31, 80, 31, 81, 48, 82, 48, 83, 168, 0, 45, 0, 74, 116, -1, 9, 75, 175, 76, 176, 77, 177, 78, 86, 79, 31, 80, 31, 81, 48, 82, 48, 83, 168, 0, 45, 0, 74, 117, -1, 9, 75, 178, 76, 179, 77, 180, 78, 181, 79, 31, 80, 31, 81, 48, 82, 48, 83, 182, 0, 45, 0, 74, 118, -1, 9, 75, 112, 76, 155, 77, 134, 78, 156, 79, 31, 80, 31, 81, 48, 82, 48, 83, 183, 0, 45, 0, 74, 119, -1, 9, 75, 184, 76, 185, 77, 186, 78, 187, 79, 31, 80, 31, 81, 48, 82, 48, 83, 188, 0, 45, 0, 74, 120, -1, 9, 75, 189, 76, 190, 77, 191, 78, 192, 79, 31, 80, 31, 81, 48, 82, 48, 83, 182, 0, 45, 0, 74, 121, -1, 9, 75, 184, 76, 129, 77, 186, 78, 131, 79, 31, 80, 31, 81, 48, 82, 48, 83, 182, 0, 14, 0, 70, 122, -1, 2, 71, 193, 72, 7, 0, 55, 0, 124, 123, -1, 3, 18, 194, 125, 195, 83, 196, 0, 55, 0, 74, 126, -1, 9, 75, 197, 76, 139, 77, 198, 78, 199, 79, 31, 80, 31, 81, 48, 82, 48, 83, 200, 0, 0, 0, 1, 127, -1, 1, 3, 201, 0, 58, 0, 1, 128, 202, 3, 27, 22, 18, 203, 3, 204, 0, 58, 0, 1, 129, 205, 3, 27, 22, 18, 206, 3, 207, 0, 58, 0, 1, 130, 202, 3, 27, 22, 18, 208, 3, 204, 0, 58, 0, 1, 131, 209, 3, 27, 22, 18, 210, 3, 211, 0, 58, 0, 1, 132, 212, 4, 27, 22, 18, 213, 125, 214, 3, 215, 0, 58, 0, 1, 133, 216, 4, 27, 22, 18, 217, 125, 218, 3, 219, 0, 58, 0, 1, 134, 220, 4, 27, 22, 18, 221, 125, 222, 3, 223, 0, 58, 0, 1, 135, 216, 4, 27, 22, 18, 224, 125, 218, 3, 219, 0, 58, 0, 1, 136, 216, 4, 27, 22, 18, 225, 125, 226, 3, 219, 0, 58, 0, 1, 137, 220, 3, 27, 22, 18, 227, 3, 223, 0, 58, 0, 1, 138, 216, 4, 27, 22, 18, 228, 125, 229, 3, 219, 0, 58, 0, 1, 139, 230, 4, 27, 22, 18, 231, 125, 232, 3, 233, 0, 58, 0, 1, 140, 212, 4, 27, 22, 18, 234, 125, 235, 3, 215, 0, 58, 0, 1, 141, 212, 4, 27, 22, 18, 236, 125, 237, 3, 215, 0, 58, 0, 1, 142, 212, 3, 27, 22, 18, 238, 3, 215, 0, 58, 0, 1, 143, 212, 4, 27, 22, 18, 239, 125, 235, 3, 215, 0, 58, 0, 1, 144, 216, 4, 27, 22, 18, 240, 125, 226, 3, 219, 0, 58, 0, 1, 145, 212, 3, 27, 22, 18, 241, 3, 215, 0, 58, 0, 1, 146, 242, 4, 27, 22, 18, 243, 125, 244, 3, 245, 0, 58, 0, 1, 147, 212, 3, 27, 22, 18, 246, 3, 215, 0, 58, 0, 1, 148, 216, 4, 27, 22, 18, 247, 125, 226, 3, 219, 0, 58, 0, 1, 149, 212, 3, 27, 22, 18, 248, 3, 215, 0, 58, 0, 1, 150, 249, 3, 27, 22, 18, 250, 3, 251, 0, 58, 0, 1, 151, 212, 3, 27, 22, 18, 252, 3, 215, 0, 58, 0, 1, 152, 216, 4, 27, 22, 18, 253, 125, 229, 3, 219, 0, 58, 0, 1, 153, 230, 4, 27, 22, 18, 254, 125, 255, 3, 233, 0, 58, 0, 1, 154, 212, 3, 27, 22, 18, 256, 3, 215, 0, 58, 0, 1, 155, 220, 3, 27, 22, 18, 257, 3, 223, 0, 58, 0, 1, 156, 216, 4, 27, 22, 18, 258, 125, 229, 3, 219, 0, 58, 0, 1, 157, 212, 4, 27, 22, 18, 259, 125, 260, 3, 215, 0, 58, 0, 1, 158, 212, 4, 27, 22, 18, 261, 125, 262, 3, 215, 0, 58, 0, 1, 159, 216, 4, 27, 22, 18, 263, 125, 229, 3, 219, 0, 58, 0, 1, 160, 212, 3, 27, 22, 18, 264, 3, 215, 0, 58, 0, 1, 161, 216, 4, 27, 22, 18, 265, 125, 229, 3, 219, 0, 58, 0, 1, 162, 266, 3, 27, 22, 18, 267, 3, 268, 0, 58, 0, 1, 163, 230, 4, 27, 22, 18, 269, 125, 270, 3, 233, 0, 58, 0, 1, 164, 220, 4, 27, 22, 18, 271, 125, 272, 3, 223, 0, 58, 0, 1, 165, 216, 4, 27, 22, 18, 273, 125, 226, 3, 219, 0, 58, 0, 1, 166, 212, 3, 27, 22, 18, 274, 3, 215, 0, 58, 0, 1, 167, 230, 3, 27, 22, 18, 275, 3, 233, 0, 58, 0, 1, 168, 216, 3, 27, 22, 18, 276, 3, 219, 0, 58, 0, 1, 169, 212, 3, 27, 22, 18, 277, 3, 215, 0, 58, 0, 1, 170, 216, 4, 27, 22, 18, 278, 125, 226, 3, 219, 0, 58, 0, 1, 171, 279, 3, 27, 22, 18, 280, 3, 281, 0, 58, 0, 1, 172, 282, 3, 27, 22, 18, 283, 3, 284, 0, 58, 0, 1, 173, 285, 3, 27, 22, 18, 286, 3, 287, 0, 58, 0, 1, 174, 288, 3, 27, 22, 18, 289, 3, 290, 0, 58, 0, 1, 175, 291, 3, 27, 22, 18, 292, 3, 293, 0, 58, 0, 1, 176, 294, 3, 27, 22, 18, 295, 3, 296, 0, 58, 0, 1, 177, 297, 3, 27, 22, 18, 298, 3, 299, 0, 58, 0, 1, 178, 294, 4, 27, 22, 18, 300, 125, 301, 3, 296, 0, 58, 0, 1, 179, 279, 3, 27, 22, 18, 302, 3, 281, 0, 58, 0, 1, 180, 282, 3, 27, 22, 18, 303, 3, 284, 0, 58, 0, 1, 181, 291, 3, 27, 22, 18, 304, 3, 293, 0, 58, 0, 1, 182, 288, 4, 27, 22, 18, 305, 125, 306, 3, 290, 0, 58, 0, 1, 183, 297, 3, 27, 22, 18, 307, 3, 299, 0, 58, 0, 1, 184, 288, 4, 27, 22, 18, 308, 125, 309, 3, 290, 0, 58, 0, 1, 185, 285, 4, 27, 22, 18, 310, 125, 311, 3, 287, 0, 58, 0, 1, 186, 291, 3, 27, 22, 18, 312, 3, 293, 0, 58, 0, 1, 187, 294, 4, 27, 22, 18, 313, 125, 314, 3, 296, 0, 58, 0, 1, 188, 297, 3, 27, 22, 18, 315, 3, 299, 0, 58, 0, 1, 189, 294, 3, 27, 22, 18, 316, 3, 296, 0, 58, 0, 1, 190, 297, 3, 27, 22, 18, 317, 3, 299, 0, 58, 0, 1, 191, 297, 3, 27, 22, 18, 318, 3, 299, 0, 0, 0, 1, 192, -1, 1, 3, 319, 0, 123, 0, 124, 193, 320, 3, 27, 22, 18, 321, 3, 322, 0, 123, 0, 124, 194, 320, 3, 27, 22, 18, 323, 3, 322, 0, 123, 0, 124, 195, 320, 3, 27, 22, 18, 324, 3, 322, 0, 123, 0, 124, 196, 320, 3, 27, 22, 18, 325, 3, 322, 0, 123, 0, 124, 197, 320, 3, 27, 22, 18, 326, 3, 322, 0, 123, 0, 124, 198, 320, 3, 27, 22, 18, 327, 3, 322, 0, 123, 0, 124, 199, 320, 3, 27, 22, 18, 328, 3, 322, 0, 123, 0, 124, 200, 320, 3, 27, 22, 18, 329, 3, 322, 0, 123, 0, 124, 201, 320, 3, 27, 22, 18, 330, 3, 322, 0, 123, 0, 124, 202, 320, 3, 27, 22, 18, 331, 3, 322, 0, 123, 0, 124, 203, 320, 3, 27, 22, 18, 332, 3, 322, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="332" shared="false">
-				<node_path> "" </node_path>
-				<bool> True </bool>
-				<real> 1 </real>
-				<int> 1 </int>
-				<vector2> 0, 0 </vector2>
-				<real> 0 </real>
-				<vector2> 1, 1 </vector2>
-				<int> 0 </int>
-				<resource  resource_type="Script" path="res://Scripts/Niveles/Nivel2.gd">  </resource>
+			<array  len="333" shared="false">
+				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -3.6405, -154.34 </vector2>
+							<vector2> 487.122, 75.2028 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -350,7 +326,170 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 1.000001 </real>
+							<real> 1.108034 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Anim" </string>
+						<dictionary  shared="false">
+							<string> "visible" </string>
+							<bool> False </bool>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<bool> False </bool>
+				<resource  resource_type="Shape2D" path="local://2">  </resource>
+				<matrix32> 0.837842, -0, 0, 29.0354, 125.889, 128.654 </matrix32>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 125.889, 128.654 </vector2>
+				<vector2> 0.837842, 29.0354 </vector2>
+				<int> -1 </int>
+				<matrix32> 0.933741, -0, 0, 29.0912, 912.77, 129.809 </matrix32>
+				<vector2> 912.77, 129.809 </vector2>
+				<vector2> 0.933741, 29.0912 </vector2>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<matrix32> 40.2448, -0, 0, 0.866367, 520.183, -153.158 </matrix32>
+				<vector2> 520.183, -153.158 </vector2>
+				<vector2> 40.2448, 0.866367 </vector2>
+				<resource  external="1">  </resource>
+				<node_path> "" </node_path>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> 16.4129, 103.538 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 4.20474 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -447,13 +586,10 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 3 </int>
+							<int> 0 </int>
 							<string> "sources" </string>
-							<array  len="4" shared="false">
-								<string> "res://Scripts/Niveles/Nivel2.gd" </string>
-								<string> "res://Scripts/Camera/Camera.gd" </string>
+							<array  len="1" shared="false">
 								<string> "res://Scripts/HUD/HUD.gd" </string>
-								<string> "res://Scripts/global.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
@@ -465,7 +601,140 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Astronauta.xscn">  </resource>
+				<resource  external="2">  </resource>
+				<vector2> 863.253, 335.177 </vector2>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -106.565, -58.4819 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 5.162317 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<resource  external="3">  </resource>
 				<vector2> 162.71, -95.8085 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -609,311 +878,19 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Nave.xscn">  </resource>
-				<vector2> 863.253, 335.177 </vector2>
-				<dictionary  shared="false">
-					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
-					<string> "__editor_plugin_states__" </string>
-					<dictionary  shared="false">
-						<string> "2D" </string>
-						<dictionary  shared="false">
-							<string> "ofs" </string>
-							<vector2> -106.565, -58.4819 </vector2>
-							<string> "snap_grid" </string>
-							<bool> False </bool>
-							<string> "snap_offset" </string>
-							<vector2> 0, 0 </vector2>
-							<string> "snap_pixel" </string>
-							<bool> False </bool>
-							<string> "snap_relative" </string>
-							<bool> False </bool>
-							<string> "snap_rotation" </string>
-							<bool> False </bool>
-							<string> "snap_rotation_offset" </string>
-							<real> 0 </real>
-							<string> "snap_rotation_step" </string>
-							<real> 0.261799 </real>
-							<string> "snap_show_grid" </string>
-							<bool> False </bool>
-							<string> "snap_step" </string>
-							<vector2> 10, 10 </vector2>
-							<string> "zoom" </string>
-							<real> 5.162317 </real>
-						</dictionary>
-						<string> "3D" </string>
-						<dictionary  shared="false">
-							<string> "ambient_light_color" </string>
-							<color> 0.15, 0.15, 0.15, 1 </color>
-							<string> "default_light" </string>
-							<bool> True </bool>
-							<string> "default_srgb" </string>
-							<bool> False </bool>
-							<string> "deflight_rot_x" </string>
-							<real> 0.942478 </real>
-							<string> "deflight_rot_y" </string>
-							<real> 0.628319 </real>
-							<string> "fov" </string>
-							<real> 45 </real>
-							<string> "show_grid" </string>
-							<bool> True </bool>
-							<string> "show_origin" </string>
-							<bool> True </bool>
-							<string> "viewport_mode" </string>
-							<int> 1 </int>
-							<string> "viewports" </string>
-							<array  len="4" shared="false">
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> True </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-							</array>
-							<string> "zfar" </string>
-							<real> 500 </real>
-							<string> "znear" </string>
-							<real> 0.1 </real>
-						</dictionary>
-					</dictionary>
-					<string> "__editor_run_settings__" </string>
-					<dictionary  shared="false">
-						<string> "custom_args" </string>
-						<string> "-l $scene" </string>
-						<string> "run_mode" </string>
-						<int> 0 </int>
-					</dictionary>
-				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/HUD/HUD.xscn">  </resource>
-				<dictionary  shared="false">
-					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
-					<string> "__editor_plugin_states__" </string>
-					<dictionary  shared="false">
-						<string> "2D" </string>
-						<dictionary  shared="false">
-							<string> "ofs" </string>
-							<vector2> 16.4129, 103.538 </vector2>
-							<string> "snap_grid" </string>
-							<bool> False </bool>
-							<string> "snap_offset" </string>
-							<vector2> 0, 0 </vector2>
-							<string> "snap_pixel" </string>
-							<bool> False </bool>
-							<string> "snap_relative" </string>
-							<bool> False </bool>
-							<string> "snap_rotation" </string>
-							<bool> False </bool>
-							<string> "snap_rotation_offset" </string>
-							<real> 0 </real>
-							<string> "snap_rotation_step" </string>
-							<real> 0.261799 </real>
-							<string> "snap_show_grid" </string>
-							<bool> False </bool>
-							<string> "snap_step" </string>
-							<vector2> 10, 10 </vector2>
-							<string> "zoom" </string>
-							<real> 4.20474 </real>
-						</dictionary>
-						<string> "3D" </string>
-						<dictionary  shared="false">
-							<string> "ambient_light_color" </string>
-							<color> 0.15, 0.15, 0.15, 1 </color>
-							<string> "default_light" </string>
-							<bool> True </bool>
-							<string> "default_srgb" </string>
-							<bool> False </bool>
-							<string> "deflight_rot_x" </string>
-							<real> 0.942478 </real>
-							<string> "deflight_rot_y" </string>
-							<real> 0.628319 </real>
-							<string> "fov" </string>
-							<real> 45 </real>
-							<string> "show_grid" </string>
-							<bool> True </bool>
-							<string> "show_origin" </string>
-							<bool> True </bool>
-							<string> "viewport_mode" </string>
-							<int> 1 </int>
-							<string> "viewports" </string>
-							<array  len="4" shared="false">
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> True </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-								<dictionary  shared="false">
-									<string> "distance" </string>
-									<real> 4 </real>
-									<string> "listener" </string>
-									<bool> False </bool>
-									<string> "pos" </string>
-									<vector3> 0, 0, 0 </vector3>
-									<string> "use_environment" </string>
-									<bool> False </bool>
-									<string> "use_orthogonal" </string>
-									<bool> False </bool>
-									<string> "x_rot" </string>
-									<real> 0 </real>
-									<string> "y_rot" </string>
-									<real> 0 </real>
-								</dictionary>
-							</array>
-							<string> "zfar" </string>
-							<real> 500 </real>
-							<string> "znear" </string>
-							<real> 0.1 </real>
-						</dictionary>
-						<string> "Script" </string>
-						<dictionary  shared="false">
-							<string> "current" </string>
-							<int> 0 </int>
-							<string> "sources" </string>
-							<array  len="1" shared="false">
-								<string> "res://Scripts/HUD/HUD.gd" </string>
-							</array>
-						</dictionary>
-					</dictionary>
-					<string> "__editor_run_settings__" </string>
-					<dictionary  shared="false">
-						<string> "custom_args" </string>
-						<string> "-l $scene" </string>
-						<string> "run_mode" </string>
-						<int> 0 </int>
-					</dictionary>
-				</dictionary>
-				<vector2> 164.705, -96.2321 </vector2>
-				<bool> False </bool>
+				<vector2> 866.089, 327.559 </vector2>
+				<bool> True </bool>
+				<vector2> 1, 1 </vector2>
 				<int> -10000000 </int>
 				<int> 10000000 </int>
 				<real> 0.2 </real>
-				<resource  resource_type="Script" path="res://Scripts/Camera/Camera.gd">  </resource>
+				<resource  external="4">  </resource>
 				<node_path> ".." </node_path>
 				<resource  resource_type="Animation" path="local://1">  </resource>
 				<array  len="0" shared="false">
 				</array>
 				<string> "" </string>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<resource  resource_type="Shape2D" path="local://2">  </resource>
-				<matrix32> 0.837842, -0, 0, 29.0354, 125.889, 128.654 </matrix32>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<vector2> 125.889, 128.654 </vector2>
-				<vector2> 0.837842, 29.0354 </vector2>
-				<matrix32> 0.933741, -0, 0, 29.0912, 912.77, 129.809 </matrix32>
-				<vector2> 912.77, 129.809 </vector2>
-				<vector2> 0.933741, 29.0912 </vector2>
-				<resource  resource_type="Shape2D" path="local://3">  </resource>
-				<matrix32> 40.2448, -0, 0, 0.866367, 520.183, -153.158 </matrix32>
-				<vector2> 520.183, -153.158 </vector2>
-				<vector2> 40.2448, 0.866367 </vector2>
-				<resource  resource_type="PackedScene" path="res://Scenes/Background/FondoDeEstrellas.xscn">  </resource>
+				<resource  external="5">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -922,7 +899,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -352, -229.273 </vector2>
+							<vector2> 780.094, -186.71 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -942,7 +919,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.598737 </real>
+							<real> 1.507342 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -1036,6 +1013,11 @@
 							<string> "znear" </string>
 							<real> 0.1 </real>
 						</dictionary>
+						<string> "Anim" </string>
+						<dictionary  shared="false">
+							<string> "visible" </string>
+							<bool> False </bool>
+						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
 					<dictionary  shared="false">
@@ -1045,172 +1027,169 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<int> -1 </int>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<real> 828 </real>
-				<real> 212 </real>
-				<real> 962 </real>
-				<real> 349 </real>
-				<int> 2 </int>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Lunas/Luna rosada 1.png">  </resource>
-				<color> 1, 1, 1, 1 </color>
-				<vector2> 310.984, -148.049 </vector2>
-				<real> 9.107729 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta fucsia 1.png">  </resource>
-				<rect2> 0, 0, 0, 0 </rect2>
-				<real> 19 </real>
-				<real> -101 </real>
-				<real> 118 </real>
-				<real> -52 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 4.png">  </resource>
-				<real> 31 </real>
-				<real> -137 </real>
-				<real> 71 </real>
-				<real> -97 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 3.png">  </resource>
-				<real> 63 </real>
-				<real> -120 </real>
-				<real> 103 </real>
-				<real> -80 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 2.png">  </resource>
-				<real> 98 </real>
-				<real> -127 </real>
-				<real> 138 </real>
-				<real> -87 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 4.png">  </resource>
-				<real> 73 </real>
-				<real> -158 </real>
-				<real> 113 </real>
-				<real> -118 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 1.png">  </resource>
-				<real> 111 </real>
-				<real> -147 </real>
-				<real> 151 </real>
-				<real> -107 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 6.png">  </resource>
-				<real> 140 </real>
-				<real> 180 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 5.png">  </resource>
-				<real> 153 </real>
-				<real> -150 </real>
-				<real> 193 </real>
-				<real> -110 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 3.png">  </resource>
-				<real> 167 </real>
-				<real> -160 </real>
-				<real> 207 </real>
-				<real> 762 </real>
-				<real> -73 </real>
-				<real> 906 </real>
-				<real> -22 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 2.png">  </resource>
-				<real> 840 </real>
-				<real> -92 </real>
-				<real> 880 </real>
-				<real> 887 </real>
-				<real> -93 </real>
-				<real> 927 </real>
-				<real> -53 </real>
-				<real> 863 </real>
-				<real> -112 </real>
-				<real> 903 </real>
-				<real> -72 </real>
-				<real> 815 </real>
-				<real> 855 </real>
-				<real> 796 </real>
-				<real> -99 </real>
-				<real> 836 </real>
-				<real> -59 </real>
-				<real> 763 </real>
-				<real> -132 </real>
-				<real> 803 </real>
-				<real> 797 </real>
-				<real> -136 </real>
-				<real> 837 </real>
-				<real> -96 </real>
-				<real> 742 </real>
-				<real> 782 </real>
-				<real> 738 </real>
-				<real> -169 </real>
-				<real> 778 </real>
-				<real> -129 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 4.png">  </resource>
-				<real> 720 </real>
-				<real> -154 </real>
-				<real> 760 </real>
-				<real> -114 </real>
-				<real> 701 </real>
-				<real> -166 </real>
-				<real> 741 </real>
-				<real> -126 </real>
-				<real> 677 </real>
-				<real> -152 </real>
-				<real> 717 </real>
-				<real> 3 </real>
-				<real> 75 </real>
-				<real> 159 </real>
+				<vector2> 0.8, 0.8 </vector2>
+				<real> 27 </real>
+				<real> -75 </real>
 				<real> 126 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 1.png">  </resource>
-				<real> 20 </real>
+				<real> -26 </real>
+				<int> 2 </int>
+				<resource  external="6">  </resource>
+				<real> 31 </real>
+				<real> -111 </real>
+				<real> 71 </real>
+				<real> -71 </real>
+				<resource  external="7">  </resource>
+				<real> 58 </real>
+				<real> -93 </real>
+				<real> 98 </real>
+				<real> -53 </real>
+				<resource  external="8">  </resource>
+				<real> 102 </real>
+				<real> -104 </real>
+				<real> 142 </real>
+				<real> -64 </real>
+				<resource  external="9">  </resource>
+				<real> 72 </real>
+				<real> -127 </real>
+				<real> 112 </real>
+				<real> -87 </real>
+				<resource  external="10">  </resource>
+				<real> 642 </real>
+				<real> -52 </real>
+				<real> 786 </real>
+				<real> -1 </real>
+				<resource  external="11">  </resource>
+				<real> 720 </real>
+				<real> 760 </real>
+				<real> -31 </real>
+				<real> 768 </real>
+				<real> -73 </real>
+				<real> 808 </real>
+				<real> -33 </real>
+				<real> 743 </real>
+				<real> -92 </real>
+				<real> 783 </real>
+				<real> 696 </real>
+				<real> -100 </real>
+				<real> 736 </real>
+				<real> -60 </real>
+				<real> 675 </real>
+				<real> -79 </real>
+				<real> 715 </real>
+				<real> -39 </real>
+				<real> 644 </real>
+				<real> -114 </real>
+				<real> 684 </real>
+				<real> -74 </real>
+				<real> 679 </real>
+				<real> -116 </real>
+				<real> 719 </real>
+				<real> -76 </real>
+				<real> 75 </real>
+				<real> 156 </real>
+				<resource  external="12">  </resource>
+				<real> 17 </real>
 				<real> 43 </real>
-				<real> 60 </real>
+				<real> 57 </real>
 				<real> 83 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png">  </resource>
-				<real> 51 </real>
+				<resource  external="13">  </resource>
+				<real> 48 </real>
 				<real> 56 </real>
-				<real> 91 </real>
+				<real> 88 </real>
 				<real> 96 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png">  </resource>
-				<real> 46 </real>
-				<real> 123 </real>
-				<real> 86 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png">  </resource>
-				<real> 34 </real>
-				<real> 136 </real>
-				<real> 74 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png">  </resource>
-				<real> 99 </real>
-				<real> 139 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png">  </resource>
-				<real> 33 </real>
-				<real> 166 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png">  </resource>
-				<real> 18 </real>
-				<real> 144 </real>
+				<resource  external="14">  </resource>
+				<real> 124 </real>
 				<real> 266 </real>
-				<real> 245 </real>
+				<real> 225 </real>
 				<real> 317 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png">  </resource>
-				<real> 197 </real>
+				<resource  external="15">  </resource>
+				<real> 177 </real>
 				<real> 232 </real>
-				<real> 237 </real>
+				<real> 217 </real>
 				<real> 272 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 1.png">  </resource>
-				<real> 170 </real>
-				<real> 206 </real>
-				<real> 210 </real>
-				<real> 246 </real>
-				<real> 164 </real>
-				<real> 241 </real>
-				<real> 204 </real>
-				<real> 281 </real>
+				<resource  external="16">  </resource>
 				<real> 150 </real>
-				<real> 226 </real>
+				<real> 206 </real>
 				<real> 190 </real>
-				<real> 143 </real>
-				<real> 183 </real>
-				<real> 125 </real>
+				<real> 246 </real>
+				<real> 144 </real>
+				<real> 241 </real>
+				<real> 184 </real>
+				<real> 281 </real>
+				<vector2> 0.77, 0.77 </vector2>
+				<real> -128 </real>
+				<real> 136 </real>
+				<real> -88 </real>
+				<resource  external="17">  </resource>
+				<real> 120 </real>
+				<real> -138 </real>
+				<real> 160 </real>
+				<real> -98 </real>
+				<resource  external="18">  </resource>
+				<real> 622 </real>
+				<real> -131 </real>
+				<real> 662 </real>
+				<real> -91 </real>
+				<real> 624 </real>
+				<real> -148 </real>
+				<real> 664 </real>
+				<real> -108 </real>
+				<resource  external="19">  </resource>
+				<real> 604 </real>
+				<real> -137 </real>
+				<real> -97 </real>
+				<real> 80 </real>
+				<real> 46 </real>
+				<real> 86 </real>
+				<resource  external="20">  </resource>
+				<real> 130 </real>
+				<real> 226 </real>
+				<real> 170 </real>
+				<real> 105 </real>
 				<real> 220 </real>
-				<real> 165 </real>
+				<real> 145 </real>
 				<real> 260 </real>
+				<vector2> 0.74, 0.74 </vector2>
+				<real> 131 </real>
+				<real> 171 </real>
+				<resource  external="21">  </resource>
+				<real> 141 </real>
+				<real> 181 </real>
+				<real> 589 </real>
+				<real> -152 </real>
+				<real> 629 </real>
+				<real> -112 </real>
+				<real> 569 </real>
+				<real> -140 </real>
+				<real> 609 </real>
+				<real> 93 </real>
+				<real> 34 </real>
+				<real> 133 </real>
+				<real> 74 </real>
+				<resource  external="22">  </resource>
+				<resource  external="23">  </resource>
+				<real> 123 </real>
+				<real> 33 </real>
+				<real> 163 </real>
+				<real> 73 </real>
+				<resource  external="24">  </resource>
+				<real> 113 </real>
+				<real> -22 </real>
+				<real> 153 </real>
+				<real> 18 </real>
+				<vector2> 0.71, 0.71 </vector2>
+				<vector2> 307.99, -98.3539 </vector2>
+				<real> 9.107729 </real>
+				<resource  external="25">  </resource>
+				<real> 648 </real>
+				<real> 782 </real>
+				<real> 297 </real>
+				<resource  external="26">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn">  </resource>
+				<resource  external="27">  </resource>
 				<vector2> 181.702, -40.9365 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1343,7 +1322,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn">  </resource>
+				<resource  external="28">  </resource>
 				<vector2> 576.177, 42.4014 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1477,7 +1456,7 @@
 					</dictionary>
 				</dictionary>
 				<vector2> 599.103, 237.583 </vector2>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn">  </resource>
+				<resource  external="29">  </resource>
 				<vector2> 819.318, 421.941 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1610,7 +1589,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris7.xscn">  </resource>
+				<resource  external="30">  </resource>
 				<vector2> 119.589, -78.4587 </vector2>
 				<real> 4.61829 </real>
 				<dictionary  shared="false">
@@ -1744,7 +1723,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn">  </resource>
+				<resource  external="31">  </resource>
 				<vector2> 100.973, -33.6014 </vector2>
 				<real> -14.273333 </real>
 				<dictionary  shared="false">
@@ -1878,7 +1857,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn">  </resource>
+				<resource  external="32">  </resource>
 				<vector2> 114.298, 11.6623 </vector2>
 				<real> -18.367071 </real>
 				<dictionary  shared="false">
@@ -2018,7 +1997,7 @@
 				<vector2> 494.353, -101.357 </vector2>
 				<vector2> 611.613, -27.223 </vector2>
 				<real> 23.344421 </real>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris3.xscn">  </resource>
+				<resource  external="33">  </resource>
 				<vector2> 680.33, -113.175 </vector2>
 				<real> 22.30302 </real>
 				<dictionary  shared="false">
@@ -2160,7 +2139,7 @@
 				<vector2> 792.983, -29.5289 </vector2>
 				<vector2> 808.854, -23.4093 </vector2>
 				<vector2> 843.529, -6.94426 </vector2>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris4.xscn">  </resource>
+				<resource  external="34">  </resource>
 				<vector2> 856.513, 11.782 </vector2>
 				<real> -16.488707 </real>
 				<dictionary  shared="false">
@@ -2297,7 +2276,7 @@
 				<vector2> 835.239, 32.5574 </vector2>
 				<vector2> 801.704, 44.1172 </vector2>
 				<vector2> 846.943, 70.5961 </vector2>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn">  </resource>
+				<resource  external="35">  </resource>
 				<vector2> 802.469, 90.1899 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2444,7 +2423,7 @@
 				<vector2> 669.998, 264.387 </vector2>
 				<vector2> 530.72, 206.669 </vector2>
 				<vector2> 463.221, 396.344 </vector2>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn">  </resource>
+				<resource  external="36">  </resource>
 				<vector2> 577.27, 434.248 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2587,7 +2566,7 @@
 				<vector2> 957.015, 375.791 </vector2>
 				<vector2> 988.748, 397.504 </vector2>
 				<vector2> 987.997, 361.491 </vector2>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn">  </resource>
+				<resource  external="37">  </resource>
 				<vector2> 245.696, 165.807 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2720,7 +2699,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron1.xscn">  </resource>
+				<resource  external="38">  </resource>
 				<vector2> 114.763, 191.361 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2853,7 +2832,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron3.xscn">  </resource>
+				<resource  external="39">  </resource>
 				<vector2> 56.7461, 172.459 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2986,7 +2965,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn">  </resource>
+				<resource  external="40">  </resource>
 				<vector2> 89.3725, 128.742 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -3119,7 +3098,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn">  </resource>
+				<resource  external="41">  </resource>
 				<vector2> 127.814, 104.454 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -3252,7 +3231,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn">  </resource>
+				<resource  external="42">  </resource>
 				<vector2> 139.583, 64.664 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -3385,7 +3364,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn">  </resource>
+				<resource  external="43">  </resource>
 				<vector2> 152.715, 34.7471 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -3537,7 +3516,11 @@
 				<vector2> 228.202, 228.933 </vector2>
 				<vector2> 261.911, 225.506 </vector2>
 				<vector2> 360.327, 165.852 </vector2>
-				<resource  resource_type="PackedScene" path="res://Scenes/Khalum/GreenKhalum.xscn">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="44">  </resource>
 				<vector2> 207.31, -94.0462 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
