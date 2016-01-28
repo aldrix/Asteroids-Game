@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="23" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
-	<ext_resource path="res://Sprites/Crater con Vapor.png" type="Texture" index="6"></ext_resource>
-	<ext_resource path="res://Scripts/Camera/Camera.gd" type="Script" index="4"></ext_resource>
+<resource_file type="PackedScene" subresource_count="22" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
 	<ext_resource path="res://Scripts/Niveles/Nivel3.gd" type="Script" index="0"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris5.xscn" type="PackedScene" index="9"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene" index="16"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris6.xscn" type="PackedScene" index="8"></ext_resource>
-	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene" index="2"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris7.xscn" type="PackedScene" index="14"></ext_resource>
-	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="5"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn" type="PackedScene" index="18"></ext_resource>
-	<ext_resource path="res://Scenes/Khalum/GreenKhalum.xscn" type="PackedScene" index="19"></ext_resource>
-	<ext_resource path="res://Scenes/Obstaculos/Geizer.xscn" type="PackedScene" index="20"></ext_resource>
+	<ext_resource path="res://Scripts/Camera/Camera.gd" type="Script" index="4"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris5.xscn" type="PackedScene" index="8"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn" type="PackedScene" index="16"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn" type="PackedScene" index="17"></ext_resource>
+	<ext_resource path="res://Scenes/Khalum/GreenKhalum.xscn" type="PackedScene" index="18"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene" index="15"></ext_resource>
+	<ext_resource path="res://Scenes/Obstaculos/Geizer.xscn" type="PackedScene" index="19"></ext_resource>
 	<ext_resource path="res://Scenes/HUD/HUD.xscn" type="PackedScene" index="1"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn" type="PackedScene" index="10"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn" type="PackedScene" index="17"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn" type="PackedScene" index="9"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn" type="PackedScene" index="10"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris6.xscn" type="PackedScene" index="7"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris7.xscn" type="PackedScene" index="13"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris3.xscn" type="PackedScene" index="14"></ext_resource>
+	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris4.xscn" type="PackedScene" index="11"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene" index="12"></ext_resource>
 	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene" index="3"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene" index="7"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn" type="PackedScene" index="11"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris4.xscn" type="PackedScene" index="12"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene" index="13"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris3.xscn" type="PackedScene" index="15"></ext_resource>
+	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="5"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene" index="6"></ext_resource>
 	<resource type="Animation" path="local://1">
 		<string name="resource/name"> "Camera Movement" </string>
 		<real name="length"> 2.9 </real>
@@ -55,7 +54,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="135">
+			<string_array  len="137">
 				<string> "Nivel3" </string>
 				<string> "Node2D" </string>
 				<string> "script/script" </string>
@@ -109,20 +108,10 @@
 				<string> "ParallaxLayer" </string>
 				<string> "motion/scale" </string>
 				<string> "motion/mirroring" </string>
-				<string> "Sprite2" </string>
-				<string> "Sprite" </string>
-				<string> "transform/rot" </string>
-				<string> "texture" </string>
-				<string> "Sprite3" </string>
-				<string> "Sprite4" </string>
-				<string> "Sprite5" </string>
-				<string> "Sprite6" </string>
-				<string> "Sprite7" </string>
-				<string> "Sprite8" </string>
-				<string> "Sprite9" </string>
 				<string> "Asteroides" </string>
 				<string> "AsteroideGris1" </string>
 				<string> "AsteroideGris2" </string>
+				<string> "transform/rot" </string>
 				<string> "AsteroideGris3" </string>
 				<string> "AsteroideGris4" </string>
 				<string> "AsteroideGris5" </string>
@@ -173,6 +162,7 @@
 				<string> "MiniAsteroideGris39" </string>
 				<string> "KhalumVerde" </string>
 				<string> "GreenKhalum1" </string>
+				<string> "Sprite" </string>
 				<string> "GreenKhalum2" </string>
 				<string> "GreenKhalum3" </string>
 				<string> "GreenKhalum4" </string>
@@ -189,25 +179,36 @@
 				<string> "GreenKhalum15" </string>
 				<string> "GreenKhalum16" </string>
 				<string> "GreenKhalum17" </string>
+				<string> "Geizeres" </string>
 				<string> "Geizer" </string>
-				<string> "StaticBody2D" </string>
+				<string> "Geizer1" </string>
+				<string> "Geizer2" </string>
+				<string> "Obstacles" </string>
+				<string> "Geizer3" </string>
+				<string> "Geizer4" </string>
+				<string> "Geizer5" </string>
+				<string> "Geizer6" </string>
+				<string> "transform/scale" </string>
+				<string> "Geizer7" </string>
+				<string> "Geizer8" </string>
+				<string> "Geizer9" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 88 </int>
+			<int> 92 </int>
 			<string> "nodes" </string>
-			<int_array  len="1236"> 				-1, -1, 1, 0, -1, 2, 2, 0, 3, 1, 0, 0, 0, 1, 4, -1, 0, 0, 0, 0, 6, 5, 2, 2, 7, 3, 3, 4, 0, 0, 0, 1, 8, 5, 3, 7, 3, 9, 6, 3, 7, 0, 0, 0, 11, 10, 8, 3, 7, 3, 9, 9, 3, 10, 0, 0, 0, 12, 12, -1, 17, 9, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 17, 20, 18, 21, 18, 22, 14, 23, 14, 24, 19, 25, 19, 26, 19, 27, 19, 2, 20, 0, 0, 0, 29, 28, -1, 8, 30, 12, 31, 15, 32, 21, 33, 22, 34, 14, 35, 23, 36, 24, 37, 25, 0, 0, 0, 1, 38, 26, 2, 7, 3, 3, 27, 0, 7, 0, 40, 39, -1, 10, 41, 28, 42, 29, 43, 15, 44, 16, 45, 29, 46, 29, 47, 16, 48, 29, 49, 29, 3, 30, 0, 8, 0, 50, 50, -1, 3, 51, 16, 52, 29, 3, 31, 0, 9, 0, 54, 53, -1, 3, 9, 32, 55, 33, 56, 34, 0, 9, 0, 54, 57, -1, 3, 9, 35, 55, 36, 56, 34, 0, 9, 0, 54, 58, -1, 3, 9, 37, 55, 38, 56, 34, 0, 9, 0, 54, 59, -1, 3, 9, 39, 55, 40, 56, 34, 0, 9, 0, 54, 60, -1, 3, 9, 41, 55, 38, 56, 34, 0, 9, 0, 54, 61, -1, 3, 9, 42, 55, 38, 56, 34, 0, 9, 0, 54, 62, -1, 3, 9, 43, 55, 44, 56, 34, 0, 9, 0, 54, 63, -1, 3, 9, 45, 55, 46, 56, 34, 0, 0, 0, 1, 64, -1, 1, 3, 47, 0, 18, 0, 1, 65, 48, 3, 7, 3, 9, 49, 3, 50, 0, 18, 0, 1, 66, 51, 4, 7, 3, 9, 52, 55, 53, 3, 54, 0, 18, 0, 1, 67, 55, 3, 7, 3, 9, 56, 3, 57, 0, 18, 0, 1, 68, 58, 3, 7, 3, 9, 59, 3, 60, 0, 18, 0, 1, 69, 61, 3, 7, 3, 9, 62, 3, 63, 0, 18, 0, 1, 70, 51, 4, 7, 3, 9, 64, 55, 65, 3, 54, 0, 18, 0, 1, 71, 48, 3, 7, 3, 9, 66, 3, 50, 0, 18, 0, 1, 72, 55, 4, 7, 3, 9, 67, 55, 68, 3, 57, 0, 18, 0, 1, 73, 51, 4, 7, 3, 9, 69, 55, 53, 3, 54, 0, 18, 0, 1, 74, 61, 3, 7, 3, 9, 70, 3, 63, 0, 0, 0, 1, 75, -1, 1, 3, 71, 0, 29, 0, 1, 76, 72, 4, 7, 3, 9, 73, 55, 74, 3, 75, 0, 29, 0, 1, 77, 76, 3, 7, 3, 9, 77, 3, 78, 0, 29, 0, 1, 78, 79, 4, 7, 3, 9, 80, 55, 81, 3, 82, 0, 29, 0, 1, 79, 72, 4, 7, 3, 9, 83, 55, 74, 3, 75, 0, 29, 0, 1, 80, 84, 4, 7, 3, 9, 85, 55, 86, 3, 87, 0, 29, 0, 1, 81, 76, 3, 7, 3, 9, 88, 3, 78, 0, 29, 0, 1, 82, 79, 4, 7, 3, 9, 89, 55, 81, 3, 82, 0, 29, 0, 1, 83, 90, 4, 7, 3, 9, 91, 55, 92, 3, 93, 0, 29, 0, 1, 84, 79, 4, 7, 3, 9, 94, 55, 95, 3, 82, 0, 29, 0, 1, 85, 96, 3, 7, 3, 9, 97, 3, 98, 0, 29, 0, 1, 86, 99, 3, 7, 3, 9, 100, 3, 101, 0, 29, 0, 1, 87, 79, 4, 7, 3, 9, 102, 55, 95, 3, 82, 0, 29, 0, 1, 88, 84, 4, 7, 3, 9, 103, 55, 104, 3, 87, 0, 29, 0, 1, 89, 72, 4, 7, 3, 9, 105, 55, 74, 3, 75, 0, 29, 0, 1, 90, 76, 3, 7, 3, 9, 106, 3, 78, 0, 29, 0, 1, 91, 84, 4, 7, 3, 9, 107, 55, 108, 3, 87, 0, 29, 0, 1, 92, 90, 4, 7, 3, 9, 109, 55, 110, 3, 93, 0, 29, 0, 1, 93, 79, 4, 7, 3, 9, 111, 55, 112, 3, 82, 0, 29, 0, 1, 94, 90, 4, 7, 3, 9, 113, 55, 114, 3, 93, 0, 29, 0, 1, 95, 79, 4, 7, 3, 9, 115, 55, 116, 3, 82, 0, 29, 0, 1, 96, 79, 4, 7, 3, 9, 117, 55, 118, 3, 82, 0, 29, 0, 1, 97, 76, 3, 7, 3, 9, 119, 3, 78, 0, 29, 0, 1, 98, 79, 4, 7, 3, 9, 120, 55, 121, 3, 82, 0, 29, 0, 1, 99, 90, 4, 7, 3, 9, 122, 55, 123, 3, 93, 0, 29, 0, 1, 100, 79, 4, 7, 3, 9, 124, 55, 125, 3, 82, 0, 29, 0, 1, 101, 84, 4, 7, 3, 9, 126, 55, 127, 3, 87, 0, 29, 0, 1, 102, 76, 3, 7, 3, 9, 128, 3, 78, 0, 29, 0, 1, 103, 79, 4, 7, 3, 9, 129, 55, 125, 3, 82, 0, 29, 0, 1, 104, 79, 4, 7, 3, 9, 130, 55, 125, 3, 82, 0, 29, 0, 1, 105, 90, 4, 7, 3, 9, 131, 55, 132, 3, 93, 0, 29, 0, 1, 106, 76, 3, 7, 3, 9, 133, 3, 78, 0, 29, 0, 1, 107, 79, 4, 7, 3, 9, 134, 55, 125, 3, 82, 0, 29, 0, 1, 108, 76, 3, 7, 3, 9, 135, 3, 78, 0, 29, 0, 1, 109, 96, 4, 7, 3, 9, 136, 55, 137, 3, 98, 0, 29, 0, 1, 110, 79, 4, 7, 3, 9, 138, 55, 125, 3, 82, 0, 29, 0, 1, 111, 76, 3, 7, 3, 9, 139, 3, 78, 0, 29, 0, 1, 112, 99, 3, 7, 3, 9, 140, 3, 101, 0, 29, 0, 1, 113, 79, 4, 7, 3, 9, 141, 55, 125, 3, 82, 0, 29, 0, 1, 114, 76, 3, 7, 3, 9, 142, 3, 78, 0, 0, 0, 1, 115, -1, 1, 3, 143, 0, 69, 0, 54, 116, 144, 3, 7, 3, 9, 145, 3, 146, 0, 69, 0, 54, 117, 144, 3, 7, 3, 9, 147, 3, 146, 0, 69, 0, 54, 118, 144, 3, 7, 3, 9, 148, 3, 146, 0, 69, 0, 54, 119, 144, 3, 7, 3, 9, 149, 3, 146, 0, 69, 0, 54, 120, 144, 3, 7, 3, 9, 150, 3, 146, 0, 69, 0, 54, 121, 144, 3, 7, 3, 9, 151, 3, 146, 0, 69, 0, 54, 122, 144, 3, 7, 3, 9, 152, 3, 146, 0, 69, 0, 54, 123, 144, 3, 7, 3, 9, 153, 3, 146, 0, 69, 0, 54, 124, 144, 3, 7, 3, 9, 154, 3, 146, 0, 69, 0, 54, 125, 144, 3, 7, 3, 9, 155, 3, 146, 0, 69, 0, 54, 126, 144, 3, 7, 3, 9, 156, 3, 146, 0, 69, 0, 54, 127, 144, 3, 7, 3, 9, 157, 3, 146, 0, 69, 0, 54, 128, 144, 3, 7, 3, 9, 158, 3, 146, 0, 69, 0, 54, 129, 144, 3, 7, 3, 9, 159, 3, 146, 0, 69, 0, 54, 130, 144, 3, 7, 3, 9, 160, 3, 146, 0, 69, 0, 54, 131, 144, 3, 7, 3, 9, 161, 3, 146, 0, 69, 0, 54, 132, 144, 3, 7, 3, 9, 162, 3, 146, 0, 0, 0, 134, 133, 163, 4, 7, 3, 9, 164, 55, 165, 3, 166, 0 </int_array>
+			<int_array  len="1302"> 				-1, -1, 1, 0, -1, 2, 2, 0, 3, 1, 0, 0, 0, 1, 4, -1, 0, 0, 0, 0, 6, 5, 2, 2, 7, 3, 3, 4, 0, 0, 0, 1, 8, 5, 3, 7, 3, 9, 6, 3, 7, 0, 0, 0, 11, 10, 8, 3, 7, 3, 9, 9, 3, 10, 0, 0, 0, 12, 12, -1, 17, 9, 11, 13, 12, 14, 13, 15, 14, 16, 15, 17, 16, 18, 17, 19, 17, 20, 18, 21, 18, 22, 14, 23, 14, 24, 19, 25, 19, 26, 19, 27, 19, 2, 20, 0, 0, 0, 29, 28, -1, 8, 30, 12, 31, 15, 32, 21, 33, 22, 34, 14, 35, 23, 36, 24, 37, 25, 0, 0, 0, 1, 38, 26, 2, 7, 3, 3, 27, 0, 7, 0, 40, 39, -1, 9, 41, 28, 42, 29, 43, 15, 44, 16, 45, 29, 46, 29, 47, 16, 48, 29, 49, 29, 0, 8, 0, 50, 50, -1, 2, 51, 16, 52, 29, 0, 0, 0, 1, 53, -1, 1, 3, 30, 0, 10, 0, 1, 54, 31, 3, 7, 3, 9, 32, 3, 33, 0, 10, 0, 1, 55, 34, 4, 7, 3, 9, 35, 56, 36, 3, 37, 0, 10, 0, 1, 57, 38, 3, 7, 3, 9, 39, 3, 40, 0, 10, 0, 1, 58, 41, 3, 7, 3, 9, 42, 3, 43, 0, 10, 0, 1, 59, 44, 3, 7, 3, 9, 45, 3, 46, 0, 10, 0, 1, 60, 34, 4, 7, 3, 9, 47, 56, 48, 3, 37, 0, 10, 0, 1, 61, 31, 3, 7, 3, 9, 49, 3, 33, 0, 10, 0, 1, 62, 38, 4, 7, 3, 9, 50, 56, 51, 3, 40, 0, 10, 0, 1, 63, 34, 4, 7, 3, 9, 52, 56, 36, 3, 37, 0, 10, 0, 1, 64, 44, 3, 7, 3, 9, 53, 3, 46, 0, 0, 0, 1, 65, -1, 1, 3, 54, 0, 21, 0, 1, 66, 55, 4, 7, 3, 9, 56, 56, 57, 3, 58, 0, 21, 0, 1, 67, 59, 3, 7, 3, 9, 60, 3, 61, 0, 21, 0, 1, 68, 62, 4, 7, 3, 9, 63, 56, 64, 3, 65, 0, 21, 0, 1, 69, 55, 4, 7, 3, 9, 66, 56, 57, 3, 58, 0, 21, 0, 1, 70, 67, 4, 7, 3, 9, 68, 56, 69, 3, 70, 0, 21, 0, 1, 71, 59, 3, 7, 3, 9, 71, 3, 61, 0, 21, 0, 1, 72, 62, 4, 7, 3, 9, 72, 56, 64, 3, 65, 0, 21, 0, 1, 73, 73, 4, 7, 3, 9, 74, 56, 75, 3, 76, 0, 21, 0, 1, 74, 62, 4, 7, 3, 9, 77, 56, 78, 3, 65, 0, 21, 0, 1, 75, 79, 3, 7, 3, 9, 80, 3, 81, 0, 21, 0, 1, 76, 82, 3, 7, 3, 9, 83, 3, 84, 0, 21, 0, 1, 77, 62, 4, 7, 3, 9, 85, 56, 78, 3, 65, 0, 21, 0, 1, 78, 67, 4, 7, 3, 9, 86, 56, 87, 3, 70, 0, 21, 0, 1, 79, 55, 4, 7, 3, 9, 88, 56, 57, 3, 58, 0, 21, 0, 1, 80, 59, 3, 7, 3, 9, 89, 3, 61, 0, 21, 0, 1, 81, 67, 4, 7, 3, 9, 90, 56, 91, 3, 70, 0, 21, 0, 1, 82, 73, 4, 7, 3, 9, 92, 56, 93, 3, 76, 0, 21, 0, 1, 83, 62, 4, 7, 3, 9, 94, 56, 95, 3, 65, 0, 21, 0, 1, 84, 73, 4, 7, 3, 9, 96, 56, 97, 3, 76, 0, 21, 0, 1, 85, 62, 4, 7, 3, 9, 98, 56, 99, 3, 65, 0, 21, 0, 1, 86, 62, 4, 7, 3, 9, 100, 56, 101, 3, 65, 0, 21, 0, 1, 87, 59, 3, 7, 3, 9, 102, 3, 61, 0, 21, 0, 1, 88, 62, 4, 7, 3, 9, 103, 56, 104, 3, 65, 0, 21, 0, 1, 89, 73, 4, 7, 3, 9, 105, 56, 106, 3, 76, 0, 21, 0, 1, 90, 62, 4, 7, 3, 9, 107, 56, 108, 3, 65, 0, 21, 0, 1, 91, 67, 4, 7, 3, 9, 109, 56, 110, 3, 70, 0, 21, 0, 1, 92, 59, 3, 7, 3, 9, 111, 3, 61, 0, 21, 0, 1, 93, 62, 4, 7, 3, 9, 112, 56, 108, 3, 65, 0, 21, 0, 1, 94, 62, 4, 7, 3, 9, 113, 56, 108, 3, 65, 0, 21, 0, 1, 95, 73, 4, 7, 3, 9, 114, 56, 115, 3, 76, 0, 21, 0, 1, 96, 59, 3, 7, 3, 9, 116, 3, 61, 0, 21, 0, 1, 97, 62, 4, 7, 3, 9, 117, 56, 108, 3, 65, 0, 21, 0, 1, 98, 59, 3, 7, 3, 9, 118, 3, 61, 0, 21, 0, 1, 99, 79, 4, 7, 3, 9, 119, 56, 120, 3, 81, 0, 21, 0, 1, 100, 62, 4, 7, 3, 9, 121, 56, 108, 3, 65, 0, 21, 0, 1, 101, 59, 3, 7, 3, 9, 122, 3, 61, 0, 21, 0, 1, 102, 82, 3, 7, 3, 9, 123, 3, 84, 0, 21, 0, 1, 103, 62, 4, 7, 3, 9, 124, 56, 108, 3, 65, 0, 21, 0, 1, 104, 59, 3, 7, 3, 9, 125, 3, 61, 0, 0, 0, 1, 105, -1, 1, 3, 126, 0, 61, 0, 107, 106, 127, 3, 7, 3, 9, 128, 3, 129, 0, 61, 0, 107, 108, 127, 3, 7, 3, 9, 130, 3, 129, 0, 61, 0, 107, 109, 127, 3, 7, 3, 9, 131, 3, 129, 0, 61, 0, 107, 110, 127, 3, 7, 3, 9, 132, 3, 129, 0, 61, 0, 107, 111, 127, 3, 7, 3, 9, 133, 3, 129, 0, 61, 0, 107, 112, 127, 3, 7, 3, 9, 134, 3, 129, 0, 61, 0, 107, 113, 127, 3, 7, 3, 9, 135, 3, 129, 0, 61, 0, 107, 114, 127, 3, 7, 3, 9, 136, 3, 129, 0, 61, 0, 107, 115, 127, 3, 7, 3, 9, 137, 3, 129, 0, 61, 0, 107, 116, 127, 3, 7, 3, 9, 138, 3, 129, 0, 61, 0, 107, 117, 127, 3, 7, 3, 9, 139, 3, 129, 0, 61, 0, 107, 118, 127, 3, 7, 3, 9, 140, 3, 129, 0, 61, 0, 107, 119, 127, 3, 7, 3, 9, 141, 3, 129, 0, 61, 0, 107, 120, 127, 3, 7, 3, 9, 142, 3, 129, 0, 61, 0, 107, 121, 127, 3, 7, 3, 9, 143, 3, 129, 0, 61, 0, 107, 122, 127, 3, 7, 3, 9, 144, 3, 129, 0, 61, 0, 107, 123, 127, 3, 7, 3, 9, 145, 3, 129, 0, 61, 0, 1, 1, -1, 0, 0, 79, 0, 1, 1, -1, 0, 0, 0, 0, 1, 124, -1, 1, 3, 146, 0, 81, 0, 11, 125, 147, 4, 7, 3, 9, 148, 56, 149, 3, 150, 0, 81, 0, 11, 126, 147, 4, 7, 3, 9, 151, 56, 152, 3, 150, 0, 81, 0, 11, 127, 147, 4, 7, 3, 9, 153, 56, 154, 3, 150, 1, 128, 81, 0, 11, 129, 147, 4, 7, 3, 9, 155, 56, 154, 3, 150, 1, 128, 81, 0, 11, 130, 147, 4, 7, 3, 9, 156, 56, 157, 3, 150, 1, 128, 81, 0, 11, 131, 147, 4, 7, 3, 9, 158, 56, 154, 3, 150, 1, 128, 81, 0, 11, 132, 147, 5, 7, 3, 9, 159, 56, 154, 133, 160, 3, 150, 1, 128, 81, 0, 11, 134, 147, 5, 7, 3, 9, 161, 56, 154, 133, 160, 3, 150, 1, 128, 81, 0, 11, 135, 147, 5, 7, 3, 9, 162, 56, 163, 133, 160, 3, 150, 1, 128, 81, 0, 11, 136, 147, 5, 7, 3, 9, 164, 56, 165, 133, 160, 3, 150, 1, 128 </int_array>
 			<string> "variants" </string>
-			<array  len="167" shared="false">
+			<array  len="166" shared="false">
 				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
+					<string> "Script" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> 202.698, -62.9487 </vector2>
+							<vector2> 321.543, 99.9196 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -227,7 +228,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 1.850619 </real>
+							<real> 1.360375 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -482,6 +483,10 @@
 						<string> "run_mode" </string>
 						<int> 0 </int>
 					</dictionary>
+					<string> "__editor_show_subtree" </string>
+					<bool> True </bool>
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
 				</dictionary>
 				<resource  external="2">  </resource>
 				<vector2> 188.553, 172.957 </vector2>
@@ -921,30 +926,7 @@
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<vector2> 476.901, 32.4082 </vector2>
-				<real> 160.356628 </real>
 				<resource  external="6">  </resource>
-				<vector2> 588.693, 56.7635 </vector2>
-				<real> 1.858219 </real>
-				<vector2> 724.911, 56.9648 </vector2>
-				<real> -0.705711 </real>
-				<vector2> 805.826, 77.6406 </vector2>
-				<real> 88.586311 </real>
-				<vector2> 654.424, 199.641 </vector2>
-				<vector2> 553.146, 211.876 </vector2>
-				<vector2> 437.366, 152.038 </vector2>
-				<real> 178.038513 </real>
-				<vector2> 375.54, 186.394 </vector2>
-				<real> 44.736614 </real>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<resource  external="7">  </resource>
 				<vector2> 150.47, -3.93636 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1077,7 +1059,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  external="8">  </resource>
+				<resource  external="7">  </resource>
 				<vector2> 338.366, -138.248 </vector2>
 				<real> 175.460693 </real>
 				<dictionary  shared="false">
@@ -1211,7 +1193,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  external="9">  </resource>
+				<resource  external="8">  </resource>
 				<vector2> 361.54, 56.6416 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1344,7 +1326,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  external="10">  </resource>
+				<resource  external="9">  </resource>
 				<vector2> 584.493, -27.1046 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1477,7 +1459,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  external="11">  </resource>
+				<resource  external="10">  </resource>
 				<vector2> 655.639, 124.04 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1621,7 +1603,7 @@
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<resource  external="12">  </resource>
+				<resource  external="11">  </resource>
 				<vector2> 257.601, -143.602 </vector2>
 				<real> -35.443493 </real>
 				<dictionary  shared="false">
@@ -1755,7 +1737,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  external="13">  </resource>
+				<resource  external="12">  </resource>
 				<vector2> 401.038, -157.772 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1888,7 +1870,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  external="14">  </resource>
+				<resource  external="13">  </resource>
 				<vector2> 434.653, -142.821 </vector2>
 				<real> 170.301941 </real>
 				<dictionary  shared="false">
@@ -2023,7 +2005,7 @@
 					</dictionary>
 				</dictionary>
 				<vector2> 478.105, -166.048 </vector2>
-				<resource  external="15">  </resource>
+				<resource  external="14">  </resource>
 				<vector2> 540.925, -188.429 </vector2>
 				<real> 40.217216 </real>
 				<dictionary  shared="false">
@@ -2159,7 +2141,7 @@
 				</dictionary>
 				<vector2> 531.731, -149.147 </vector2>
 				<vector2> 570.977, -150.701 </vector2>
-				<resource  external="16">  </resource>
+				<resource  external="15">  </resource>
 				<vector2> 611.252, -190.036 </vector2>
 				<real> -59.534184 </real>
 				<dictionary  shared="false">
@@ -2295,7 +2277,7 @@
 				</dictionary>
 				<vector2> 615.844, -147.775 </vector2>
 				<real> 26.733391 </real>
-				<resource  external="17">  </resource>
+				<resource  external="16">  </resource>
 				<vector2> 666.651, -166.785 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2428,7 +2410,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  external="18">  </resource>
+				<resource  external="17">  </resource>
 				<vector2> 725.242, -157.895 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2601,12 +2583,12 @@
 				<vector2> 749.072, 196.923 </vector2>
 				<vector2> 764.023, 281.994 </vector2>
 				<vector2> 714.1, 295.782 </vector2>
-				<vector2> 474.436, 218.176 </vector2>
+				<vector2> 466.671, 218.823 </vector2>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<resource  external="19">  </resource>
+				<resource  external="18">  </resource>
 				<vector2> 563.357, -90.7331 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2759,12 +2741,16 @@
 				<vector2> 442.87, 47.9898 </vector2>
 				<vector2> 554.802, 69.7339 </vector2>
 				<vector2> 759.625, 65.8325 </vector2>
-				<vector2> 787.558, 177.566 </vector2>
+				<vector2> 794.999, 172.389 </vector2>
 				<vector2> 597.759, 215.287 </vector2>
 				<vector2> 516.331, 150.623 </vector2>
 				<vector2> 319.331, 200.623 </vector2>
 				<vector2> 293.331, 200.623 </vector2>
-				<resource  external="20">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="19">  </resource>
 				<vector2> 378.68, 13.2341 </vector2>
 				<real> -13.510292 </real>
 				<dictionary  shared="false">
@@ -2904,7 +2890,24 @@
 					</dictionary>
 					<string> "__editor_show_subtree" </string>
 					<bool> True </bool>
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
 				</dictionary>
+				<vector2> 476.866, 29.8196 </vector2>
+				<real> 157.181137 </real>
+				<vector2> 597.869, 57.7629 </vector2>
+				<real> -0.076252 </real>
+				<vector2> 684.686, 58.3616 </vector2>
+				<vector2> 805.032, 81.1136 </vector2>
+				<real> 89.859161 </real>
+				<vector2> 550.164, 213.466 </vector2>
+				<vector2> 653.812, 198.764 </vector2>
+				<vector2> 1, 1 </vector2>
+				<vector2> 795.797, 170.479 </vector2>
+				<vector2> 440.092, 151.645 </vector2>
+				<real> -179.47966 </real>
+				<vector2> 378.722, 185.94 </vector2>
+				<real> 46.386017 </real>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

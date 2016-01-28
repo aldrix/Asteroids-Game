@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="25" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
 	<ext_resource path="res://Sprites/Gas/gass_0.png" type="Texture" index="2"></ext_resource>
-	<ext_resource path="res://Sprites/Gas/gass_1.png" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://Sprites/Gas/gass_2.png" type="Texture" index="4"></ext_resource>
-	<ext_resource path="res://Sprites/Gas/gass_3.png" type="Texture" index="5"></ext_resource>
 	<ext_resource path="res://Sprites/Astro/Astro 1.png" type="Texture" index="1"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Astronauta.gd" type="Script" index="0"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasRight.gd" type="Script" index="8"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasUp.gd" type="Script" index="7"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasLeft.gd" type="Script" index="9"></ext_resource>
+	<ext_resource path="res://Sprites/Gas/gass_1.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://Sprites/Gas/gass_3.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://Sprites/Gas/gass_2.png" type="Texture" index="4"></ext_resource>
 	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasDown.gd" type="Script" index="6"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Astronauta.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasUp.gd" type="Script" index="7"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasRight.gd" type="Script" index="8"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasLeft.gd" type="Script" index="9"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="5"> 			8.19049, 4.9407, 7.43186, 3.7498, 6.91638, -1.62358, 9.15316, 1.49011, 9.75687, 3.74289 </vector2_array>
@@ -191,7 +191,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -34.3569, -22.3162 </vector2>
+							<vector2> -43.504, -26.1538 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -211,7 +211,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 12.996297 </real>
+							<real> 10.585566 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
