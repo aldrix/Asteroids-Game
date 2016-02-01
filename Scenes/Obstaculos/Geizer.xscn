@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="5" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Scripts/Obstaculos/Geizer.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Sprites/Obstaculos/Geizer.png" type="Texture"></ext_resource>
-	<resource type="RectangleShape2D" path="local://1">
+<resource_file type="PackedScene" subresource_count="5" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://Sprites/Obstaculos/Geizer.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://Scripts/Obstaculos/Geizer.gd" type="Script" index="0"></ext_resource>
+	<resource type="ConvexPolygonShape2D" path="local://11">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2 name="extents"> 10, 10 </vector2>
+		<vector2_array name="points" len="4"> 			11.6134, 30.0148, -9.89577, 29.6185, -8.10334, 13.369, 8.7455, 13.6332 </vector2_array>
 
 	</resource>
-	<resource type="Animation" path="local://2">
+	<resource type="Animation" path="local://10">
 		<string name="resource/name"> "Play" </string>
-		<real name="length"> 3 </real>
+		<real name="length"> 2.5 </real>
 		<bool name="loop"> True </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
@@ -19,60 +19,56 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="7"> 				0, 0.1, 0.2, 0.3, 0.4, 0.5, 1.5 </real_array>
+			<real_array  len="5"> 				0, 0.3, 0.6, 0.9, 1.2 </real_array>
 			<string> "transitions" </string>
-			<real_array  len="7"> 				1, 1, 1, 1, 1, 1, 1 </real_array>
+			<real_array  len="5"> 				1, 1, 1, 1, 1 </real_array>
 			<string> "values" </string>
-			<array  len="7" shared="false">
-				<int> 0 </int>
-				<int> 1 </int>
-				<int> 2 </int>
-				<int> 3 </int>
-				<int> 4 </int>
+			<array  len="5" shared="false">
 				<int> 5 </int>
-				<int> 0 </int>
+				<int> 4 </int>
+				<int> 3 </int>
+				<int> 2 </int>
+				<int> 1 </int>
 			</array>
 		</dictionary>
 		<string name="tracks/1/type"> "value" </string>
-		<node_path name="tracks/1/path"> "CollisionShape2D:transform/pos" </node_path>
+		<node_path name="tracks/1/path"> "CollisionPolygon2D:transform/scale" </node_path>
 		<int name="tracks/1/interp"> 1 </int>
 		<dictionary name="tracks/1/keys" shared="false">
 			<string> "cont" </string>
 			<bool> True </bool>
 			<string> "times" </string>
-			<real_array  len="7"> 				0, 0.1, 0.2, 0.3, 0.4, 0.5, 1.5 </real_array>
+			<real_array  len="6"> 				0, 0.3, 0.6, 0.9, 1.2, 2.5 </real_array>
 			<string> "transitions" </string>
-			<real_array  len="7"> 				1, 1, 1, 1, 1, 1, 1 </real_array>
+			<real_array  len="6"> 				1, 1, 1, 1, 1, 1 </real_array>
 			<string> "values" </string>
-			<array  len="7" shared="false">
-				<vector2> 0.10587, 13.6138 </vector2>
-				<vector2> 0.24094, 11.856 </vector2>
-				<vector2> 1.4513, 8.24688 </vector2>
-				<vector2> 0.976067, 2.14597 </vector2>
-				<vector2> 0.943837, -4.29254 </vector2>
-				<vector2> 0.911608, -6.53472 </vector2>
-				<vector2> 0.491114, 14.2361 </vector2>
+			<array  len="6" shared="false">
+				<vector2> 1, 3.13349 </vector2>
+				<vector2> 1.02467, 2.70825 </vector2>
+				<vector2> 0.996327, 2.19556 </vector2>
+				<vector2> 1.0105, 1.7561 </vector2>
+				<vector2> 1.05301, 1.29833 </vector2>
+				<vector2> 1.04893, 1.4395 </vector2>
 			</array>
 		</dictionary>
 		<string name="tracks/2/type"> "value" </string>
-		<node_path name="tracks/2/path"> "CollisionShape2D:transform/scale" </node_path>
+		<node_path name="tracks/2/path"> "CollisionPolygon2D:transform/pos" </node_path>
 		<int name="tracks/2/interp"> 1 </int>
 		<dictionary name="tracks/2/keys" shared="false">
 			<string> "cont" </string>
 			<bool> True </bool>
 			<string> "times" </string>
-			<real_array  len="7"> 				0, 0.1, 0.2, 0.3, 0.4, 0.5, 1.5 </real_array>
+			<real_array  len="6"> 				0, 0.3, 0.6, 0.9, 1.2, 2.5 </real_array>
 			<string> "transitions" </string>
-			<real_array  len="7"> 				1, 1, 1, 1, 1, 1, 1 </real_array>
+			<real_array  len="6"> 				1, 1, 1, 1, 1, 1 </real_array>
 			<string> "values" </string>
-			<array  len="7" shared="false">
-				<vector2> 1e-005, 1e-005 </vector2>
-				<vector2> 0.553153, 0.135225 </vector2>
-				<vector2> 0.690072, 0.624351 </vector2>
-				<vector2> 0.665426, 1.10801 </vector2>
-				<vector2> 0.640781, 1.59491 </vector2>
-				<vector2> 0.616136, 2.09433 </vector2>
-				<vector2> 0.0344604, -0.0229843 </vector2>
+			<array  len="6" shared="false">
+				<vector2> 0, -69.8462 </vector2>
+				<vector2> 0.403297, -54.9591 </vector2>
+				<vector2> -0.0600429, -37.0103 </vector2>
+				<vector2> 0.17163, -21.6255 </vector2>
+				<vector2> 0.866628, -5.59974 </vector2>
+				<vector2> 0.799965, -10.5418 </vector2>
 			</array>
 		</dictionary>
 
@@ -84,44 +80,22 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="50">
+			<string_array  len="32">
 				<string> "Geizer" </string>
-				<string> "StaticBody2D" </string>
-				<string> "_import_path" </string>
-				<string> "visibility/visible" </string>
-				<string> "visibility/opacity" </string>
-				<string> "visibility/self_opacity" </string>
-				<string> "visibility/light_mask" </string>
-				<string> "transform/pos" </string>
-				<string> "transform/rot" </string>
-				<string> "transform/scale" </string>
-				<string> "z/z" </string>
-				<string> "z/relative" </string>
+				<string> "KinematicBody2D" </string>
 				<string> "input/pickable" </string>
-				<string> "shape_count" </string>
 				<string> "shapes/0/shape" </string>
 				<string> "shapes/0/transform" </string>
 				<string> "shapes/0/trigger" </string>
 				<string> "collision/layers" </string>
 				<string> "collision/mask" </string>
-				<string> "constant_linear_velocity" </string>
-				<string> "constant_angular_velocity" </string>
-				<string> "friction" </string>
-				<string> "bounce" </string>
+				<string> "collision/margin" </string>
 				<string> "script/script" </string>
 				<string> "__meta__" </string>
 				<string> "Sprite" </string>
 				<string> "texture" </string>
-				<string> "centered" </string>
-				<string> "offset" </string>
-				<string> "flip_h" </string>
-				<string> "flip_v" </string>
-				<string> "vframes" </string>
 				<string> "hframes" </string>
 				<string> "frame" </string>
-				<string> "modulate" </string>
-				<string> "region" </string>
-				<string> "region_rect" </string>
 				<string> "Animacion" </string>
 				<string> "AnimationPlayer" </string>
 				<string> "playback/process_mode" </string>
@@ -132,37 +106,35 @@
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
 				<string> "autoplay" </string>
-				<string> "CollisionShape2D" </string>
-				<string> "shape" </string>
+				<string> "CollisionPolygon2D" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/scale" </string>
+				<string> "build_mode" </string>
+				<string> "polygon" </string>
+				<string> "shape_range" </string>
 				<string> "trigger" </string>
 			</string_array>
 			<string> "node_count" </string>
 			<int> 4 </int>
 			<string> "nodes" </string>
-			<int_array  len="158"> 				-1, -1, 1, 0, -1, 23, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 3, 14, 9, 15, 10, 16, 8, 17, 3, 18, 3, 19, 4, 20, 5, 21, 2, 22, 5, 23, 11, 24, 12, 0, 0, 0, 25, 25, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 26, 13, 27, 1, 28, 4, 29, 8, 30, 8, 31, 3, 32, 14, 33, 15, 34, 16, 35, 8, 36, 17, 0, 0, 0, 38, 37, -1, 9, 2, 0, 39, 3, 40, 5, 41, 18, 42, 19, 43, 1, 44, 2, 45, 20, 46, 21, 0, 0, 0, 47, 47, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 22, 8, 5, 9, 23, 10, 7, 11, 1, 48, 9, 49, 8, 0 </int_array>
+			<int_array  len="80"> 				-1, -1, 1, 0, -1, 9, 2, 0, 3, 1, 4, 2, 5, 0, 6, 3, 7, 3, 8, 4, 9, 5, 10, 6, 0, 0, 0, 11, 11, -1, 3, 12, 7, 13, 8, 14, 3, 0, 0, 0, 16, 15, -1, 8, 17, 3, 18, 9, 19, 10, 20, 11, 21, 12, 22, 13, 23, 14, 24, 15, 0, 0, 0, 25, 25, -1, 6, 26, 16, 27, 17, 28, 18, 29, 19, 30, 20, 31, 0, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="24" shared="false">
-				<node_path> "" </node_path>
-				<bool> True </bool>
-				<real> 1 </real>
-				<int> 1 </int>
-				<vector2> 0, 0 </vector2>
-				<real> 0 </real>
-				<vector2> 1, 1 </vector2>
-				<int> 0 </int>
+			<array  len="21" shared="false">
 				<bool> False </bool>
-				<resource  resource_type="Shape2D" path="local://1">  </resource>
-				<matrix32> 0.616136, -0, 0, 2.09433, 0.911608, -6.53472 </matrix32>
-				<resource  resource_type="Script" path="res://Scripts/Obstaculos/Geizer.gd">  </resource>
+				<resource  resource_type="Shape2D" path="local://11">  </resource>
+				<matrix32> 1.05196, -0, 0, 1.33465, 0.849476, -6.87129 </matrix32>
+				<int> 1 </int>
+				<real> 0.08 </real>
+				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -68.3133, -35.1153 </vector2>
+							<vector2> -191.273, -65.4388 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -182,7 +154,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 5.720019 </real>
+							<real> 2.050546 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -276,14 +248,16 @@
 							<string> "znear" </string>
 							<real> 0.1 </real>
 						</dictionary>
-						<string> "Script" </string>
+						<string> "Anim" </string>
 						<dictionary  shared="false">
-							<string> "current" </string>
-							<int> 0 </int>
-							<string> "sources" </string>
-							<array  len="1" shared="false">
-								<string> "res://Scripts/Obstaculos/Geizer.gd" </string>
-							</array>
+							<string> "animation" </string>
+							<string> "Play" </string>
+							<string> "editing" </string>
+							<bool> True </bool>
+							<string> "player" </string>
+							<node_path> "Animacion" </node_path>
+							<string> "visible" </string>
+							<bool> True </bool>
 						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
@@ -294,18 +268,21 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="Texture" path="res://Sprites/Obstaculos/Geizer.png">  </resource>
+				<resource  external="1">  </resource>
 				<int> 6 </int>
-				<int> 5 </int>
-				<color> 1, 1, 1, 1 </color>
-				<rect2> 0, 0, 0, 0 </rect2>
+				<real> 0 </real>
 				<node_path> ".." </node_path>
-				<resource  resource_type="Animation" path="local://2">  </resource>
+				<resource  resource_type="Animation" path="local://10">  </resource>
+				<bool> True </bool>
+				<real> 1 </real>
 				<array  len="0" shared="false">
 				</array>
 				<string> "" </string>
-				<vector2> 0.911608, -6.53472 </vector2>
-				<vector2> 0.616136, 2.09433 </vector2>
+				<vector2> 0.849476, -6.87129 </vector2>
+				<vector2> 1.05196, 1.33465 </vector2>
+				<int> 0 </int>
+				<vector2_array  len="4"> 					-8.10334, 13.369, -9.89577, 29.6185, 11.6134, 30.0148, 8.7455, 13.6332 </vector2_array>
+				<vector2> 0, 0 </vector2>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
