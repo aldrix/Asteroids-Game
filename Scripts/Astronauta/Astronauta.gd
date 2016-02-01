@@ -28,6 +28,11 @@ func stop_gass():
 	get_node("GasLeft").stop()
 	get_node("GasRight").stop()
 	get_node("GasUp").stop()
+	
+func stop_astro():
+	velocity.x = 0
+	velocity.y = 0
+	move(velocity)
 
 func _ready():
 	

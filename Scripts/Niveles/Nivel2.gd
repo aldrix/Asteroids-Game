@@ -41,10 +41,12 @@ func _process(delta):
 	if time > 1.5 and time < 1.6:
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
+		get_node("Astronauta").stop_astro()
 	
 	if greenKhal_collected == 1 && repeat:
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie2)
+		get_node("Astronauta").stop_astro()
 		repeat = false
 		
 	if win:

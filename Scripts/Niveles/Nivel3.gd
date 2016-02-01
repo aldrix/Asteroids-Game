@@ -36,6 +36,7 @@ func _process(delta):
 	if time > 1.5 and time < 1.6:
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
+		get_node("Astronauta").stop_astro()
 		
 	if win:
 		print("Se recolecto: ",greenKhal_collected," khalums")
