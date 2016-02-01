@@ -22,6 +22,12 @@ func has_gas(gas_amout):
 		return true
 	else:
 		return false
+		
+func stop_gass():
+	get_node("GasDown").stop()
+	get_node("GasLeft").stop()
+	get_node("GasRight").stop()
+	get_node("GasUp").stop()
 
 func _ready():
 	
@@ -41,17 +47,24 @@ func _fixed_process(delta):
 	var motion = velocity
 	move(motion)
 	
+	#Mientras no se precione ningun boton, el gas no se muestra
+	stop_gass()
+	
 	#El astronauta se mueve en sentido contrario a la tecla presionada.
 	if (up_button.is_pressed() and has_gas(gas_amount)):
+		get_node("GasDown").play()
 		move(direction_up*ASTRO_SPEED)
 		gas_amount -= delta
 	if (down_button.is_pressed() and has_gas(gas_amount)):
+		get_node("GasUp").play()
 		move(direction_down*ASTRO_SPEED)
 		gas_amount -= delta
 	if (left_button.is_pressed() and has_gas(gas_amount)):
+		get_node("GasRight").play()
 		move(direction_left*ASTRO_SPEED)
 		gas_amount -= delta
 	if (right_button.is_pressed() and has_gas(gas_amount)):
+		get_node("GasLeft").play()
 		move(direction_right*ASTRO_SPEED)
 		gas_amount -= delta
 	
