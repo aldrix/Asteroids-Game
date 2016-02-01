@@ -9,14 +9,14 @@ var gas_amount  = 20
 var time = 0
 var HUD 
 var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
-var DialogoEddie1 = ["[Eddie]: Hello"]
+var DialogoEddie1 = ["[Eddie]: Be carefull with those geysers buddy."]
 
 #Dececta si el astronauta llega a la nave.
 var win       = false
 var game_over = false
 
 #Cantidad de khalum recolectado.
-var greenKhal_collected = 0
+var greenKhal_collected = -1
 
 #Valor del khalum.
 var greenKhal_value     = 40
@@ -24,23 +24,18 @@ var greenKhal_value     = 40
 func _ready():
 	HUD = get_node("HUD")
 	HUD.show_gas_bar(true)
-#	HUD.show_green_khalum(true)
-#	HUD.set_collected(greenKhal_collected)
+	HUD.show_green_khalum(true)
+	HUD.set_collected(greenKhal_collected)
 	set_process(true)
 	
 func _process(delta):
 
 	time += delta
-#	HUD.set_collected(greenKhal_collected)
+	HUD.set_collected(greenKhal_collected)
 	
 	if time > 1.5 and time < 1.6:
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
-	
-#	if greenKhal_collected == 1:
-#		print("Hello!")
-#		HUD.set_avatar(avatar_eddie)
-#		HUD.show_dialogue(DialogoEddie1)
 		
 	if win:
 		print("Se recolecto: ",greenKhal_collected," khalums")

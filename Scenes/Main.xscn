@@ -3,12 +3,35 @@
 	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 1.png" type="Texture" index="2"></ext_resource>
 	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png" type="Texture" index="3"></ext_resource>
 	<ext_resource path="res://Fonts/Emulogic.fnt" type="Font" index="6"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta con anillo 1.png" type="Texture" index="1"></ext_resource>
 	<ext_resource path="res://Sprites/Main/Logo Asteroids.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta con anillo 1.png" type="Texture" index="1"></ext_resource>
 	<ext_resource path="res://Sound/Main Title - ThoughtBot Short.ogg" type="AudioStream" index="7"></ext_resource>
 	<ext_resource path="res://Scripts/Niveles/main.gd" type="Script" index="0"></ext_resource>
 	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene" index="4"></ext_resource>
 	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="8"></ext_resource>
+	<resource type="Animation" path="local://1">
+		<real name="length"> 2 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "Label:text" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> False </bool>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 1, 2 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<string> "PRESS ENTER" </string>
+				<string> "" </string>
+				<string> "PRESS ENTER" </string>
+			</array>
+		</dictionary>
+
+	</resource>
 	<resource type="Animation" path="local://3">
 		<string name="resource/name"> "ContinueGame" </string>
 		<real name="length"> 2 </real>
@@ -55,29 +78,6 @@
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://1">
-		<real name="length"> 2 </real>
-		<bool name="loop"> True </bool>
-		<real name="step"> 0.1 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "Label:text" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> False </bool>
-			<string> "times" </string>
-			<real_array  len="3"> 				0, 1, 2 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="3"> 				1, 1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="3" shared="false">
-				<string> "PRESS ENTER" </string>
-				<string> "" </string>
-				<string> "PRESS ENTER" </string>
-			</array>
-		</dictionary>
-
-	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -118,9 +118,9 @@
 				<string> "playback/process_mode" </string>
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
+				<string> "anims/Press_Enter" </string>
 				<string> "anims/ContinueGame" </string>
 				<string> "anims/MainTitleEntry" </string>
-				<string> "anims/Press_Enter" </string>
 				<string> "playback/active" </string>
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
@@ -165,7 +165,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -15.3693, 225.253 </vector2>
+							<vector2> 21.1599, 3.78621 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -185,7 +185,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 1.507339 </real>
+							<real> 1.227737 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -475,9 +475,9 @@
 				<resource  external="5">  </resource>
 				<real> 0 </real>
 				<node_path> ".." </node_path>
+				<resource  resource_type="Animation" path="local://1">  </resource>
 				<resource  resource_type="Animation" path="local://3">  </resource>
 				<resource  resource_type="Animation" path="local://2">  </resource>
-				<resource  resource_type="Animation" path="local://1">  </resource>
 				<real> 1 </real>
 				<array  len="0" shared="false">
 				</array>
