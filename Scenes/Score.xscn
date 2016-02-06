@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="12" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
-	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="1"></ext_resource>
-	<ext_resource path="res://Scripts/score.gd" type="Script" index="0"></ext_resource>
-	<ext_resource path="res://Sprites/Score/star.png" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font" index="5"></ext_resource>
 	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://Sprites/Score/star.png" type="Texture" index="3"></ext_resource>
 	<ext_resource path="res://Sprites/Score/success.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font" index="5"></ext_resource>
+	<ext_resource path="res://Scripts/score.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="1"></ext_resource>
 	<resource type="Animation" path="local://7">
 		<string name="resource/name"> "PressSpace" </string>
 		<real name="length"> 2 </real>
@@ -25,6 +25,28 @@
 			<array  len="2" shared="false">
 				<string> "Press Space&#000a;" </string>
 				<string> "" </string>
+			</array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://2">
+		<real name="length"> 1.5 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.01 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "TextureFrame:rect/pos" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 0.5 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<vector2> 11, 0 </vector2>
+				<vector2> 11, 10 </vector2>
 			</array>
 		</dictionary>
 
@@ -144,28 +166,6 @@
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://2">
-		<real name="length"> 1.5 </real>
-		<bool name="loop"> False </bool>
-		<real name="step"> 0.01 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "TextureFrame:rect/pos" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> True </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				0, 0.5 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<vector2> 11, 0 </vector2>
-				<vector2> 11, 10 </vector2>
-			</array>
-		</dictionary>
-
-	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -196,10 +196,10 @@
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
 				<string> "anims/PressSpace" </string>
+				<string> "anims/SuccessIntro" </string>
 				<string> "anims/2Star" </string>
 				<string> "anims/1Star" </string>
 				<string> "anims/3Star" </string>
-				<string> "anims/SuccessIntro" </string>
 				<string> "playback/active" </string>
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
@@ -510,6 +510,10 @@
 						<string> "run_mode" </string>
 						<int> 0 </int>
 					</dictionary>
+					<string> "__editor_show_subtree" </string>
+					<bool> True </bool>
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
 				</dictionary>
 				<real> 11 </real>
 				<real> 10 </real>
@@ -522,10 +526,10 @@
 				<real> 0 </real>
 				<node_path> ".." </node_path>
 				<resource  resource_type="Animation" path="local://7">  </resource>
+				<resource  resource_type="Animation" path="local://2">  </resource>
 				<resource  resource_type="Animation" path="local://1">  </resource>
 				<resource  resource_type="Animation" path="local://5">  </resource>
 				<resource  resource_type="Animation" path="local://6">  </resource>
-				<resource  resource_type="Animation" path="local://2">  </resource>
 				<real> 1 </real>
 				<array  len="0" shared="false">
 				</array>
