@@ -9,12 +9,11 @@ Are you ready?
 ##Features
 
 *	Main Title.
-*	Astro's movement
-*	Gas bar controllers.
-*	First stages.
-*	Eddie's dialogs.
+*	Astro's movement and gas bar controllers (operational)
+*	First stages. Eddie's dialogs.
 *	Score and Game Over Titles.
-
+*   Savegame and Continue Game.
+*   Credits. 
 ##Authors
 
 *Aldrix Marfil*
