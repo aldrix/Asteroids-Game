@@ -22,7 +22,7 @@ func _input(event):
 	if event.is_action("ui_enter") && event.is_pressed() && !event.is_echo() and first_enter:
 		first_enter = false
 		if get_node("/root/global").check_savegame():
-			get_node("Animacion").play("ContinueGame")
+			get_node("Animacion").play("Continue")
 		else:
 			change = true
 	elif event.is_action("ui_enter") && event.is_pressed() && !event.is_echo() and !first_enter:

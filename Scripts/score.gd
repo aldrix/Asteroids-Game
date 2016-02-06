@@ -36,7 +36,6 @@ func _ready():
 	panel_level.set_text("Level Score: " + str(level_score))
 	panel_total.set_text("Total: " + str(new_global))
 	
-	animation.queue("Score")
 	animation.queue("PressSpace")
 	
 	#Guardamos la partida actual

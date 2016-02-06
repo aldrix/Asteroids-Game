@@ -42,7 +42,7 @@ func _process(delta):
 		print("Se obtuvieron ",get_node("Astronauta").gas_amount*100," por el gas sobrante")
 		print("Se obtuvieron ",greenKhal_collected*greenKhal_value," por el khalum recolectado")
 	
-		get_node("/root/global").set("next_level","res://Scenes/Main.xscn")
+		get_node("/root/global").set("next_level","res://Scenes/CreditosAutores.xscn")
 		get_node("/root/global").set("level_score", 2000 + get_node("Astronauta").gas_amount*100 + greenKhal_collected*greenKhal_value)
 		get_node("/root/global").set("max_score",3000)
 		get_node("/root/global").goto_scene("res://Scenes/Score.xscn")
