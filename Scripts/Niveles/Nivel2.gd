@@ -12,9 +12,7 @@ var HUD
 var avatar_eddie  = load("res://Sprites/Nave_Thumbnail.png")
 var DialogoEddie1 = ["[Eddie]: We're here to collect 'Khalum'.\n","Khalum is a strange mineral found only in asteroids.\n",
                      "From it, we can extract Potassium. Which is needed to make nutritional","supplements for space stations.\n\n",
-                     "That green Khalum crystal over there has over 80% of Potassium. Collect it."]
-
-var DialogoEddie2 = ["[Eddie]: Great job Astro! Collect the rest and lets get out of here."]
+                     "That green Khalum crystal over there has over 80% of Potassium.","Collect as much Khalum as you can lets get out of here."]
 
 #Dececta si el astronauta llega a la nave.
 var win       = false
@@ -41,13 +39,6 @@ func _process(delta):
 	if time > 1.5 and time < 1.6:
 		HUD.set_avatar(avatar_eddie)
 		HUD.show_dialogue(DialogoEddie1)
-		get_node("Astronauta").stop_astro()
-	
-	if greenKhal_collected == 1 && repeat:
-		HUD.set_avatar(avatar_eddie)
-		HUD.show_dialogue(DialogoEddie2)
-		get_node("Astronauta").stop_astro()
-		repeat = false
 		
 	if win:
 		get_node("/root/global").set("next_level","res://Scenes/Niveles/Nivel3.xscn")

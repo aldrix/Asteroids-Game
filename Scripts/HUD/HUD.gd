@@ -1,4 +1,3 @@
-
 extends CanvasLayer
 
 ####### DECLARACION DE VARIABLES #######

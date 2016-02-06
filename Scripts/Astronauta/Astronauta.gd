@@ -2,6 +2,7 @@ extends KinematicBody2D
 
 const ASTRO_SPEED = 2
 const GRAVITY = 10.0
+const GASS_REDUCE = 0.01
 
 ####### Variables para el movimiento #######
 var velocity        = Vector2()
@@ -22,38 +23,40 @@ func has_gas(gas_amout):
 		return true
 	else:
 		return false
-		
+
 func stop_gass():
 	get_node("GasDown").stop()
 	get_node("GasLeft").stop()
 	get_node("GasRight").stop()
 	get_node("GasUp").stop()
-	
+
 func stop_astro():
 	velocity.x = 0
 	velocity.y = 0
 	move(velocity)
 
 func _ready():
-	
+
 	gas_amount  = get_parent().gas_amount
 	set_fixed_process(true)
+	set_process_input(true)
 
 func _fixed_process(delta):
-
-	#Obtenemos los botones
-	up_button    = get_parent().get_node("HUD").up_button
-	down_button  = get_parent().get_node("HUD").down_button
-	left_button  = get_parent().get_node("HUD").left_button
-	right_button = get_parent().get_node("HUD").right_button
 
 	#Mientras no se presione nada, el astronauta cae.
 	velocity.y = delta*GRAVITY
 	var motion = velocity
 	move(motion)
 	
+
 	#Mientras no se precione ningun boton, el gas no se muestra
 	stop_gass()
+	
+	#Obtenemos los botones
+	up_button    = get_parent().get_node("HUD").up_button
+	down_button  = get_parent().get_node("HUD").down_button
+	left_button  = get_parent().get_node("HUD").left_button
+	right_button = get_parent().get_node("HUD").right_button
 	
 	#El astronauta se mueve en sentido contrario a la tecla presionada.
 	if (up_button.is_pressed() and has_gas(gas_amount)):
@@ -72,7 +75,7 @@ func _fixed_process(delta):
 		get_node("GasLeft").play()
 		move(direction_right*ASTRO_SPEED)
 		gas_amount -= delta
-	
+
 	if (is_colliding()):
 		if (get_collider().get_name() == "Nave"):
 			get_parent().set("win",true)
