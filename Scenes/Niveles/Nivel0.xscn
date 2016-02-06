@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="33" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Scripts/Niveles/Nivel0.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Scenes/HUD/HUD.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://Scripts/Camera/Camera.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 6.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 6.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta con anillo 1.png" type="Texture"></ext_resource>
+<resource_file type="PackedScene" subresource_count="33" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://Scripts/Camera/Camera.gd" type="Script" index="13"></ext_resource>
+	<ext_resource path="res://Scripts/Niveles/Nivel0.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta con anillo 1.png" type="Texture" index="27"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png" type="Texture" index="22"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 2.png" type="Texture" index="26"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png" type="Texture" index="19"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png" type="Texture" index="18"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 3.png" type="Texture" index="23"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png" type="Texture" index="21"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 6.png" type="Texture" index="24"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 6.png" type="Texture" index="17"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 1.png" type="Texture" index="20"></ext_resource>
+	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 3.png" type="Texture" index="25"></ext_resource>
+	<ext_resource path="res://Scenes/HUD/HUD.xscn" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene" index="4"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn" type="PackedScene" index="3"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn" type="PackedScene" index="6"></ext_resource>
+	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn" type="PackedScene" index="5"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn" type="PackedScene" index="8"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene" index="10"></ext_resource>
+	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene" index="12"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene" index="9"></ext_resource>
+	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene" index="11"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn" type="PackedScene" index="7"></ext_resource>
 	<resource type="RectangleShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2 name="extents"> 10, 10 </vector2>
@@ -73,29 +73,22 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="123">
+			<string_array  len="103">
 				<string> "Nivel0" </string>
 				<string> "Node2D" </string>
-				<string> "_import_path" </string>
-				<string> "visibility/visible" </string>
-				<string> "visibility/opacity" </string>
-				<string> "visibility/self_opacity" </string>
-				<string> "visibility/light_mask" </string>
 				<string> "transform/pos" </string>
-				<string> "transform/rot" </string>
-				<string> "transform/scale" </string>
-				<string> "z/z" </string>
-				<string> "z/relative" </string>
 				<string> "script/script" </string>
 				<string> "__meta__" </string>
 				<string> "HUD" </string>
 				<string> "CanvasLayer" </string>
+				<string> "_import_path" </string>
 				<string> "FondoEstrellas" </string>
 				<string> "ParallaxBackground" </string>
 				<string> "Asteroides" </string>
 				<string> "AsteroideMarron1" </string>
 				<string> "AsteroideGris1" </string>
 				<string> "MiniAsteroideMarron2" </string>
+				<string> "transform/rot" </string>
 				<string> "MiniAsteroideMarron4" </string>
 				<string> "MiniAsteroideMarron6" </string>
 				<string> "MiniAsteroideMarron5" </string>
@@ -108,8 +101,8 @@
 				<string> "Nave" </string>
 				<string> "Limites" </string>
 				<string> "LimiteIzquierdo" </string>
+				<string> "transform/scale" </string>
 				<string> "input/pickable" </string>
-				<string> "shape_count" </string>
 				<string> "shapes/0/shape" </string>
 				<string> "shapes/0/transform" </string>
 				<string> "shapes/0/trigger" </string>
@@ -119,10 +112,11 @@
 				<string> "CollisionShape2D" </string>
 				<string> "shape" </string>
 				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
 				<string> "LimiteDerecho" </string>
 				<string> "LimiteSuperior" </string>
 				<string> "Camera2D" </string>
-				<string> "centered" </string>
+				<string> "anchor_mode" </string>
 				<string> "rotating" </string>
 				<string> "current" </string>
 				<string> "smoothing" </string>
@@ -165,18 +159,11 @@
 				<string> "margin/top" </string>
 				<string> "margin/right" </string>
 				<string> "margin/bottom" </string>
-				<string> "focus_neighbour/left" </string>
-				<string> "focus_neighbour/top" </string>
-				<string> "focus_neighbour/right" </string>
-				<string> "focus_neighbour/bottom" </string>
 				<string> "focus/ignore_mouse" </string>
 				<string> "focus/stop_mouse" </string>
 				<string> "size_flags/horizontal" </string>
 				<string> "size_flags/vertical" </string>
-				<string> "size_flags/stretch_ratio" </string>
 				<string> "texture" </string>
-				<string> "modulate" </string>
-				<string> "expand" </string>
 				<string> "AsteroideMarron2" </string>
 				<string> "AsteroideMarron3" </string>
 				<string> "AsteroideMarron4" </string>
@@ -190,29 +177,15 @@
 				<string> "AsteroideGris3" </string>
 				<string> "PlanetaConAnillo" </string>
 				<string> "Sprite" </string>
-				<string> "flip_h" </string>
-				<string> "flip_v" </string>
-				<string> "vframes" </string>
-				<string> "hframes" </string>
-				<string> "frame" </string>
-				<string> "region" </string>
-				<string> "region_rect" </string>
 			</string_array>
 			<string> "node_count" </string>
 			<int> 42 </int>
 			<string> "nodes" </string>
-			<int_array  len="1360"> 				-1, -1, 1, 0, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 0, 0, 0, 15, 14, 10, 2, 2, 0, 13, 11, 0, 0, 0, 17, 16, 12, 2, 2, 0, 13, 13, 0, 0, 0, 1, 18, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 14, 8, 5, 9, 6, 10, 7, 11, 1, 13, 15, 0, 3, 0, 1, 19, 16, 3, 2, 0, 7, 17, 13, 18, 0, 3, 0, 1, 20, 19, 3, 2, 0, 7, 20, 13, 21, 0, 3, 0, 1, 21, 22, 4, 2, 0, 7, 23, 8, 24, 13, 25, 0, 3, 0, 1, 22, 26, 3, 2, 0, 7, 27, 13, 28, 0, 3, 0, 1, 23, 29, 3, 2, 0, 7, 30, 13, 31, 0, 3, 0, 1, 24, 32, 3, 2, 0, 7, 33, 13, 34, 0, 3, 0, 1, 25, 29, 3, 2, 0, 7, 35, 13, 36, 0, 3, 0, 1, 26, 37, 3, 2, 0, 7, 38, 13, 39, 0, 3, 0, 1, 27, 40, 3, 2, 0, 7, 41, 13, 42, 0, 3, 0, 1, 28, 40, 4, 2, 0, 7, 43, 8, 44, 13, 42, 0, 0, 0, 30, 29, 45, 3, 2, 0, 7, 46, 13, 47, 0, 0, 0, 1, 31, 48, 3, 2, 0, 7, 49, 13, 50, 0, 0, 0, 1, 32, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 51, 8, 5, 9, 6, 10, 7, 11, 1, 13, 52, 0, 16, 0, 30, 33, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 53, 8, 5, 9, 54, 10, 7, 11, 1, 34, 55, 35, 3, 36, 56, 37, 57, 38, 55, 39, 3, 40, 3, 41, 58, 13, 59, 0, 17, 0, 42, 42, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 60, 8, 5, 9, 61, 10, 7, 11, 1, 43, 56, 44, 55, 0, 16, 0, 30, 45, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 62, 8, 5, 9, 63, 10, 7, 11, 1, 34, 55, 35, 3, 36, 64, 37, 65, 38, 55, 39, 3, 40, 3, 41, 58, 13, 66, 0, 19, 0, 42, 42, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 67, 8, 5, 9, 68, 10, 7, 11, 1, 43, 64, 44, 55, 0, 16, 0, 30, 46, -1, 19, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 69, 8, 5, 9, 70, 10, 7, 11, 1, 34, 55, 35, 3, 36, 71, 37, 72, 38, 55, 39, 3, 40, 3, 41, 58, 13, 73, 0, 21, 0, 42, 42, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 74, 8, 5, 9, 75, 10, 7, 11, 1, 43, 71, 44, 55, 0, 0, 0, 47, 47, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 76, 8, 5, 9, 6, 10, 7, 11, 1, 48, 1, 49, 55, 50, 1, 51, 5, 52, 6, 53, 77, 54, 77, 55, 78, 56, 78, 57, 1, 58, 1, 59, 79, 60, 79, 61, 79, 62, 79, 12, 80, 0, 0, 0, 64, 63, -1, 9, 2, 0, 65, 3, 66, 5, 67, 81, 68, 82, 69, 1, 70, 2, 71, 83, 72, 84, 0, 0, 0, 17, 73, -1, 11, 2, 0, 74, 85, 75, 14, 76, 5, 77, 6, 78, 14, 79, 14, 80, 6, 81, 14, 82, 14, 13, 86, 0, 25, 0, 83, 83, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 14, 8, 5, 9, 6, 10, 7, 11, 1, 84, 6, 85, 14, 0, 26, 0, 83, 73, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 14, 8, 5, 9, 6, 10, 7, 11, 1, 84, 6, 85, 14, 0, 27, 0, 86, 19, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 87, 88, 88, 89, 89, 90, 90, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 92, 101, 93, 102, 55, 0, 27, 0, 86, 103, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 94, 88, 95, 89, 96, 90, 97, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 98, 101, 93, 102, 55, 0, 27, 0, 86, 104, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 99, 88, 100, 89, 101, 90, 102, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 103, 101, 93, 102, 55, 0, 27, 0, 86, 105, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 104, 88, 105, 89, 106, 90, 107, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 108, 101, 93, 102, 55, 0, 27, 0, 86, 106, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 109, 88, 110, 89, 111, 90, 112, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 113, 101, 93, 102, 55, 0, 27, 0, 86, 107, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 114, 88, 115, 89, 116, 90, 117, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 118, 101, 93, 102, 55, 0, 27, 0, 86, 108, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 119, 88, 120, 89, 121, 90, 88, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 122, 101, 93, 102, 55, 0, 27, 0, 86, 109, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 123, 88, 124, 89, 125, 90, 126, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 127, 101, 93, 102, 55, 0, 27, 0, 86, 110, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 128, 88, 129, 89, 130, 90, 131, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 132, 101, 93, 102, 55, 0, 27, 0, 86, 111, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 133, 88, 134, 89, 135, 90, 136, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 137, 101, 93, 102, 55, 0, 27, 0, 86, 20, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 138, 88, 139, 89, 140, 90, 141, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 142, 101, 93, 102, 55, 0, 27, 0, 86, 112, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 143, 88, 144, 89, 145, 90, 95, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 146, 101, 93, 102, 55, 0, 27, 0, 86, 113, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 87, 147, 88, 144, 89, 148, 90, 95, 91, 0, 92, 0, 93, 0, 94, 0, 95, 1, 96, 1, 97, 91, 98, 91, 99, 2, 100, 149, 101, 93, 102, 55, 0, 27, 0, 115, 114, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 150, 8, 151, 9, 6, 10, 7, 11, 1, 100, 152, 48, 1, 75, 14, 116, 55, 117, 55, 118, 3, 119, 3, 120, 7, 101, 93, 121, 55, 122, 153, 0 </int_array>
+			<int_array  len="798"> 				-1, -1, 1, 0, -1, 3, 2, 0, 3, 1, 4, 2, 0, 0, 0, 6, 5, 3, 2, 7, 4, 4, 5, 0, 0, 0, 9, 8, 6, 2, 7, 4, 4, 7, 0, 0, 0, 1, 10, -1, 1, 4, 8, 0, 3, 0, 1, 11, 9, 3, 7, 4, 2, 10, 4, 11, 0, 3, 0, 1, 12, 12, 3, 7, 4, 2, 13, 4, 14, 0, 3, 0, 1, 13, 15, 4, 7, 4, 2, 16, 14, 17, 4, 18, 0, 3, 0, 1, 15, 19, 3, 7, 4, 2, 20, 4, 21, 0, 3, 0, 1, 16, 22, 3, 7, 4, 2, 23, 4, 24, 0, 3, 0, 1, 17, 25, 3, 7, 4, 2, 26, 4, 27, 0, 3, 0, 1, 18, 22, 3, 7, 4, 2, 28, 4, 29, 0, 3, 0, 1, 19, 30, 3, 7, 4, 2, 31, 4, 32, 0, 3, 0, 1, 20, 33, 3, 7, 4, 2, 34, 4, 35, 0, 3, 0, 1, 21, 33, 4, 7, 4, 2, 36, 14, 37, 4, 35, 0, 0, 0, 23, 22, 38, 3, 7, 4, 2, 39, 4, 40, 0, 0, 0, 1, 24, 41, 3, 7, 4, 2, 42, 4, 43, 0, 0, 0, 1, 25, -1, 2, 2, 44, 4, 45, 0, 16, 0, 23, 26, -1, 10, 2, 46, 27, 47, 28, 48, 29, 49, 30, 50, 31, 48, 32, 51, 33, 51, 34, 52, 4, 53, 0, 17, 0, 35, 35, -1, 5, 2, 54, 27, 55, 36, 49, 37, 48, 38, 56, 0, 16, 0, 23, 39, -1, 10, 2, 57, 27, 58, 28, 48, 29, 59, 30, 60, 31, 48, 32, 51, 33, 51, 34, 52, 4, 61, 0, 19, 0, 35, 35, -1, 5, 2, 62, 27, 63, 36, 59, 37, 48, 38, 56, 0, 16, 0, 23, 40, -1, 10, 2, 64, 27, 65, 28, 48, 29, 66, 30, 67, 31, 48, 32, 51, 33, 51, 34, 52, 4, 68, 0, 21, 0, 35, 35, -1, 5, 2, 69, 27, 70, 36, 66, 37, 48, 38, 56, 0, 0, 0, 41, 41, -1, 17, 2, 71, 42, 51, 43, 48, 44, 72, 45, 73, 46, 74, 47, 75, 48, 75, 49, 76, 50, 76, 51, 72, 52, 72, 53, 77, 54, 77, 55, 77, 56, 77, 3, 78, 0, 0, 0, 58, 57, -1, 8, 59, 51, 60, 73, 61, 79, 62, 80, 63, 72, 64, 81, 65, 82, 66, 83, 0, 0, 0, 9, 67, -1, 10, 68, 56, 69, 84, 70, 73, 71, 74, 72, 84, 73, 84, 74, 74, 75, 84, 76, 84, 4, 85, 0, 25, 0, 77, 77, -1, 2, 78, 74, 79, 84, 0, 26, 0, 77, 67, -1, 2, 78, 74, 79, 84, 0, 27, 0, 80, 11, -1, 9, 81, 86, 82, 87, 83, 88, 84, 89, 85, 72, 86, 72, 87, 90, 88, 90, 89, 91, 0, 27, 0, 80, 90, -1, 9, 81, 92, 82, 93, 83, 94, 84, 95, 85, 72, 86, 72, 87, 90, 88, 90, 89, 96, 0, 27, 0, 80, 91, -1, 9, 81, 97, 82, 98, 83, 99, 84, 100, 85, 72, 86, 72, 87, 90, 88, 90, 89, 101, 0, 27, 0, 80, 92, -1, 9, 81, 102, 82, 103, 83, 104, 84, 105, 85, 72, 86, 72, 87, 90, 88, 90, 89, 106, 0, 27, 0, 80, 93, -1, 9, 81, 107, 82, 108, 83, 109, 84, 110, 85, 72, 86, 72, 87, 90, 88, 90, 89, 111, 0, 27, 0, 80, 94, -1, 9, 81, 112, 82, 113, 83, 114, 84, 115, 85, 72, 86, 72, 87, 90, 88, 90, 89, 116, 0, 27, 0, 80, 95, -1, 9, 81, 117, 82, 118, 83, 119, 84, 87, 85, 72, 86, 72, 87, 90, 88, 90, 89, 120, 0, 27, 0, 80, 96, -1, 9, 81, 121, 82, 122, 83, 123, 84, 124, 85, 72, 86, 72, 87, 90, 88, 90, 89, 125, 0, 27, 0, 80, 97, -1, 9, 81, 126, 82, 127, 83, 128, 84, 129, 85, 72, 86, 72, 87, 90, 88, 90, 89, 130, 0, 27, 0, 80, 98, -1, 9, 81, 131, 82, 132, 83, 133, 84, 134, 85, 72, 86, 72, 87, 90, 88, 90, 89, 135, 0, 27, 0, 80, 12, -1, 9, 81, 136, 82, 137, 83, 138, 84, 139, 85, 72, 86, 72, 87, 90, 88, 90, 89, 140, 0, 27, 0, 80, 99, -1, 9, 81, 141, 82, 142, 83, 143, 84, 93, 85, 72, 86, 72, 87, 90, 88, 90, 89, 144, 0, 27, 0, 80, 100, -1, 9, 81, 145, 82, 142, 83, 146, 84, 93, 85, 72, 86, 72, 87, 90, 88, 90, 89, 147, 0, 27, 0, 102, 101, -1, 3, 2, 148, 14, 149, 89, 150, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="154" shared="false">
-				<node_path> "" </node_path>
-				<bool> True </bool>
-				<real> 1 </real>
-				<int> 1 </int>
+			<array  len="151" shared="false">
 				<vector2> -0.185455, -2.69307 </vector2>
-				<real> 0 </real>
-				<vector2> 1, 1 </vector2>
-				<int> 0 </int>
-				<resource  resource_type="Script" path="res://Scripts/Niveles/Nivel0.gd">  </resource>
+				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -335,18 +308,10 @@
 							<string> "znear" </string>
 							<real> 0.1 </real>
 						</dictionary>
-						<string> "Script" </string>
+						<string> "Anim" </string>
 						<dictionary  shared="false">
-							<string> "current" </string>
-							<int> 3 </int>
-							<string> "sources" </string>
-							<array  len="5" shared="false">
-								<string> "res://Scripts/Niveles/Nivel0.gd" </string>
-								<string> "res://Scripts/HUD/HUD.gd" </string>
-								<string> "res://Scripts/Astronauta/Astronauta.gd" </string>
-								<string> "res://Scripts/global.gd" </string>
-								<string> "res://Scripts/Camera/Camera.gd" </string>
-							</array>
+							<string> "visible" </string>
+							<bool> False </bool>
 						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
@@ -357,7 +322,8 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/HUD/HUD.xscn">  </resource>
+				<resource  external="1">  </resource>
+				<node_path> "" </node_path>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -489,7 +455,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Background/FondoDeEstrellas.xscn">  </resource>
+				<resource  external="2">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -621,12 +587,11 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<vector2> 0, 0 </vector2>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn">  </resource>
+				<resource  external="3">  </resource>
 				<vector2> 261.593, 175.88 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -759,7 +724,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn">  </resource>
+				<resource  external="4">  </resource>
 				<vector2> 457.832, 138.483 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -892,7 +857,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn">  </resource>
+				<resource  external="5">  </resource>
 				<vector2> 125.518, 183.52 </vector2>
 				<real> -31.690458 </real>
 				<dictionary  shared="false">
@@ -1026,7 +991,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn">  </resource>
+				<resource  external="6">  </resource>
 				<vector2> 125.665, 137.214 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1159,7 +1124,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn">  </resource>
+				<resource  external="7">  </resource>
 				<vector2> 90.0171, 150.253 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1292,7 +1257,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn">  </resource>
+				<resource  external="8">  </resource>
 				<vector2> 373.235, 190.779 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1557,7 +1522,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn">  </resource>
+				<resource  external="9">  </resource>
 				<vector2> 552.482, 132.596 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1690,7 +1655,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn">  </resource>
+				<resource  external="10">  </resource>
 				<vector2> 521.788, 179.25 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1825,7 +1790,7 @@
 				</dictionary>
 				<vector2> 412.862, 186.763 </vector2>
 				<real> -85.113533 </real>
-				<resource  resource_type="PackedScene" path="res://Scenes/Astronauta.xscn">  </resource>
+				<resource  external="11">  </resource>
 				<vector2> 179.952, 101.211 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -1958,7 +1923,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://Scenes/Nave.xscn">  </resource>
+				<resource  external="12">  </resource>
 				<vector2> 483.151, 52.7032 </vector2>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -2105,6 +2070,7 @@
 				<bool> False </bool>
 				<resource  resource_type="Shape2D" path="local://1">  </resource>
 				<matrix32> 1.33345, -0, 0, 2.98847, 0.312068, -0.603349 </matrix32>
+				<int> 1 </int>
 				<real> 0.08 </real>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
@@ -2112,6 +2078,7 @@
 				</dictionary>
 				<vector2> 0.312068, -0.603349 </vector2>
 				<vector2> 1.33345, 2.98847 </vector2>
+				<int> -1 </int>
 				<vector2> 525.444, 88.7215 </vector2>
 				<vector2> 0.229715, 4.42285 </vector2>
 				<resource  resource_type="Shape2D" path="local://2">  </resource>
@@ -2133,16 +2100,20 @@
 				<vector2> -0.491168, 14.7533 </vector2>
 				<vector2> 3.09854, -1.35729 </vector2>
 				<vector2> 180.121, 133.62 </vector2>
+				<bool> True </bool>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
 				<int> -10000000 </int>
 				<int> 10000000 </int>
 				<real> 0.2 </real>
-				<resource  resource_type="Script" path="res://Scripts/Camera/Camera.gd">  </resource>
+				<resource  external="13">  </resource>
 				<node_path> ".." </node_path>
 				<resource  resource_type="Animation" path="local://4">  </resource>
+				<real> 1 </real>
 				<array  len="0" shared="false">
 				</array>
 				<string> "" </string>
-				<int> -1 </int>
+				<vector2> 0, 0 </vector2>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -2152,68 +2123,66 @@
 				<real> 107 </real>
 				<real> 159 </real>
 				<int> 2 </int>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Asteroide marron 4.png">  </resource>
-				<color> 1, 1, 1, 1 </color>
+				<resource  external="14">  </resource>
 				<real> 69 </real>
 				<real> 88 </real>
 				<real> 109 </real>
 				<real> 128 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 2.png">  </resource>
+				<resource  external="15">  </resource>
 				<real> 100 </real>
 				<real> 80 </real>
 				<real> 140 </real>
 				<real> 120 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 3.png">  </resource>
+				<resource  external="16">  </resource>
 				<real> 135 </real>
 				<real> 78 </real>
 				<real> 175 </real>
 				<real> 118 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 6.png">  </resource>
+				<resource  external="17">  </resource>
 				<real> 164 </real>
 				<real> 61 </real>
 				<real> 204 </real>
 				<real> 101 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Segundo plano/Asteroides marrones/Mini asteroides marrones/Mini asteroide marron 4.png">  </resource>
+				<resource  external="18">  </resource>
 				<real> 177 </real>
 				<real> 71 </real>
 				<real> 217 </real>
 				<real> 111 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 2.png">  </resource>
+				<resource  external="19">  </resource>
 				<real> 211 </real>
 				<real> 68 </real>
 				<real> 251 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 1.png">  </resource>
+				<resource  external="20">  </resource>
 				<real> 244 </real>
 				<real> 75 </real>
 				<real> 284 </real>
 				<real> 115 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 4.png">  </resource>
+				<resource  external="21">  </resource>
 				<real> 269 </real>
 				<real> 82 </real>
 				<real> 309 </real>
 				<real> 122 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 5.png">  </resource>
+				<resource  external="22">  </resource>
 				<real> 285 </real>
 				<real> 83 </real>
 				<real> 325 </real>
 				<real> 123 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides marrones/Asteroide marron 3.png">  </resource>
+				<resource  external="23">  </resource>
 				<real> 550 </real>
 				<real> 72 </real>
 				<real> 722 </real>
 				<real> 130 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 6.png">  </resource>
+				<resource  external="24">  </resource>
 				<real> 526 </real>
 				<real> 48 </real>
 				<real> 566 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 3.png">  </resource>
+				<resource  external="25">  </resource>
 				<real> 539 </real>
 				<real> 579 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide gris 2.png">  </resource>
+				<resource  external="26">  </resource>
 				<vector2> 320.923, 40.1154 </vector2>
 				<real> 9.890198 </real>
-				<resource  resource_type="Texture" path="res://Sprites/Niveles/Tercer Plano/Planetas/Planeta con anillo 1.png">  </resource>
-				<rect2> 0, 0, 0, 0 </rect2>
+				<resource  external="27">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>

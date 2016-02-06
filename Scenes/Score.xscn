@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="13" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
-	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font" index="5"></ext_resource>
-	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture" index="4"></ext_resource>
-	<ext_resource path="res://Sprites/Score/success.png" type="Texture" index="2"></ext_resource>
 	<ext_resource path="res://Sprites/Controles/continue_button.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://Scripts/score.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Sprites/Main/Cuadro Dialogo.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://Fonts/Emulogic_TextSize.fnt" type="Font" index="5"></ext_resource>
+	<ext_resource path="res://Sprites/Score/success.png" type="Texture" index="2"></ext_resource>
 	<ext_resource path="res://Sprites/Score/star.png" type="Texture" index="3"></ext_resource>
 	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="1"></ext_resource>
-	<ext_resource path="res://Scripts/score.gd" type="Script" index="0"></ext_resource>
+	<resource type="Animation" path="local://1">
+		<real name="length"> 0.5 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.01 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "TextureFrame:rect/pos" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 0.48 </real_array>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<vector2> 11, 0 </vector2>
+				<vector2> 11, 10 </vector2>
+			</array>
+		</dictionary>
+
+	</resource>
 	<resource type="Animation" path="local://5">
-		<real name="length"> 2 </real>
+		<real name="length"> 0.4 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
@@ -18,7 +40,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0, 0.5 </real_array>
+			<real_array  len="2"> 				0, 0.1 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -34,7 +56,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0.5, 1 </real_array>
+			<real_array  len="2"> 				0.2, 0.3 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -45,30 +67,8 @@
 		</dictionary>
 
 	</resource>
-	<resource type="Animation" path="local://1">
-		<real name="length"> 1.5 </real>
-		<bool name="loop"> False </bool>
-		<real name="step"> 0.01 </real>
-		<string name="tracks/0/type"> "value" </string>
-		<node_path name="tracks/0/path"> "TextureFrame:rect/pos" </node_path>
-		<int name="tracks/0/interp"> 1 </int>
-		<dictionary name="tracks/0/keys" shared="false">
-			<string> "cont" </string>
-			<bool> True </bool>
-			<string> "times" </string>
-			<real_array  len="2"> 				0, 1.5 </real_array>
-			<string> "transitions" </string>
-			<real_array  len="2"> 				1, 1 </real_array>
-			<string> "values" </string>
-			<array  len="2" shared="false">
-				<vector2> 11, 0 </vector2>
-				<vector2> 11, 10 </vector2>
-			</array>
-		</dictionary>
-
-	</resource>
 	<resource type="Animation" path="local://4">
-		<real name="length"> 2 </real>
+		<real name="length"> 0.4 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
@@ -78,7 +78,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0, 0.5 </real_array>
+			<real_array  len="2"> 				0, 0.1 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -94,7 +94,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0.5, 1 </real_array>
+			<real_array  len="2"> 				0.2, 0.3 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -106,7 +106,7 @@
 
 	</resource>
 	<resource type="Animation" path="local://2">
-		<real name="length"> 1 </real>
+		<real name="length"> 0.2 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
@@ -116,7 +116,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0, 0.5 </real_array>
+			<real_array  len="2"> 				0, 0.1 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -128,7 +128,7 @@
 
 	</resource>
 	<resource type="Animation" path="local://3">
-		<real name="length"> 2 </real>
+		<real name="length"> 0.7 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.1 </real>
 		<string name="tracks/0/type"> "value" </string>
@@ -138,7 +138,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0, 0.5 </real_array>
+			<real_array  len="2"> 				0, 0.1 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -154,7 +154,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				0.5, 1 </real_array>
+			<real_array  len="2"> 				0.2, 0.3 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -170,7 +170,7 @@
 			<string> "cont" </string>
 			<bool> False </bool>
 			<string> "times" </string>
-			<real_array  len="2"> 				1, 1.5 </real_array>
+			<real_array  len="2"> 				0.4, 0.5 </real_array>
 			<string> "transitions" </string>
 			<real_array  len="2"> 				1, 1 </real_array>
 			<string> "values" </string>
@@ -211,8 +211,8 @@
 				<string> "playback/process_mode" </string>
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
-				<string> "anims/Score" </string>
 				<string> "anims/SuccessIntro" </string>
+				<string> "anims/Score" </string>
 				<string> "anims/2Star" </string>
 				<string> "anims/1Star" </string>
 				<string> "anims/3Star" </string>
@@ -262,13 +262,13 @@
 				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -106.29, -37.2913 </vector2>
+							<vector2> -59.9617, 80.1885 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -288,7 +288,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 1.850618 </real>
+							<real> 2.050546 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -384,8 +384,14 @@
 						</dictionary>
 						<string> "Anim" </string>
 						<dictionary  shared="false">
+							<string> "animation" </string>
+							<string> "SuccessIntro" </string>
+							<string> "editing" </string>
+							<bool> True </bool>
+							<string> "player" </string>
+							<node_path> "Animacion" </node_path>
 							<string> "visible" </string>
-							<bool> False </bool>
+							<bool> True </bool>
 						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
@@ -539,8 +545,8 @@
 				<int> 1 </int>
 				<real> 0 </real>
 				<node_path> ".." </node_path>
-				<resource  resource_type="Animation" path="local://5">  </resource>
 				<resource  resource_type="Animation" path="local://1">  </resource>
+				<resource  resource_type="Animation" path="local://5">  </resource>
 				<resource  resource_type="Animation" path="local://4">  </resource>
 				<resource  resource_type="Animation" path="local://2">  </resource>
 				<resource  resource_type="Animation" path="local://3">  </resource>
