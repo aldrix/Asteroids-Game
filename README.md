@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Asteroids-Game
-Asteroids Game: Intenta llegar a la nave.
-=======
 # Asteroids
 Help **Astro** move around the asteroids belt and collect *Khalum*, a strange mineral found only in asteroids.
 Khalum is used for many things, but most importantly, its components are the main source to create nutritional suplements
@@ -13,11 +9,11 @@ Are you ready?
 ##Features
 
 *	Main Title.
-*	Astro's movement
-*	Gas bar controllers.
-*	First stages.
-*	Eddie's dialogs.
+*	Astro's movement and gas bar controllers (operational)
+*	First stages. Eddie's dialogs.
 *	Score and Game Over Titles.
+*   Savegame and Continue Game.
+*   Credits. 
 
 ##Authors
 
@@ -28,4 +24,3 @@ Are you ready?
 *Jan Marcano*
 *Edward Fernandez*
 *Jesus Requena*
->>>>>>> 4032a2f024546542701fbaba2417d42d6ecaecda

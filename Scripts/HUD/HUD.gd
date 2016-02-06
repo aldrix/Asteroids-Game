@@ -30,14 +30,14 @@ func _ready():
 	label  = get_node("Control/Label")
 	avatar = get_node("Control/Avatar")
 	press_space = get_node("Control/Animation")
-#	greenK = get_node("GreenKhalum")
+	greenK = get_node("GreenKhalum")
 
 	gas_bar = get_node("GasBar")
 	gas_bar.hide()
 	initial_gas_amount = get_parent().gas_amount
 
 	canvas.hide()
-#	greenK.hide()
+	greenK.hide()
 
 	set_process(true)
 	set_process_input(true)
@@ -85,19 +85,19 @@ func update_gas_bar(gas_astro):
 
 		
 #Muestra u oculta el contador de Khalum.
-#func show_green_khalum(boolean):
-#	if boolean == true:
-#		greenK.show()
-#	else:
-#		greenK.hide()
-#		
+func show_green_khalum(boolean):
+	if boolean == true:
+		greenK.show()
+	else:
+		greenK.hide()
+		
 #Actualizta el visor de Khalum
-#func set_collected(collected):
-#	greenK.get_node("Collected").set_text(str(collected))
+func set_collected(collected):
+	greenK.get_node("Collected").set_text(str(collected))
 	
 #Se hizo esto para que se presionara solo una vez la tecla.
 func _input(event):
-	if event.is_action("ui_accept") && event.is_pressed() && !event.is_echo():
+	if event.is_action("ui_space") && event.is_pressed() && !event.is_echo():
 		index += 1
 		if index == text.size():
 			hide_dialogue()

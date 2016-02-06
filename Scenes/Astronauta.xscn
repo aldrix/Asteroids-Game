@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="25" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
-	<ext_resource path="res://Scripts/Astronauta/Astronauta.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Sprites/Astro/Astro 1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Gas/gass_0.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Gas/gass_1.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Gas/gass_2.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Sprites/Gas/gass_3.png" type="Texture"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasDown.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasUp.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasRight.gd" type="Script"></ext_resource>
-	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasLeft.gd" type="Script"></ext_resource>
+<resource_file type="PackedScene" subresource_count="25" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://Sprites/Gas/gass_0.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://Sprites/Astro/Astro 1.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://Sprites/Gas/gass_1.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://Sprites/Gas/gass_3.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://Sprites/Gas/gass_2.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasDown.gd" type="Script" index="6"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Astronauta.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasUp.gd" type="Script" index="7"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasRight.gd" type="Script" index="8"></ext_resource>
+	<ext_resource path="res://Scripts/Astronauta/Animaciones/AnimarGasLeft.gd" type="Script" index="9"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="5"> 			8.19049, 4.9407, 7.43186, 3.7498, 6.91638, -1.62358, 9.15316, 1.49011, 9.75687, 3.74289 </vector2_array>
@@ -77,10 +77,10 @@
 	</resource>
 	<resource type="SpriteFrames" path="local://14">
 		<array name="frames" len="4" shared="false">
-			<resource  resource_type="Texture" path="res://Sprites/Gas/gass_0.png">  </resource>
-			<resource  resource_type="Texture" path="res://Sprites/Gas/gass_1.png">  </resource>
-			<resource  resource_type="Texture" path="res://Sprites/Gas/gass_2.png">  </resource>
-			<resource  resource_type="Texture" path="res://Sprites/Gas/gass_3.png">  </resource>
+			<resource  external="2">  </resource>
+			<resource  external="3">  </resource>
+			<resource  external="4">  </resource>
+			<resource  external="5">  </resource>
 		</array>
 
 	</resource>
@@ -91,21 +91,10 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="80">
+			<string_array  len="66">
 				<string> "Astronauta" </string>
 				<string> "KinematicBody2D" </string>
-				<string> "_import_path" </string>
-				<string> "visibility/visible" </string>
-				<string> "visibility/opacity" </string>
-				<string> "visibility/self_opacity" </string>
-				<string> "visibility/light_mask" </string>
-				<string> "transform/pos" </string>
-				<string> "transform/rot" </string>
-				<string> "transform/scale" </string>
-				<string> "z/z" </string>
-				<string> "z/relative" </string>
 				<string> "input/pickable" </string>
-				<string> "shape_count" </string>
 				<string> "shapes/0/shape" </string>
 				<string> "shapes/0/transform" </string>
 				<string> "shapes/0/trigger" </string>
@@ -152,43 +141,31 @@
 				<string> "__meta__" </string>
 				<string> "Sprite" </string>
 				<string> "texture" </string>
-				<string> "centered" </string>
-				<string> "offset" </string>
-				<string> "flip_h" </string>
-				<string> "flip_v" </string>
-				<string> "vframes" </string>
-				<string> "hframes" </string>
-				<string> "frame" </string>
-				<string> "modulate" </string>
-				<string> "region" </string>
-				<string> "region_rect" </string>
 				<string> "CollisionPolygon2D" </string>
+				<string> "visibility/visible" </string>
+				<string> "transform/pos" </string>
 				<string> "build_mode" </string>
 				<string> "polygon" </string>
+				<string> "shape_range" </string>
 				<string> "trigger" </string>
 				<string> "GasUp" </string>
 				<string> "AnimatedSprite" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
 				<string> "frames" </string>
+				<string> "frame" </string>
 				<string> "GasDown" </string>
+				<string> "transform/rot" </string>
 				<string> "GasLeft" </string>
 				<string> "GasRight" </string>
 			</string_array>
 			<string> "node_count" </string>
 			<int> 7 </int>
 			<string> "nodes" </string>
-			<int_array  len="365"> 				-1, -1, 1, 0, -1, 56, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 13, 9, 14, 10, 15, 11, 16, 8, 17, 12, 18, 11, 19, 8, 20, 13, 21, 11, 22, 8, 23, 14, 24, 11, 25, 8, 26, 15, 27, 11, 28, 8, 29, 16, 30, 11, 31, 8, 32, 17, 33, 11, 34, 8, 35, 18, 36, 11, 37, 8, 38, 19, 39, 11, 40, 8, 41, 20, 42, 11, 43, 8, 44, 21, 45, 11, 46, 8, 47, 22, 48, 11, 49, 8, 50, 23, 51, 11, 52, 8, 53, 3, 54, 3, 55, 24, 56, 25, 57, 26, 0, 0, 0, 58, 58, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 59, 27, 60, 1, 61, 4, 62, 8, 63, 8, 64, 3, 65, 3, 66, 7, 67, 28, 68, 8, 69, 29, 0, 0, 0, 70, 70, -1, 13, 2, 0, 3, 8, 4, 2, 5, 2, 6, 3, 7, 30, 8, 5, 9, 6, 10, 7, 11, 1, 71, 7, 72, 31, 73, 8, 0, 0, 0, 75, 74, -1, 17, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 32, 8, 5, 9, 6, 10, 33, 11, 8, 76, 34, 66, 35, 60, 1, 62, 8, 63, 8, 67, 28, 56, 36, 0, 0, 0, 75, 77, -1, 17, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 37, 8, 38, 9, 6, 10, 33, 11, 1, 76, 34, 66, 35, 60, 1, 62, 8, 63, 8, 67, 28, 56, 39, 0, 0, 0, 75, 78, -1, 17, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 40, 8, 41, 9, 6, 10, 33, 11, 1, 76, 34, 66, 35, 60, 1, 62, 8, 63, 8, 67, 28, 56, 42, 0, 0, 0, 75, 79, -1, 17, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 43, 8, 44, 9, 6, 10, 33, 11, 1, 76, 34, 66, 35, 60, 1, 62, 8, 63, 8, 67, 28, 56, 45, 0 </int_array>
+			<int_array  len="201"> 				-1, -1, 1, 0, -1, 45, 2, 0, 3, 1, 4, 2, 5, 0, 6, 3, 7, 2, 8, 0, 9, 4, 10, 2, 11, 0, 12, 5, 13, 2, 14, 0, 15, 6, 16, 2, 17, 0, 18, 7, 19, 2, 20, 0, 21, 8, 22, 2, 23, 0, 24, 9, 25, 2, 26, 0, 27, 10, 28, 2, 29, 0, 30, 11, 31, 2, 32, 0, 33, 12, 34, 2, 35, 0, 36, 13, 37, 2, 38, 0, 39, 14, 40, 2, 41, 0, 42, 15, 43, 15, 44, 16, 45, 17, 46, 18, 0, 0, 0, 47, 47, -1, 1, 48, 19, 0, 0, 0, 49, 49, -1, 6, 50, 0, 51, 20, 52, 21, 53, 22, 54, 23, 55, 0, 0, 0, 0, 57, 56, -1, 6, 51, 24, 58, 25, 59, 0, 60, 26, 61, 27, 45, 28, 0, 0, 0, 57, 62, -1, 6, 51, 29, 63, 30, 58, 25, 60, 26, 61, 27, 45, 31, 0, 0, 0, 57, 64, -1, 6, 51, 32, 63, 33, 58, 25, 60, 26, 61, 27, 45, 34, 0, 0, 0, 57, 65, -1, 6, 51, 35, 63, 36, 58, 25, 60, 26, 61, 27, 45, 37, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="46" shared="false">
-				<node_path> "" </node_path>
-				<bool> True </bool>
-				<real> 1 </real>
-				<int> 1 </int>
-				<vector2> 0, 0 </vector2>
-				<real> 0 </real>
-				<vector2> 1, 1 </vector2>
-				<int> 0 </int>
+			<array  len="38" shared="false">
 				<bool> False </bool>
-				<int> 13 </int>
 				<resource  resource_type="Shape2D" path="local://1">  </resource>
 				<matrix32> 1, -0, 0, 1, 0.0621914, 0.00729609 </matrix32>
 				<resource  resource_type="Shape2D" path="local://2">  </resource>
@@ -203,8 +180,9 @@
 				<resource  resource_type="Shape2D" path="local://11">  </resource>
 				<resource  resource_type="Shape2D" path="local://12">  </resource>
 				<resource  resource_type="Shape2D" path="local://13">  </resource>
+				<int> 1 </int>
 				<real> 0.08 </real>
-				<resource  resource_type="Script" path="res://Scripts/Astronauta/Astronauta.gd">  </resource>
+				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "Script" </string>
@@ -213,7 +191,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -20.9262, -10.7071 </vector2>
+							<vector2> -43.504, -26.1538 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -233,7 +211,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 21.706188 </real>
+							<real> 10.585566 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -327,16 +305,10 @@
 							<string> "znear" </string>
 							<real> 0.1 </real>
 						</dictionary>
-						<string> "Script" </string>
+						<string> "Anim" </string>
 						<dictionary  shared="false">
-							<string> "current" </string>
-							<int> 0 </int>
-							<string> "sources" </string>
-							<array  len="3" shared="false">
-								<string> "res://Scripts/Astronauta/Astronauta.gd" </string>
-								<string> "res://Scripts/Astronauta/Animaciones/AnimarGasUp.gd" </string>
-								<string> "res://Scripts/Astronauta/Animaciones/AnimarGasDown.gd" </string>
-							</array>
+							<string> "visible" </string>
+							<bool> False </bool>
 						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
@@ -347,25 +319,25 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="Texture" path="res://Sprites/Astro/Astro 1.png">  </resource>
-				<color> 1, 1, 1, 1 </color>
-				<rect2> 0, 0, 0, 0 </rect2>
+				<resource  external="1">  </resource>
 				<vector2> 0.0621914, 0.00729609 </vector2>
+				<int> 0 </int>
 				<vector2_array  len="32"> 					-4.89177, -9.73129, -2.72971, -12.1428, 4.07898, -12.0604, 5.87693, -9.81445, 6.00967, -5.80945, 6.92438, -5.80945, 6.91638, -1.62358, 9.15316, 1.49011, 9.75687, 3.74289, 8.19049, 4.9407, 7.43186, 3.7498, 6.5712, 3.05451, 6.85447, 7.93524, 3.95207, 8.02738, 3.95207, 13.049, 2.01714, 13.0029, 1.95436, 7.98998, -1.04017, 7.98998, -1.06954, 12.8647, -3.11192, 12.8757, -3.14268, 7.8431, -7.01254, 7.93524, -6.82826, 5.95424, -7.74966, 5.8621, -7.55786, 2.99657, -8.41851, 2.99657, -9.35089, 2.24334, -9.35089, 1.31629, -7.55786, 0.0415952, -6.76893, -0.0163464, -6.96267, -5.97576, -5.05008, -5.97576 </vector2_array>
+				<vector2> -1, -1 </vector2>
 				<vector2> 1.01588, -1.01588 </vector2>
 				<int> -1 </int>
 				<resource  resource_type="SpriteFrames" path="local://14">  </resource>
 				<int> 3 </int>
-				<resource  resource_type="Script" path="res://Scripts/Astronauta/Animaciones/AnimarGasDown.gd">  </resource>
+				<resource  external="6">  </resource>
 				<vector2> 0.135176, 0.707487 </vector2>
 				<real> 180 </real>
-				<resource  resource_type="Script" path="res://Scripts/Astronauta/Animaciones/AnimarGasUp.gd">  </resource>
+				<resource  external="7">  </resource>
 				<vector2> -2.09622, 0.0149832 </vector2>
 				<real> 90 </real>
-				<resource  resource_type="Script" path="res://Scripts/Astronauta/Animaciones/AnimarGasRight.gd">  </resource>
+				<resource  external="8">  </resource>
 				<vector2> 2.03143, 1.02814 </vector2>
 				<real> 270 </real>
-				<resource  resource_type="Script" path="res://Scripts/Astronauta/Animaciones/AnimarGasLeft.gd">  </resource>
+				<resource  external="9">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
