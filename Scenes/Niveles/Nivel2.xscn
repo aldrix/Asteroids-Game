@@ -23,28 +23,28 @@
 	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Asteroide gris 2.png" type="Texture" index="16"></ext_resource>
 	<ext_resource path="res://Sprites/Niveles/Segundo plano/Asteroides grises/Mini asteroides grises/Mini asteroide gris 3.png" type="Texture" index="9"></ext_resource>
 	<ext_resource path="res://Sprites/Niveles/Tercer Plano/Asteroides/Asteroides grises/Asteroide marron 5.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="5"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn" type="PackedScene" index="29"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene" index="31"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris7.xscn" type="PackedScene" index="30"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene" index="32"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene" index="27"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn" type="PackedScene" index="28"></ext_resource>
+	<ext_resource path="res://Scenes/HUD/HUD.xscn" type="PackedScene" index="3"></ext_resource>
+	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn" type="PackedScene" index="42"></ext_resource>
+	<ext_resource path="res://Scenes/Khalum/GreenKhalum.xscn" type="PackedScene" index="44"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn" type="PackedScene" index="36"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn" type="PackedScene" index="35"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron2.xscn" type="PackedScene" index="40"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron4.xscn" type="PackedScene" index="41"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron5.xscn" type="PackedScene" index="42"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn" type="PackedScene" index="43"></ext_resource>
-	<ext_resource path="res://Scenes/Khalum/GreenKhalum.xscn" type="PackedScene" index="44"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris4.xscn" type="PackedScene" index="34"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris1.xscn" type="PackedScene" index="35"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris2.xscn" type="PackedScene" index="36"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/AsteroideMarron1.xscn" type="PackedScene" index="37"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron1.xscn" type="PackedScene" index="38"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron3.xscn" type="PackedScene" index="39"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris7.xscn" type="PackedScene" index="30"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris1.xscn" type="PackedScene" index="27"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris6.xscn" type="PackedScene" index="31"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris5.xscn" type="PackedScene" index="32"></ext_resource>
-	<ext_resource path="res://Scenes/Astronauta.xscn" type="PackedScene" index="1"></ext_resource>
 	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris3.xscn" type="PackedScene" index="33"></ext_resource>
-	<ext_resource path="res://Scenes/HUD/HUD.xscn" type="PackedScene" index="3"></ext_resource>
-	<ext_resource path="res://Scenes/Nave.xscn" type="PackedScene" index="2"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris3.xscn" type="PackedScene" index="28"></ext_resource>
-	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/AsteroideGris2.xscn" type="PackedScene" index="29"></ext_resource>
-	<ext_resource path="res://Scenes/Background/FondoDeEstrellas.xscn" type="PackedScene" index="5"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides grises/Mini asteroides grises/MiniAsteroideGris4.xscn" type="PackedScene" index="34"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron3.xscn" type="PackedScene" index="39"></ext_resource>
+	<ext_resource path="res://Scenes/Asteroides/Asteroides marrones/Mini Asteroides Marrones/MiniAsteroideMarron6.xscn" type="PackedScene" index="43"></ext_resource>
 	<resource type="Animation" path="local://1">
 		<string name="resource/name"> "Camera Movement" </string>
 		<real name="length"> 2 </real>
