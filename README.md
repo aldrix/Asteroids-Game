@@ -6,21 +6,25 @@ for the space stations around the universe.
 Astro, **Eddie** (the ship's IA) and you will have to face the deep space problems and, of course, complete your missions.
 Are you ready?
 
-##Features
+## Features
 
 *	Main Title.
 *	Astro's movement and gas bar controllers (operational)
 *	First stages. Eddie's dialogs.
 *	Score and Game Over Titles.
 *   Savegame and Continue Game.
-*   Credits. 
+*   Credits.
 
-##Authors
+## Beta Releases
 
-*Aldrix Marfil*
-*Leonardo Martinez*
+Test versions for the game for *Windows (64bits)* and *Android* cand be found inside the `/Beta Releases` folder of this repository.
 
-##Special Thanks To:
-*Jan Marcano*
-*Edward Fernandez*
-*Jesus Requena*
+## Authors
+
+- Aldrix Marfil
+- Leonardo Martinez
+
+## Special Thanks To:
+- Jan Marcano
+- Edward Fernandez
+- Jesus Requena
